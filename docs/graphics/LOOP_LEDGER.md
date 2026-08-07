@@ -146,3 +146,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-14/` |
 
 ---
+
+## Loop 15
+
+| **Objective** | Time-of-day sun, night ambient, weather fog, seasonal tint. |
+| **Evidence** | `qa/graphics/loop-15/` |
+
+---

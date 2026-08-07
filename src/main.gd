@@ -922,10 +922,22 @@ func _update_environment_visuals() -> void:
 		env.ambient_light_color = Color("#2a3550")
 		env.background_mode = Environment.BG_COLOR
 		env.background_color = Color("#0c1220")
+		env.tonemap_exposure = 0.75
 	else:
 		env.ambient_light_energy = 0.42
 		env.ambient_light_color = Color("#e8f0ef")
 		env.background_mode = Environment.BG_SKY
+		env.tonemap_exposure = 0.92
+	# Seasonal tint on ambient
+	match weather_system.current_season:
+		"autumn":
+			env.ambient_light_color = env.ambient_light_color.lerp(Color("#f0d8b8"), 0.25)
+		"winter":
+			env.ambient_light_color = env.ambient_light_color.lerp(Color("#d0e0f0"), 0.3)
+		"summer":
+			sun.light_energy *= 1.08
+		_:
+			pass
 
 
 func _spawn_pet_visuals() -> void:

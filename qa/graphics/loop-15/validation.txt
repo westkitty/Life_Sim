@@ -1,0 +1,2 @@
+Loop 15
+Time-of-day sun, night ambient, weather fog, seasonal tint.
