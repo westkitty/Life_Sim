@@ -27,6 +27,8 @@ var _base_y := 0.9
 var _body_color := Color("#5d98ca")
 var _route_points: Array[Vector3] = []
 var _route_index := 0
+var _anim_phase := 0.0
+var _was_moving := false
 
 func setup(data: Dictionary, body_color: Color) -> void:
 	profile = SimProfile.new(data)
@@ -128,8 +130,49 @@ func _populate_body_visual(body_color: Color) -> void:
 			_body_mesh.remove_child(imported_avatar)
 			imported_avatar.queue_free()
 			_build_procedural_fallback(body_color)
+		else:
+			_apply_individuality_tints(imported_avatar, body_color)
 	else:
 		_build_procedural_fallback(body_color)
+
+func _apply_individuality_tints(root: Node, body_color: Color) -> void:
+	## Recolor materials so default household Sims are not clones.
+	var skin_hex := String(profile.genetics.get("skin_tone", ""))
+	var hair_hex := String(profile.genetics.get("hair_color", ""))
+	var skin := Color(skin_hex) if skin_hex.begins_with("#") else Color("#c99572")
+	var hair := Color(hair_hex) if hair_hex.begins_with("#") else Color("#3a2a24")
+	# Stable per-sim clothing variation from sim_id hash.
+	var h: int = hash(profile.sim_id)
+	var tops: Array = [Color("#5d98ca"), Color("#8b5a6b"), Color("#6b8f62"), Color("#c98980"), Color("#6d4f82"), Color("#4d8f93"), body_color]
+	var bots: Array = [Color("#3f2d22"), Color("#252b2e"), Color("#4a5a6a"), Color("#5a4228"), Color("#2f3a48")]
+	var top: Color = tops[abs(h) % tops.size()]
+	var bot: Color = bots[abs(int(h / 7)) % bots.size()]
+	var idx := 0
+	for child in root.get_children():
+		_tint_mesh_tree(child, skin, hair, top, bot, idx)
+		idx += 1
+
+func _tint_mesh_tree(node: Node, skin: Color, hair: Color, top: Color, bot: Color, part_index: int) -> void:
+	if node is MeshInstance3D:
+		var mi := node as MeshInstance3D
+		var mat := StandardMaterial3D.new()
+		# Heuristic: early parts are legs/torso/arms/head/hair in generator order.
+		match part_index:
+			0, 1:
+				mat.albedo_color = bot
+			2:
+				mat.albedo_color = top
+			3, 4:
+				mat.albedo_color = skin
+			5:
+				mat.albedo_color = skin
+			_:
+				mat.albedo_color = hair
+		mat.roughness = 0.78
+		mi.material_override = mat
+		mi.layers = AssetLibrary.RENDER_LAYER_WORLD
+	for child in node.get_children():
+		_tint_mesh_tree(child, skin, hair, top, bot, part_index)
 
 func _build_procedural_fallback(body_color: Color) -> void:
 	var skin := Color("#b98261")
@@ -236,13 +279,57 @@ func _physics_process(delta: float) -> void:
 	if queue.current.is_empty():
 		_phase = "idle"
 		velocity = Vector3.ZERO
+		_animate_locomotion(delta, false)
 		return
 
 	if _phase == "moving":
 		_move_to_current_target(delta)
+		_animate_locomotion(delta, true)
 	elif _phase == "performing":
 		velocity = Vector3.ZERO
-		_body_mesh.rotation.y += delta * 0.35
+		_animate_interaction(delta)
+	else:
+		_animate_locomotion(delta, false)
+
+
+func _animate_locomotion(delta: float, moving: bool) -> void:
+	if _body_mesh == null:
+		return
+	if moving:
+		_anim_phase += delta * 9.0
+		var bob := sin(_anim_phase) * 0.045
+		var sway := sin(_anim_phase * 0.5) * 0.04
+		_body_mesh.position.y = bob
+		_body_mesh.rotation.z = sway
+		_body_mesh.rotation.x = sin(_anim_phase) * 0.03
+		_was_moving = true
+	else:
+		# Settle to idle breathing
+		_anim_phase += delta * 2.2
+		var breath := sin(_anim_phase) * 0.012
+		_body_mesh.position.y = lerpf(_body_mesh.position.y, breath, clampf(delta * 8.0, 0.0, 1.0))
+		_body_mesh.rotation.z = lerpf(_body_mesh.rotation.z, 0.0, clampf(delta * 6.0, 0.0, 1.0))
+		_body_mesh.rotation.x = lerpf(_body_mesh.rotation.x, 0.0, clampf(delta * 6.0, 0.0, 1.0))
+		if _was_moving:
+			_was_moving = false
+
+func _animate_interaction(delta: float) -> void:
+	if _body_mesh == null:
+		return
+	_anim_phase += delta * 4.0
+	# Gentle lean / task motion toward object instead of pure spin
+	_body_mesh.rotation.x = lerpf(_body_mesh.rotation.x, -0.12 + sin(_anim_phase) * 0.04, clampf(delta * 5.0, 0.0, 1.0))
+	_body_mesh.position.y = lerpf(_body_mesh.position.y, 0.02, clampf(delta * 5.0, 0.0, 1.0))
+	var action := String(queue.current.get("id", ""))
+	if action.contains("sit") or action.contains("relax") or action.contains("watch"):
+		_body_mesh.position.y = -0.25
+		_body_mesh.rotation.x = 0.35
+	elif action.contains("sleep") or action.contains("nap"):
+		_body_mesh.position.y = -0.55
+		_body_mesh.rotation.x = 1.2
+	elif action.contains("cook") or action.contains("wash") or action.contains("shower"):
+		_body_mesh.rotation.x = -0.2
+		_body_mesh.position.y = sin(_anim_phase) * 0.03
 
 func _move_to_current_target(_delta: float) -> void:
 	var final_target := _interaction_target_position(queue.current)
@@ -381,4 +468,13 @@ func refresh_profile_visuals() -> void:
 			_body_mesh.remove_child(child)
 			child.queue_free()
 		_populate_body_visual(_body_color)
+	_apply_age_geometry()
+
+func refresh_visuals() -> void:
+	if _body_mesh == null or profile == null:
+		return
+	for child in _body_mesh.get_children():
+		_body_mesh.remove_child(child)
+		child.queue_free()
+	_populate_body_visual(_body_color)
 	_apply_age_geometry()

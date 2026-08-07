@@ -219,6 +219,7 @@ func _spawn_default_population() -> void:
 	relationship_system.adjust("sim_rene_bell", "sim_samara_bell", 76.0, 14.0)
 	parity_hub.pets.ensure_seed_household("household_founders", "sim_ada_rivera")
 	parity_hub.pets.ensure_seed_household("household_bell", "sim_rene_bell")
+	_spawn_pet_visuals()
 
 func _spawn_sim(data: Dictionary, position: Vector3, color: Color) -> SimAgent:
 	var sim := SimAgent.new()
@@ -232,11 +233,32 @@ func _spawn_sim(data: Dictionary, position: Vector3, color: Color) -> SimAgent:
 		wish_system.ensure_sim(sim.profile)
 	if parity_hub:
 		parity_hub.genetics.ensure_genetics(sim.profile)
+	# Distinct default presentation palette when genetics lack visual fields.
+	_ensure_visual_genetics(sim.profile)
+	if sim.has_method("refresh_visuals"):
+		sim.refresh_visuals()
 	return sim
+
+func _ensure_visual_genetics(profile: SimProfile) -> void:
+	if profile == null:
+		return
+	var skins := ["#c99572", "#8d5a3c", "#e0b090", "#5c3a28", "#b97f5d", "#d4a574"]
+	var hairs := ["#3a2a24", "#1a1a1a", "#6b4423", "#c4a35a", "#8b3a2a", "#4a3728"]
+	var shapes := ["average", "slender", "athletic", "soft"]
+	var h: int = abs(hash(profile.sim_id))
+	if not profile.genetics.has("skin_tone"):
+		profile.genetics["skin_tone"] = skins[h % skins.size()]
+	if not profile.genetics.has("hair_color"):
+		profile.genetics["hair_color"] = hairs[int(h / 3) % hairs.size()]
+	if not profile.genetics.has("body_shape"):
+		profile.genetics["body_shape"] = shapes[int(h / 11) % shapes.size()]
+
 
 func _process(delta: float) -> void:
 	_update_camera_input(delta)
 	_update_camera_transform()
+	_update_wall_cutaway()
+	_update_environment_visuals()
 	if hud:
 		var world_data: Dictionary = world_system.worlds.get(world_system.active_world_id, {"name": world_system.active_world_id})
 		var weather_text := "%s · %s · %.0f C" % [weather_system.current_season.capitalize(), weather_system.current_weather.capitalize(), weather_system.temperature_c]
@@ -839,3 +861,83 @@ func _on_birth_ready(mother_id: String, father_id: String) -> void:
 func _on_notification(title: String, body: String) -> void:
 	if hud:
 		hud.push_notification(title, body)
+
+func _update_wall_cutaway() -> void:
+	if world_builder == null or camera == null:
+		return
+	# Life-sim cutaway: when zoomed close/low enough over a home lot, hide interior partitions/ceilings.
+	var close := camera_distance < 22.0 and camera_height < 18.0
+	world_builder.set_wall_cutaway(close)
+
+func _update_environment_visuals() -> void:
+	if world_builder == null or world_builder.world_root == null or weather_system == null:
+		return
+	var sun := world_builder.world_root.get_node_or_null("SunLight") as DirectionalLight3D
+	var fill := world_builder.world_root.get_node_or_null("FillLight") as DirectionalLight3D
+	var we := world_builder.world_root.get_node_or_null("WorldEnvironment") as WorldEnvironment
+	if sun == null or we == null or we.environment == null:
+		return
+	var env := we.environment
+	var minute := SimulationClock.current_absolute_minutes() % 1440 if SimulationClock else 8 * 60
+	var day_t := float(minute) / 1440.0
+	# Sun pitch from dawn to dusk
+	var sun_pitch := -12.0
+	var energy := 0.15
+	var sun_color := Color("#ffd0a0")
+	if day_t > 0.22 and day_t < 0.80:
+		var local := (day_t - 0.22) / 0.58
+		sun_pitch = lerpf(-8.0, -55.0, sin(local * PI))
+		energy = lerpf(0.35, 1.1, sin(local * PI))
+		sun_color = Color("#fff2df").lerp(Color("#ffe0b0"), absf(local - 0.5) * 2.0)
+	elif day_t >= 0.80 or day_t <= 0.22:
+		sun_pitch = -6.0
+		energy = 0.08
+		sun_color = Color("#8aa0c8")
+	sun.rotation_degrees = Vector3(sun_pitch, -42.0, 0.0)
+	sun.light_energy = energy
+	sun.light_color = sun_color
+	if fill:
+		fill.light_energy = 0.08 if energy < 0.2 else 0.22
+	# Weather tint
+	match weather_system.current_weather:
+		"rain", "storm":
+			env.fog_density = 0.004
+			env.fog_light_color = Color("#9aadb8")
+			sun.light_energy *= 0.55
+		"snow":
+			env.fog_density = 0.0035
+			env.fog_light_color = Color("#d8e4ef")
+			sun.light_energy *= 0.7
+			sun.light_color = Color("#e8f0ff")
+		_:
+			env.fog_density = 0.0018 if energy > 0.2 else 0.003
+			env.fog_light_color = Color("#c5d6df") if energy > 0.2 else Color("#1a2438")
+	# Night ambient
+	if energy < 0.2:
+		env.ambient_light_energy = 0.18
+		env.ambient_light_color = Color("#2a3550")
+		env.background_mode = Environment.BG_COLOR
+		env.background_color = Color("#0c1220")
+	else:
+		env.ambient_light_energy = 0.42
+		env.ambient_light_color = Color("#e8f0ef")
+		env.background_mode = Environment.BG_SKY
+
+
+func _spawn_pet_visuals() -> void:
+	## Place species meshes for seeded pets so animals are visible in the neighborhood.
+	var placements := [
+		["pet_dog", Vector3(-20.0, 0.0, -18.0)],
+		["pet_cat", Vector3(-17.5, 0.0, -19.5)],
+		["pet_horse", Vector3(-30.0, 0.0, -14.0)],
+		["pet_dog", Vector3(20.0, 0.0, -18.0)],
+		["pet_cat", Vector3(22.0, 0.0, -17.0)],
+	]
+	for index in placements.size():
+		var entry: Array = placements[index]
+		var node := AssetLibrary.instantiate_model(String(entry[0]))
+		if node == null:
+			continue
+		node.name = "PetVisual_%02d" % index
+		node.position = entry[1]
+		add_child(node)

@@ -8,6 +8,9 @@ var lot_definitions: Array[Dictionary] = []
 ## Solid architecture footprints (world-space center/size) that must block
 ## navigation even though they are not Build/Buy grid occupants.
 var structure_blockers: Array[Dictionary] = []
+## Interior wall meshes that can be hidden for life-sim cutaway readability.
+var wall_cutaway_meshes: Array[MeshInstance3D] = []
+var interior_floor_meshes: Array[MeshInstance3D] = []
 
 func build_world(parent: Node3D) -> Dictionary:
 	objects.clear()
@@ -21,6 +24,7 @@ func build_world(parent: Node3D) -> Dictionary:
 	_create_roads()
 	_create_lots_and_buildings()
 	_create_nature()
+	_create_interiors()
 	_spawn_initial_objects()
 	return {"root": world_root, "objects": objects}
 
@@ -431,6 +435,71 @@ func _dress_lot_surfaces() -> void:
 	_create_garden_bed(Vector3(-17.0, 0.05, 19.0), Vector3(3.5, 0.08, 3.5), "ParkBedB")
 	var apron := _create_flat_box(Vector3(-23.0, 0.04, 27.5), Vector3(12.0, 0.05, 4.0), Color("#9a968c"), "CommunityApron")
 	_apply_texture(apron, "sidewalk", Vector3(4.0, 2.0, 4.0))
+
+	# Outdoor domestic dressing
+	_add_asset("mailbox_basic", Vector3(-15.5, 0.0, -14.5), "FoundersMailbox")
+	_add_asset("trash_bin", Vector3(-14.5, 0.0, -15.5), "FoundersTrash")
+	_add_asset("fence_panel", Vector3(-34.0, 0.0, -22.0), "FoundersFenceW")
+	_add_asset("fence_panel", Vector3(-34.0, 0.0, -28.0), "FoundersFenceW2")
+	_add_asset("garden_planter", Vector3(-22.0, 0.0, -18.5), "FoundersPlanterA")
+	_add_asset("garden_planter", Vector3(-20.0, 0.0, -18.5), "FoundersPlanterB")
+	_add_asset("potted_plant", Vector3(-24.5, 0.0, -21.0), "FoundersPot")
+	_add_asset("flower_bed", Vector3(-29.5, 0.0, -21.0), "FoundersFlowers")
+	# Streetlights along roads
+	for z in [-30.0, -15.0, 0.0, 15.0, 30.0]:
+		_add_asset("streetlight", Vector3(-6.8, 0.0, z), "StreetLightW_%d" % int(z))
+		_add_asset("streetlight", Vector3(6.8, 0.0, z), "StreetLightE_%d" % int(z))
+	# Neighbor fences / mailboxes
+	_add_asset("mailbox_basic", Vector3(16.0, 0.0, -14.0), "BlueMailbox")
+	_add_asset("fence_panel", Vector3(34.0, 0.0, -22.0), "BlueFence")
+	_add_asset("park_bench", Vector3(-20.0, 0.0, 20.5), "ParkBenchExtra")
+	_add_asset("trash_bin", Vector3(-15.0, 0.0, 20.0), "ParkTrash")
+
+
+
+func _create_interiors() -> void:
+	## Floors, interior wall materials, and cutaway-capable wall meshes for the
+	## three residential shells. Collision/routing walls remain solid.
+	wall_cutaway_meshes.clear()
+	interior_floor_meshes.clear()
+	_create_house_interior(Vector3(-26.0, 0.0, -26.0), "Founders")
+	_create_house_interior(Vector3(23.0, 0.0, -25.0), "Blue")
+	_create_house_interior(Vector3(24.0, 0.0, 25.0), "Rose")
+
+func _create_house_interior(position: Vector3, house_name: String) -> void:
+	var half_x := HOUSE_SIZE.x * 0.5 - 0.35
+	var half_z := HOUSE_SIZE.z * 0.5 - 0.35
+	# Wood living floor + tile wet-area strip
+	var living := _create_flat_box(position + Vector3(0.0, 0.03, -0.5), Vector3(HOUSE_SIZE.x - 0.9, 0.05, HOUSE_SIZE.z - 1.4), Color("#c4a07a"), "%sFloorLiving" % house_name)
+	_apply_texture(living, "floor_wood", Vector3(4.0, 4.0, 4.0))
+	interior_floor_meshes.append(living)
+	var wet := _create_flat_box(position + Vector3(-3.0, 0.035, 2.5), Vector3(4.5, 0.05, 3.2), Color("#d5d0c6"), "%sFloorWet" % house_name)
+	_apply_texture(wet, "floor_tile", Vector3(3.0, 3.0, 3.0))
+	interior_floor_meshes.append(wet)
+	# Interior partition (non-blocking visual only — routing uses exterior structure)
+	var partition := _create_flat_box(position + Vector3(1.5, HOUSE_SIZE.y * 0.35, 0.0), Vector3(0.12, HOUSE_SIZE.y * 0.7, HOUSE_SIZE.z - 1.5), Color("#e8dcc4"), "%sPartition" % house_name)
+	_apply_texture(partition, "wallpaper_cream", Vector3(2.0, 2.0, 2.0))
+	wall_cutaway_meshes.append(partition)
+	# Ceiling plane (subtle)
+	var ceiling := _create_flat_box(position + Vector3(0.0, HOUSE_SIZE.y - 0.15, 0.0), Vector3(HOUSE_SIZE.x - 0.8, 0.08, HOUSE_SIZE.z - 0.8), Color("#f2efe6"), "%sCeiling" % house_name)
+	wall_cutaway_meshes.append(ceiling)
+	# Baseboards
+	for z_sign in [-1.0, 1.0]:
+		var base := _create_flat_box(position + Vector3(0.0, 0.12, z_sign * half_z), Vector3(HOUSE_SIZE.x - 1.0, 0.12, 0.08), Color("#d8cbb0"), "%sBaseZ%s" % [house_name, str(z_sign)])
+		wall_cutaway_meshes.append(base)
+	for x_sign in [-1.0, 1.0]:
+		var base_x := _create_flat_box(position + Vector3(x_sign * half_x, 0.12, 0.0), Vector3(0.08, 0.12, HOUSE_SIZE.z - 1.0), Color("#d8cbb0"), "%sBaseX%s" % [house_name, str(x_sign)])
+		wall_cutaway_meshes.append(base_x)
+	# Accent wall paint strip
+	var accent := _create_flat_box(position + Vector3(0.0, 1.8, -half_z + 0.05), Vector3(4.0, 2.2, 0.06), Color("#b7c9d4"), "%sAccentWall" % house_name)
+	_apply_texture(accent, "wallpaper_blue", Vector3(2.0, 2.0, 2.0))
+	wall_cutaway_meshes.append(accent)
+
+func set_wall_cutaway(enabled: bool) -> void:
+	for mesh in wall_cutaway_meshes:
+		if is_instance_valid(mesh):
+			mesh.visible = not enabled
+	# When cutaway is on, also lower exterior shell opacity if present is handled by main.
 
 func _scatter_grass_patches() -> void:
 	var patches := [

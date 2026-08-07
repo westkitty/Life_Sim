@@ -1,0 +1,4 @@
+Loop 04: interiors + cutaway
+OPENLIFE_VISUAL_PASS, ASSET PASS, SMOKE PASS
+Interior floors (wood/tile), partitions, ceilings, baseboards, accent walls.
+Camera-aware wall cutaway via set_wall_cutaway.

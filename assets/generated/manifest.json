@@ -40,34 +40,32 @@
     {
       "id": "bathtub_basic",
       "path": "res://assets/generated/models/bathtub_basic.glb",
-      "role": "interactable",
+      "role": "fixture",
       "tags": [
-        "bathroom",
-        "plumbing"
+        "bathroom"
       ],
       "nominal_size": [
-        1.2,
-        1.1,
-        2.1
+        1.7,
+        0.8,
+        0.8
       ],
-      "sha256": "ea6384e617de90f1c35435ba5a6bd6ef1936936ba60605d854d09346a7b7d652",
-      "bytes": 3328
+      "sha256": "f3a2e71b136ebfc014c2131caf61676eecce58b4c19cc24e39841dbf0dd5d0a5",
+      "bytes": 3548
     },
     {
       "id": "bed_double",
       "path": "res://assets/generated/models/bed_double.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "comfort",
-        "bedroom"
+        "bed"
       ],
       "nominal_size": [
-        2.6,
-        1.4,
-        2.3
+        2.1,
+        1.0,
+        1.7
       ],
-      "sha256": "77d8ca883d69f8d43ef7b1a843557b0f031bb2dca9d1d0ce207e91002e1d8179",
-      "bytes": 7336
+      "sha256": "4de6cdfa99f28532afc5cfcca04e58dc5ecb46d9ef46659095802ae07a6f1a66",
+      "bytes": 8784
     },
     {
       "id": "birthday_cake",
@@ -106,18 +104,17 @@
     {
       "id": "bookshelf_basic",
       "path": "res://assets/generated/models/bookshelf_basic.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "study",
         "storage"
       ],
       "nominal_size": [
-        1.6,
-        2.1,
-        0.5
+        1.05,
+        1.85,
+        0.4
       ],
-      "sha256": "6c7b4170be031a8afbdafc21d33d9f6036b5994dbb994881289161030bf83373",
-      "bytes": 3576
+      "sha256": "46b12ccccd2e560d3118176dc24b7fcca51e5002598667e1445b54329c7fb1c0",
+      "bytes": 7108
     },
     {
       "id": "bot_charging_station",
@@ -154,19 +151,17 @@
     {
       "id": "candy_floor_lamp",
       "path": "res://assets/generated/models/candy_floor_lamp.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "stuff_pack",
-        "sp06",
         "lighting"
       ],
       "nominal_size": [
-        0.8,
-        2.1,
-        0.8
+        0.4,
+        1.7,
+        0.4
       ],
-      "sha256": "5dbe38b7ae67f0260c8219925a50c61fa28863322ea4f217ac9d0378970e7728",
-      "bytes": 13716
+      "sha256": "28da2c3fb719de76c22f9e44af1a662dd2c10b400779a7626a78df7e83867305",
+      "bytes": 6312
     },
     {
       "id": "cat_tree",
@@ -188,35 +183,32 @@
     {
       "id": "chess_table",
       "path": "res://assets/generated/models/chess_table.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "hobbies",
-        "logic"
+        "table"
       ],
       "nominal_size": [
-        1.4,
-        0.95,
-        1.4
+        0.75,
+        0.72,
+        0.75
       ],
-      "sha256": "54bdf237f6b2e78008a8ecd1c2a9db360152c1b1686ca5bc535b2d935294419b",
-      "bytes": 11784
+      "sha256": "7c5744b1ec48b7ee37147d8a9c7844c663a35561a8b112e1e65dcb7065ecac23",
+      "bytes": 3428
     },
     {
       "id": "coffee_maker",
       "path": "res://assets/generated/models/coffee_maker.glb",
-      "role": "interactable",
+      "role": "appliance",
       "tags": [
-        "kitchen",
-        "coffee",
-        "energy"
+        "kitchen"
       ],
       "nominal_size": [
-        0.7,
-        1,
-        0.7
+        0.3,
+        0.6,
+        0.25
       ],
-      "sha256": "6001c89e0b80cf55e97283ea2e7941156dbddd2ad90cf23463ebd4ce5e445c3a",
-      "bytes": 6448
+      "sha256": "7f17768925bd98ffa71c69dd18d802278d2a2a188c168a83127d64f6fcc94398",
+      "bytes": 3576
     },
     {
       "id": "community_center",
@@ -253,19 +245,17 @@
     {
       "id": "computer_basic",
       "path": "res://assets/generated/models/computer_basic.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "electronics",
-        "study",
-        "computer"
+        "electronics"
       ],
       "nominal_size": [
-        1.6,
-        1.6,
-        0.9
+        0.6,
+        1.1,
+        0.4
       ],
-      "sha256": "b86eee0f534fba4e505e27be38df65d7c21ff90f4b2a8e10159e6bc3a8e141d1",
-      "bytes": 8236
+      "sha256": "082fce20d044b32cc28cf90f5c4c6d875811fabbff506be8dc8af5841c7ce4ba",
+      "bytes": 3496
     },
     {
       "id": "crib_basic",
@@ -286,67 +276,62 @@
     {
       "id": "desk_basic",
       "path": "res://assets/generated/models/desk_basic.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "study",
-        "surface"
+        "table"
       ],
       "nominal_size": [
-        1.8,
-        1.1,
-        0.9
+        1.4,
+        0.74,
+        0.7
       ],
-      "sha256": "316e6f4af7cd9f6cdb32267ad60b32e4c1cdcbbc4ed4695eab5023f787a9982f",
-      "bytes": 3024
+      "sha256": "b7272311f9313d03642543050c6d663afcf734ca08b97904ce19b422c2b32877",
+      "bytes": 3488
     },
     {
       "id": "dining_chair",
       "path": "res://assets/generated/models/dining_chair.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "dining",
-        "seating"
+        "seat"
       ],
       "nominal_size": [
-        0.7,
-        1.4,
-        0.7
+        0.55,
+        1.1,
+        0.55
       ],
-      "sha256": "b305f07c68ff66c2ad90f287d29bdc060c66ed77c2daeec1f423fc77ec680ef4",
-      "bytes": 4144
+      "sha256": "b810eff951c58d064413dd7ea689a91285d2dcae89a9f69e430463edf3edd1cd",
+      "bytes": 6496
     },
     {
       "id": "dining_table",
       "path": "res://assets/generated/models/dining_table.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "dining",
-        "surface"
+        "table"
       ],
       "nominal_size": [
-        1.9,
-        1,
-        1.3
+        1.7,
+        0.75,
+        0.95
       ],
-      "sha256": "fbf941b549ba1676b05307bf0b1b456dd1c7ee3b2bdf4402d1c9ec468dc648ca",
-      "bytes": 3520
+      "sha256": "89865fe456578536315b9aa65f04d1910545780c2a43e1def63aa8c2f868cf55",
+      "bytes": 3492
     },
     {
       "id": "dishwasher",
       "path": "res://assets/generated/models/dishwasher.glb",
-      "role": "interactable",
+      "role": "appliance",
       "tags": [
-        "kitchen",
-        "clean",
-        "appliance"
+        "kitchen"
       ],
       "nominal_size": [
-        1.2,
-        1,
-        1.05
+        0.7,
+        0.9,
+        0.7
       ],
-      "sha256": "cd368864fac26b7c13287e8b25b5bfa331a3a97d09fe815cbb40a32206a254c8",
-      "bytes": 5808
+      "sha256": "e425f0fcfc09b28c73b5b422ff4fbe5a96599303c5e39dd018d3f32a84c3c75f",
+      "bytes": 2644
     },
     {
       "id": "diving_buoy",
@@ -402,18 +387,17 @@
     {
       "id": "dresser_basic",
       "path": "res://assets/generated/models/dresser_basic.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "bedroom",
         "storage"
       ],
       "nominal_size": [
-        1.5,
-        1.3,
-        0.6
+        1.25,
+        0.95,
+        0.55
       ],
-      "sha256": "72735d3aff5d0a24ceb90c709012634e56907c4da8ab625dcb1d2c9d239d2b4b",
-      "bytes": 2940
+      "sha256": "a52b7c7c2ed1b0f922dbf3dfd2c1899c7b9f4a26a34ec3502b89cb77b8f826bb",
+      "bytes": 4712
     },
     {
       "id": "drum_set",
@@ -435,18 +419,32 @@
     {
       "id": "easel_basic",
       "path": "res://assets/generated/models/easel_basic.glb",
-      "role": "interactable",
+      "role": "hobby",
       "tags": [
-        "hobbies",
-        "painting"
+        "art"
       ],
       "nominal_size": [
-        1.1,
-        1.9,
-        0.7
+        1.0,
+        1.5,
+        0.5
       ],
-      "sha256": "4152b4a09ff8446fa36d76535714adf75c05d72e6dd5f42be7fef6077876c57c",
-      "bytes": 3008
+      "sha256": "840fafec915f631a6a4ba665da10fee963c76235fd37455098204e2f842c6638",
+      "bytes": 3484
+    },
+    {
+      "id": "fence_panel",
+      "path": "res://assets/generated/models/fence_panel.glb",
+      "role": "outdoor",
+      "tags": [
+        "fence"
+      ],
+      "nominal_size": [
+        2.1,
+        1.1,
+        0.15
+      ],
+      "sha256": "a054fefc9d8a2bbfc935eaaabfb761d7fe43e116d87f818fa49b6f7a0cbec86b",
+      "bytes": 5420
     },
     {
       "id": "festival_booth",
@@ -483,6 +481,21 @@
       "bytes": 3932
     },
     {
+      "id": "flower_bed",
+      "path": "res://assets/generated/models/flower_bed.glb",
+      "role": "nature",
+      "tags": [
+        "flower"
+      ],
+      "nominal_size": [
+        0.2,
+        0.4,
+        0.2
+      ],
+      "sha256": "8148e2c0c7e523f53f04dfa3c542891301723955196a06dba32a4e251d878fa8",
+      "bytes": 4792
+    },
+    {
       "id": "food_truck",
       "path": "res://assets/generated/models/food_truck.glb",
       "role": "interactable",
@@ -502,18 +515,17 @@
     {
       "id": "fridge_basic",
       "path": "res://assets/generated/models/fridge_basic.glb",
-      "role": "interactable",
+      "role": "appliance",
       "tags": [
-        "kitchen",
-        "appliance"
+        "kitchen"
       ],
       "nominal_size": [
-        1.3,
-        2.2,
-        1.1
+        0.8,
+        1.85,
+        0.75
       ],
-      "sha256": "9371f48dea66013053b76310371904f3cad0c987207f9edcf84cf44d02641c97",
-      "bytes": 5972
+      "sha256": "e8b43a4e5dd53d5c90d3fe890075b272a05b5438627d29c0196b7fb09bd9ef95",
+      "bytes": 3868
     },
     {
       "id": "future_workbench",
@@ -535,19 +547,18 @@
     {
       "id": "garden_planter",
       "path": "res://assets/generated/models/garden_planter.glb",
-      "role": "interactable",
+      "role": "prop",
       "tags": [
-        "garden",
-        "plant",
-        "outdoor"
+        "decor",
+        "plant"
       ],
       "nominal_size": [
-        2,
-        1,
-        1.4
+        0.55,
+        0.95,
+        0.55
       ],
-      "sha256": "3341665c5b2cb4179ef578d8f09c0d53701841d98f07219f5965eeb205435921",
-      "bytes": 20332
+      "sha256": "0791b5d56acc95abcc8381ec871260ed908447d3da211fa80243b0867fef9486",
+      "bytes": 5516
     },
     {
       "id": "gem_display",
@@ -569,18 +580,17 @@
     {
       "id": "grill_basic",
       "path": "res://assets/generated/models/grill_basic.glb",
-      "role": "interactable",
+      "role": "outdoor",
       "tags": [
-        "outdoor",
         "cooking"
       ],
       "nominal_size": [
-        1.4,
-        1.4,
-        0.8
+        0.75,
+        1.0,
+        0.55
       ],
-      "sha256": "3d41045b9dfc2d3c8ba854db43c5c3880db24ca41943dcf3f3d1e4f1d639c3f5",
-      "bytes": 3808
+      "sha256": "40c9ba58bcdc1a2dc1ce6a3221998facdff876079ea89f355b9290a6baf045f7",
+      "bytes": 6532
     },
     {
       "id": "guitar_basic",
@@ -734,19 +744,17 @@
     {
       "id": "industrial_coffee_table",
       "path": "res://assets/generated/models/industrial_coffee_table.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "stuff_pack",
-        "sp07",
-        "industrial"
+        "table"
       ],
       "nominal_size": [
-        1.8,
-        0.75,
-        0.95
+        1.05,
+        0.5,
+        0.6
       ],
-      "sha256": "99fe5ad8925cf7403eee6bb0c2656c431926d896534a3c19307dedd16c3e6163",
-      "bytes": 9940
+      "sha256": "cda13b820933a8a4152092777bb4723636425051bb64408048b890a5020d723b",
+      "bytes": 1884
     },
     {
       "id": "inventing_bench",
@@ -785,35 +793,32 @@
     {
       "id": "kitchen_sink",
       "path": "res://assets/generated/models/kitchen_sink.glb",
-      "role": "interactable",
+      "role": "appliance",
       "tags": [
-        "kitchen",
-        "plumbing"
+        "kitchen"
       ],
       "nominal_size": [
-        1.3,
-        1.4,
-        0.8
+        0.95,
+        1.2,
+        0.65
       ],
-      "sha256": "c9aa3e4fe26d022f5fedd32bac5d98cd20a5e31d662b40f66f3f8a63481e08f6",
-      "bytes": 3248
+      "sha256": "909336205610b964620dd31b4c4c6e4b4869726e074a48c53024ecf0aff4352c",
+      "bytes": 4812
     },
     {
       "id": "kitchen_stove",
       "path": "res://assets/generated/models/kitchen_stove.glb",
-      "role": "interactable",
+      "role": "appliance",
       "tags": [
-        "kitchen",
-        "cooking",
-        "appliance"
+        "kitchen"
       ],
       "nominal_size": [
-        1.3,
-        1.1,
-        1.1
+        0.8,
+        1.4,
+        0.75
       ],
-      "sha256": "08d3b42c0bb195d63094a9ffa75dcc7aa0cbd55d7968ecc8ea372a956b7ac4a5",
-      "bytes": 13464
+      "sha256": "e1f6cbe8f962f7ff1b048f0f22007ac7e392b94973da94adaed83cb420525862",
+      "bytes": 7248
     },
     {
       "id": "laundry_washer",
@@ -852,19 +857,17 @@
     {
       "id": "mailbox_basic",
       "path": "res://assets/generated/models/mailbox_basic.glb",
-      "role": "interactable",
+      "role": "outdoor",
       "tags": [
-        "mail",
-        "bills",
-        "service"
+        "yard"
       ],
       "nominal_size": [
-        0.8,
-        1.8,
-        0.6
+        0.4,
+        1.4,
+        0.25
       ],
-      "sha256": "cb191c5d11272fa5646e92b57f8136fcf0b1162947a1cb2484d62e0ef66cf1d3",
-      "bytes": 4668
+      "sha256": "f9a063f02b7b7749205657231ee8233715ca0c6996eaa470c8799a53878f81ee",
+      "bytes": 4288
     },
     {
       "id": "martial_arts_dummy",
@@ -955,18 +958,17 @@
     {
       "id": "park_bench",
       "path": "res://assets/generated/models/park_bench.glb",
-      "role": "interactable",
+      "role": "outdoor",
       "tags": [
-        "community",
-        "seating"
+        "seat"
       ],
       "nominal_size": [
-        2.4,
-        1.2,
-        0.7
+        1.5,
+        0.95,
+        0.5
       ],
-      "sha256": "adfcf52e2e570d50f45f7d0116a4054d8706a9036d0782ed6c5f465c96cbd070",
-      "bytes": 3020
+      "sha256": "b3f1754eff9dd00510d9c4060bf7bdbcad58f38eefbcc981924a986dbf53f4e2",
+      "bytes": 3000
     },
     {
       "id": "performance_stage",
@@ -1004,50 +1006,47 @@
     {
       "id": "pet_cat",
       "path": "res://assets/generated/models/pet_cat.glb",
-      "role": "character",
+      "role": "pet",
       "tags": [
-        "pet",
         "cat"
       ],
       "nominal_size": [
-        1,
-        1.3,
-        0.55
+        0.5,
+        0.55,
+        0.3
       ],
-      "sha256": "4c2794fdff7de59b770ee5af858b02137f3b0d1d30c684df7e5206ca4645ad66",
-      "bytes": 8876
+      "sha256": "3ec9d8fa191e67bf456f9ee3970341f92f2cbe31ff664b77d1c364323d62ae98",
+      "bytes": 9564
     },
     {
       "id": "pet_dog",
       "path": "res://assets/generated/models/pet_dog.glb",
-      "role": "character",
+      "role": "pet",
       "tags": [
-        "pet",
         "dog"
       ],
       "nominal_size": [
-        1.5,
-        1.5,
-        0.8
+        0.7,
+        0.55,
+        0.35
       ],
-      "sha256": "7eb7a7961d10c820608aed427bd5d7d96a4453556264a8fd976e81b24012e751",
-      "bytes": 16464
+      "sha256": "77e8fb394d7fda5feef9c06d0f15b3d61d0081f01413f57fcd4a1b17b7e5046a",
+      "bytes": 9224
     },
     {
       "id": "pet_horse",
       "path": "res://assets/generated/models/pet_horse.glb",
-      "role": "character",
+      "role": "pet",
       "tags": [
-        "pet",
         "horse"
       ],
       "nominal_size": [
-        2.7,
-        2.6,
-        0.9
+        1.5,
+        1.6,
+        0.5
       ],
-      "sha256": "a9a1b672aaf87a5d8828441c62ac123ce455f175b032c892dc0bf0a45d94e45e",
-      "bytes": 14392
+      "sha256": "4ae9da307f7aca5f80226bde8ab4efca2d674eca4d3729a041cbe270c9265f28",
+      "bytes": 8884
     },
     {
       "id": "photo_booth",
@@ -1082,6 +1081,22 @@
       ],
       "sha256": "ca61b4fc0724b65744929ff60638046ecce094afda54e3e379e4c7c1f98b1451",
       "bytes": 7720
+    },
+    {
+      "id": "potted_plant",
+      "path": "res://assets/generated/models/potted_plant.glb",
+      "role": "prop",
+      "tags": [
+        "decor",
+        "plant"
+      ],
+      "nominal_size": [
+        0.55,
+        0.95,
+        0.55
+      ],
+      "sha256": "0791b5d56acc95abcc8381ec871260ed908447d3da211fa80243b0867fef9486",
+      "bytes": 5516
     },
     {
       "id": "resort_desk",
@@ -1201,18 +1216,17 @@
     {
       "id": "shower_basic",
       "path": "res://assets/generated/models/shower_basic.glb",
-      "role": "interactable",
+      "role": "fixture",
       "tags": [
-        "plumbing",
         "bathroom"
       ],
       "nominal_size": [
-        1.2,
-        2.3,
-        1.2
+        1.0,
+        2.1,
+        1.0
       ],
-      "sha256": "17780fbcbb65c3cb223077b165a11498c19a660851ac0342bb442d07c5edaf7c",
-      "bytes": 5900
+      "sha256": "0a633c3a3f4e9de86d270fa5a93c55a3036e970e7294679ead31bd771ed2d72d",
+      "bytes": 7440
     },
     {
       "id": "shrub",
@@ -1235,17 +1249,15 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "adult",
-        "athletic"
+        "humanoid"
       ],
       "nominal_size": [
-        1.2,
-        2.4,
-        0.8
+        0.63,
+        1.785,
+        0.42000000000000004
       ],
-      "sha256": "e9727fcf435ed1e99667cdd70701c1b21e3451b0ae1c7c04f09d3a1031ea6e0c",
-      "bytes": 15064
+      "sha256": "b54d96cde1b8aa5fd1fa7b2a9e1df06797ebd7f1179be405195253944d45ac8f",
+      "bytes": 15112
     },
     {
       "id": "sim_adult_average",
@@ -1253,17 +1265,15 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "adult",
-        "average"
+        "humanoid"
       ],
       "nominal_size": [
-        1.2,
-        2.4,
-        0.8
+        0.6,
+        1.7,
+        0.4
       ],
-      "sha256": "2180ff0e76c6828dd1bc2ddd88212912ed4e2392b4b9fd9d32d41e46a10fdcc5",
-      "bytes": 15052
+      "sha256": "d468967bd508086cee556b2fc5f0da384f0a79050eb80820eae20ba4abc02bd0",
+      "bytes": 14980
     },
     {
       "id": "sim_adult_slender",
@@ -1271,17 +1281,15 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "adult",
-        "slender"
+        "humanoid"
       ],
       "nominal_size": [
-        1.2,
-        2.4,
-        0.8
+        0.57,
+        1.615,
+        0.38
       ],
-      "sha256": "7d84e10c144f2b953f8fd25b4a6c19169a0b773141e60cc54bf0dd8829155b51",
-      "bytes": 15060
+      "sha256": "ffd4593269b031edb04a50125ecec1b61a4bf4f251127aea2907abeba3fc86c3",
+      "bytes": 16104
     },
     {
       "id": "sim_adult_soft",
@@ -1298,8 +1306,8 @@
         2.4,
         0.8
       ],
-      "sha256": "a68d7156fc25600ff818d5ac7c1bf443e57a88896511c391c1da822861b39455",
-      "bytes": 15048
+      "sha256": "ffd4593269b031edb04a50125ecec1b61a4bf4f251127aea2907abeba3fc86c3",
+      "bytes": 16104
     },
     {
       "id": "sim_avatar_reference",
@@ -1307,16 +1315,67 @@
       "role": "character",
       "tags": [
         "sim",
-        "reference",
-        "unrigged"
+        "humanoid"
       ],
       "nominal_size": [
-        1.1,
-        2.35,
-        0.7
+        0.6,
+        1.7,
+        0.4
       ],
-      "sha256": "6d6be19fe5f2d6785b903e61667c1f025c7a1e6fc355c0ad704491ed67587449",
-      "bytes": 11704
+      "sha256": "d468967bd508086cee556b2fc5f0da384f0a79050eb80820eae20ba4abc02bd0",
+      "bytes": 14980
+    },
+    {
+      "id": "sim_baby_athletic",
+      "path": "res://assets/generated/models/sim_baby_athletic.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
+    },
+    {
+      "id": "sim_baby_average",
+      "path": "res://assets/generated/models/sim_baby_average.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
+    },
+    {
+      "id": "sim_baby_slender",
+      "path": "res://assets/generated/models/sim_baby_slender.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
+    },
+    {
+      "id": "sim_baby_soft",
+      "path": "res://assets/generated/models/sim_baby_soft.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
     },
     {
       "id": "sim_child_athletic",
@@ -1324,17 +1383,15 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "child",
-        "athletic"
+        "humanoid"
       ],
       "nominal_size": [
-        0.864,
-        1.728,
-        0.576
+        0.42,
+        1.19,
+        0.27999999999999997
       ],
-      "sha256": "872423774ceb263bd5818234271a6a700e598edf6e8372b09d680b9b84d8c5cb",
-      "bytes": 15112
+      "sha256": "3363df108212f3ce9b109099277ecc36ba876a0c4667c4cdc5deab3d93b4faea",
+      "bytes": 15132
     },
     {
       "id": "sim_child_average",
@@ -1351,8 +1408,8 @@
         1.728,
         0.576
       ],
-      "sha256": "130ad233403bfc18c4b9dfd509f1032289400ad1ce74567f430b970184999213",
-      "bytes": 15116
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
     },
     {
       "id": "sim_child_slender",
@@ -1369,8 +1426,8 @@
         1.728,
         0.576
       ],
-      "sha256": "5054b1bfea34955511140bdd97eb5ba0e62b85539e71774d0a3e4b3fe0b42f90",
-      "bytes": 15128
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
     },
     {
       "id": "sim_child_soft",
@@ -1378,17 +1435,15 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "child",
-        "soft"
+        "humanoid"
       ],
       "nominal_size": [
-        0.864,
-        1.728,
-        0.576
+        0.39,
+        1.105,
+        0.26
       ],
-      "sha256": "1cad7bc8b36734b296ddc67b1a58d0b29da644e90af2fad2970c8cd2eef525f4",
-      "bytes": 15128
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
     },
     {
       "id": "sim_elder_athletic",
@@ -1396,17 +1451,15 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "elder",
-        "athletic"
+        "humanoid"
       ],
       "nominal_size": [
-        1.176,
-        2.352,
-        0.784
+        0.6,
+        1.7,
+        0.4
       ],
-      "sha256": "b7825c7c198715103584b510b65278eecb9d63ce86a53d8e9873193205d6ebe7",
-      "bytes": 15116
+      "sha256": "9c7aeec6854736bcf51ea1f567f3a9a82a871de2bb248f42a1051a735282f228",
+      "bytes": 14980
     },
     {
       "id": "sim_elder_average",
@@ -1414,17 +1467,15 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "elder",
-        "average"
+        "humanoid"
       ],
       "nominal_size": [
-        1.176,
-        2.352,
-        0.784
+        0.57,
+        1.615,
+        0.38
       ],
-      "sha256": "05708782fe526fa9cf9d51a0ba63ce862db00219ef06f25b23235691d4ec5385",
-      "bytes": 15108
+      "sha256": "84b6452bb3e15a04f56271fba0967453b50a7896ed916ea60f2085c5a3d33d9c",
+      "bytes": 15752
     },
     {
       "id": "sim_elder_slender",
@@ -1441,8 +1492,8 @@
         2.352,
         0.784
       ],
-      "sha256": "f9857766157a4c54a3ce5df6236fbdbb1f8b8d52cdaadd79b34e7d631fc1b532",
-      "bytes": 15112
+      "sha256": "84b6452bb3e15a04f56271fba0967453b50a7896ed916ea60f2085c5a3d33d9c",
+      "bytes": 15752
     },
     {
       "id": "sim_elder_soft",
@@ -1459,8 +1510,8 @@
         2.352,
         0.784
       ],
-      "sha256": "56486cd89033b8e223f9566e644bb14c79c98cffe1f113b56c02785598e3685d",
-      "bytes": 15112
+      "sha256": "84b6452bb3e15a04f56271fba0967453b50a7896ed916ea60f2085c5a3d33d9c",
+      "bytes": 15752
     },
     {
       "id": "sim_teen_athletic",
@@ -1477,8 +1528,8 @@
         2.16,
         0.7200000000000001
       ],
-      "sha256": "6643dd44c4d1cd7498d777a1fe8a4188159b75ff89fbff928080009b4f38aae8",
-      "bytes": 15148
+      "sha256": "b54d96cde1b8aa5fd1fa7b2a9e1df06797ebd7f1179be405195253944d45ac8f",
+      "bytes": 15112
     },
     {
       "id": "sim_teen_average",
@@ -1495,8 +1546,8 @@
         2.16,
         0.7200000000000001
       ],
-      "sha256": "afa5596d0b521a0c3464cc660dab11f2d99f3314bf4e5dfb1a7f5be4f8c01065",
-      "bytes": 15136
+      "sha256": "681fd67ffe078c144ec435477dec06342d2c5a5198bb336adb2268d10b60f524",
+      "bytes": 15676
     },
     {
       "id": "sim_teen_slender",
@@ -1513,8 +1564,8 @@
         2.16,
         0.7200000000000001
       ],
-      "sha256": "1e8571256ec3bede72b7448fcbbcfd866f7269ae17797af95c22b3e1bcc4a25e",
-      "bytes": 15148
+      "sha256": "681fd67ffe078c144ec435477dec06342d2c5a5198bb336adb2268d10b60f524",
+      "bytes": 15676
     },
     {
       "id": "sim_teen_soft",
@@ -1522,50 +1573,98 @@
       "role": "character",
       "tags": [
         "sim",
-        "cas",
-        "teen",
-        "soft"
+        "humanoid"
       ],
       "nominal_size": [
-        1.08,
-        2.16,
-        0.7200000000000001
+        0.54,
+        1.53,
+        0.36000000000000004
       ],
-      "sha256": "b0c59736035892c553a301ef09e0ba27e0e5addcbedaac3383a385d4014989ed",
-      "bytes": 15140
+      "sha256": "681fd67ffe078c144ec435477dec06342d2c5a5198bb336adb2268d10b60f524",
+      "bytes": 15676
+    },
+    {
+      "id": "sim_toddler_athletic",
+      "path": "res://assets/generated/models/sim_toddler_athletic.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "3363df108212f3ce9b109099277ecc36ba876a0c4667c4cdc5deab3d93b4faea",
+      "bytes": 15132
+    },
+    {
+      "id": "sim_toddler_average",
+      "path": "res://assets/generated/models/sim_toddler_average.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
+    },
+    {
+      "id": "sim_toddler_slender",
+      "path": "res://assets/generated/models/sim_toddler_slender.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
+    },
+    {
+      "id": "sim_toddler_soft",
+      "path": "res://assets/generated/models/sim_toddler_soft.glb",
+      "role": "model",
+      "tags": [],
+      "nominal_size": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "6ea4ddba123fee008110cd7e9f7868526b2c0f2a73cb1b1ea9d31d373f93ae6d",
+      "bytes": 16116
     },
     {
       "id": "sofa_basic",
       "path": "res://assets/generated/models/sofa_basic.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "comfort",
-        "living"
+        "living",
+        "seat"
       ],
       "nominal_size": [
-        2.6,
-        1.3,
-        1
+        2.3,
+        1.1,
+        1.0
       ],
-      "sha256": "f1747d019b0c94161cadd99106d4d93804eeb3f0d7039bf535aacbf9ef19fc8b",
-      "bytes": 6388
+      "sha256": "0ee10972c5eb5e8fff6b09628c9b03696cf7578f812e4cf134a937c70fa554be",
+      "bytes": 8884
     },
     {
       "id": "spa_vanity",
       "path": "res://assets/generated/models/spa_vanity.glb",
-      "role": "interactable",
+      "role": "fixture",
       "tags": [
-        "stuff_pack",
-        "sp05",
-        "vanity"
+        "bathroom"
       ],
       "nominal_size": [
-        1.5,
-        1.8,
-        0.7
+        0.95,
+        2.0,
+        0.55
       ],
-      "sha256": "afc64a5398ff5c17b1d07e66fc8ba711679126c824965c4edcf3154b089a5c2e",
-      "bytes": 4948
+      "sha256": "6b472f2379b6046f3b0b577ec94bbdada7389fa2a8ce30a01760837929395cfb",
+      "bytes": 5156
     },
     {
       "id": "sport_car_display",
@@ -1587,18 +1686,32 @@
     {
       "id": "stereo_basic",
       "path": "res://assets/generated/models/stereo_basic.glb",
-      "role": "interactable",
+      "role": "furniture",
       "tags": [
-        "electronics",
-        "music"
+        "electronics"
       ],
       "nominal_size": [
-        1,
-        0.75,
-        0.55
+        1.45,
+        1.3,
+        0.5
       ],
-      "sha256": "61c0f9637badca47fb5b4556c70708df125c9fc6743486932649906b8126b9ed",
-      "bytes": 4252
+      "sha256": "e049f75e092b7413141e32f7005a7973ea828fbbdf8852b43f25e77f4d12256b",
+      "bytes": 2656
+    },
+    {
+      "id": "streetlight",
+      "path": "res://assets/generated/models/streetlight.glb",
+      "role": "outdoor",
+      "tags": [
+        "lighting"
+      ],
+      "nominal_size": [
+        1.0,
+        3.5,
+        0.3
+      ],
+      "sha256": "f51d1a20de5ca11b2e05c3b4525c420ee250280ec36853e0a1e228cfa49eb8d1",
+      "bytes": 4592
     },
     {
       "id": "tattoo_chair",
@@ -1669,18 +1782,32 @@
     {
       "id": "toilet_basic",
       "path": "res://assets/generated/models/toilet_basic.glb",
-      "role": "interactable",
+      "role": "fixture",
       "tags": [
-        "plumbing",
         "bathroom"
       ],
       "nominal_size": [
-        1,
-        1.2,
-        1.1
+        0.5,
+        0.9,
+        0.6
       ],
-      "sha256": "1d79092ca6ed3c31e7ac42380ab4ffe267fa40143dec42c196cb49939a5e68df",
-      "bytes": 3892
+      "sha256": "6a62962895345ad6c901dd4ab7c4695d462edcf3c88615b3e1ef1887d9accf16",
+      "bytes": 4060
+    },
+    {
+      "id": "trash_bin",
+      "path": "res://assets/generated/models/trash_bin.glb",
+      "role": "outdoor",
+      "tags": [
+        "yard"
+      ],
+      "nominal_size": [
+        0.6,
+        0.8,
+        0.6
+      ],
+      "sha256": "b665cab01b7079b78b821774daa4f1b35880aa8f6f53f1243d91b7788b7e396f",
+      "bytes": 2652
     },
     {
       "id": "trash_can",

@@ -49,6 +49,25 @@ var occult_picker: OptionButton
 var mode_buttons: Dictionary = {}
 var ui_regions: Array[Control] = []
 
+
+func _apply_panel_style(panel: PanelContainer) -> void:
+	var sb := StyleBoxFlat.new()
+	sb.bg_color = Color(0.10, 0.13, 0.16, 0.72)
+	sb.corner_radius_top_left = 10
+	sb.corner_radius_top_right = 10
+	sb.corner_radius_bottom_left = 10
+	sb.corner_radius_bottom_right = 10
+	sb.content_margin_left = 4
+	sb.content_margin_right = 4
+	sb.content_margin_top = 4
+	sb.content_margin_bottom = 4
+	sb.border_width_left = 1
+	sb.border_width_right = 1
+	sb.border_width_top = 1
+	sb.border_width_bottom = 1
+	sb.border_color = Color(1, 1, 1, 0.08)
+	panel.add_theme_stylebox_override("panel", sb)
+
 func _ready() -> void:
 	layer = 20
 	_build_top_bar()
@@ -60,12 +79,13 @@ func _ready() -> void:
 
 func _build_top_bar() -> void:
 	var panel := PanelContainer.new()
+	_apply_panel_style(panel)
 	panel.anchor_left = 0.0
 	panel.anchor_right = 1.0
 	panel.offset_left = 12.0
 	panel.offset_right = -12.0
 	panel.offset_top = 12.0
-	panel.offset_bottom = 70.0
+	panel.offset_bottom = 54.0
 	add_child(panel)
 	ui_regions.append(panel)
 	var margin := MarginContainer.new()
@@ -80,7 +100,7 @@ func _build_top_bar() -> void:
 
 	var title := Label.new()
 	title.text = "OPENLIFE"
-	title.add_theme_font_size_override("font_size", 22)
+	title.add_theme_font_size_override("font_size", 18)
 	title.tooltip_text = "Clean-room, free and local life-simulation architecture"
 	row.add_child(title)
 	row.add_child(_v_separator())
@@ -119,12 +139,14 @@ func _build_top_bar() -> void:
 
 func _build_sim_panel() -> void:
 	var panel := PanelContainer.new()
+	_apply_panel_style(panel)
 	panel.anchor_top = 0.0
 	panel.anchor_bottom = 1.0
 	panel.offset_left = 12.0
-	panel.offset_right = 332.0
-	panel.offset_top = 82.0
-	panel.offset_bottom = -18.0
+	panel.offset_right = 268.0
+	panel.offset_top = 64.0
+	panel.offset_bottom = -12.0
+	panel.modulate = Color(1, 1, 1, 0.92)
 	add_child(panel)
 	ui_regions.append(panel)
 	var margin := MarginContainer.new()
@@ -146,7 +168,7 @@ func _build_sim_panel() -> void:
 	column.add_child(sim_picker)
 	sim_name_label = Label.new()
 	sim_name_label.text = "No Sim selected"
-	sim_name_label.add_theme_font_size_override("font_size", 24)
+	sim_name_label.add_theme_font_size_override("font_size", 18)
 	column.add_child(sim_name_label)
 	age_label = Label.new()
 	column.add_child(age_label)
@@ -172,7 +194,7 @@ func _build_sim_panel() -> void:
 		bar.value = 50
 		bar.show_percentage = false
 		bar.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		bar.custom_minimum_size.y = 18
+		bar.custom_minimum_size.y = 12
 		row.add_child(bar)
 		motive_bars[motive_id] = bar
 		column.add_child(row)
@@ -182,7 +204,7 @@ func _build_sim_panel() -> void:
 	column.add_child(queue_heading)
 	queue_label = RichTextLabel.new()
 	queue_label.fit_content = false
-	queue_label.custom_minimum_size.y = 92
+	queue_label.custom_minimum_size.y = 64
 	queue_label.scroll_active = true
 	queue_label.bbcode_enabled = true
 	column.add_child(queue_label)
@@ -205,14 +227,16 @@ func _build_sim_panel() -> void:
 
 func _build_object_panel() -> void:
 	var panel := PanelContainer.new()
+	_apply_panel_style(panel)
 	panel.anchor_left = 1.0
 	panel.anchor_right = 1.0
 	panel.anchor_top = 0.0
 	panel.anchor_bottom = 1.0
-	panel.offset_left = -352.0
+	panel.offset_left = -280.0
 	panel.offset_right = -12.0
-	panel.offset_top = 82.0
-	panel.offset_bottom = -18.0
+	panel.offset_top = 64.0
+	panel.offset_bottom = -12.0
+	panel.modulate = Color(1, 1, 1, 0.92)
 	add_child(panel)
 	ui_regions.append(panel)
 	var margin := MarginContainer.new()
@@ -229,7 +253,7 @@ func _build_object_panel() -> void:
 	column.add_child(heading)
 	object_name_label = Label.new()
 	object_name_label.text = "Click an object in the world"
-	object_name_label.add_theme_font_size_override("font_size", 19)
+	object_name_label.add_theme_font_size_override("font_size", 15)
 	object_name_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	column.add_child(object_name_label)
 	interaction_box = VBoxContainer.new()
@@ -279,6 +303,7 @@ func _build_object_panel() -> void:
 
 func _build_notification() -> void:
 	notification_panel = PanelContainer.new()
+	_apply_panel_style(notification_panel)
 	notification_panel.anchor_left = 0.5
 	notification_panel.anchor_right = 0.5
 	notification_panel.offset_left = -260.0
@@ -310,6 +335,7 @@ func _build_notification() -> void:
 
 func _build_cas_panel() -> void:
 	cas_panel = PanelContainer.new()
+	_apply_panel_style(cas_panel)
 	cas_panel.anchor_left = 0.5
 	cas_panel.anchor_right = 0.5
 	cas_panel.anchor_top = 0.5

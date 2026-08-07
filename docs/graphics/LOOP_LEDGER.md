@@ -58,3 +58,13 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Commit SHA** | _(pending)_ |
 
 ---
+
+## Loop 04 — Interior architecture + cutaway readability
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Readable interiors with floors/walls/cutaway |
+| **Before/After** | `qa/graphics/loop-04/` |
+| **Tests** | visual, assets, smoke |
+
+---
