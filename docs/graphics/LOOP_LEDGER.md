@@ -132,3 +132,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-12/` |
 
 ---
+
+## Loop 13
+
+| **Objective** | Layered landscaping: yard trees/shrubs, planters, flowers, fences, mailboxes. |
+| **Evidence** | `qa/graphics/loop-13/` |
+
+---

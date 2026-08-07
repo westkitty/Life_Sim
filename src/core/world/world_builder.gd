@@ -270,6 +270,12 @@ func _create_nature() -> void:
 		var tree_id := "tree_deciduous" if index % 3 != 0 else "tree_pine"
 		if _add_asset(tree_id, tree_positions[index], "Tree_%02d" % index) == null:
 			_create_fallback_tree(tree_positions[index])
+	# Layered yard trees near lots
+	for index in 6:
+		var ang := float(index) / 6.0 * TAU
+		_add_asset("tree_deciduous" if index % 2 == 0 else "tree_pine", Vector3(-26.0 + cos(ang) * 9.0, 0.0, -26.0 + sin(ang) * 7.0), "YardTree_%02d" % index)
+		_add_asset("shrub", Vector3(-26.0 + cos(ang) * 6.0, 0.0, -26.0 + sin(ang) * 5.0), "YardShrub_%02d" % index)
+
 	for index in 8:
 		var angle := float(index) / 8.0 * TAU
 		var shrub_position := Vector3(-23.0 + cos(angle) * 7.5, 0.0, 21.5 + sin(angle) * 4.5)
