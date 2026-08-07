@@ -125,3 +125,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-11/` |
 
 ---
+
+## Loop 12
+
+| **Objective** | Species meshes for dog/cat/horse seeded household pets placed in yards. |
+| **Evidence** | `qa/graphics/loop-12/` |
+
+---

@@ -944,4 +944,7 @@ func _spawn_pet_visuals() -> void:
 			continue
 		node.name = "PetVisual_%02d" % index
 		node.position = entry[1]
+		# Ensure pets appear on the world render layer.
+		for child in node.find_children("*", "MeshInstance3D", true, false):
+			(child as MeshInstance3D).layers = AssetLibrary.RENDER_LAYER_WORLD
 		add_child(node)
