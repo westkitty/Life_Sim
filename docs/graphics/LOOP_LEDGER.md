@@ -139,3 +139,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-13/` |
 
 ---
+
+## Loop 14
+
+| **Objective** | Streetlights, benches, trash bins, mailboxes, parked vehicle silhouettes. |
+| **Evidence** | `qa/graphics/loop-14/` |
+
+---

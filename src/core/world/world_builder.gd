@@ -476,6 +476,17 @@ func _dress_lot_surfaces() -> void:
 	_add_asset("fence_panel", Vector3(34.0, 0.0, -22.0), "BlueFence")
 	_add_asset("park_bench", Vector3(-20.0, 0.0, 20.5), "ParkBenchExtra")
 	_add_asset("trash_bin", Vector3(-15.0, 0.0, 20.0), "ParkTrash")
+	# Street furniture along commercial strip
+	_add_asset("park_bench", Vector3(8.5, 0.0, 6.0), "StreetBenchA")
+	_add_asset("park_bench", Vector3(-8.5, 0.0, -6.0), "StreetBenchB")
+	_add_asset("trash_bin", Vector3(7.5, 0.0, 8.0), "StreetTrash")
+	_add_asset("mailbox_basic", Vector3(16.5, 0.0, 14.0), "RoseMailbox")
+	# Simple parked vehicle silhouettes (visual-only props)
+	_create_flat_box(Vector3(8.0, 0.45, -8.0), Vector3(2.2, 0.7, 1.1), Color("#4a6a8a"), "ParkedCarA")
+	_create_flat_box(Vector3(8.0, 0.75, -8.0), Vector3(1.4, 0.45, 1.0), Color("#3a5a7a"), "ParkedCarACabin")
+	_create_flat_box(Vector3(-9.0, 0.45, 10.0), Vector3(2.2, 0.7, 1.1), Color("#8a4a4a"), "ParkedCarB")
+	_create_flat_box(Vector3(-9.0, 0.75, 10.0), Vector3(1.4, 0.45, 1.0), Color("#6a3a3a"), "ParkedCarBCabin")
+
 
 
 
