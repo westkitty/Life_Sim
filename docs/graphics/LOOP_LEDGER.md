@@ -111,3 +111,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-09/` |
 
 ---
+
+## Loop 10
+
+| **Objective** | Walk bob/sway, idle breathing settle, interaction lean poses. |
+| **Evidence** | `qa/graphics/loop-10/` |
+
+---

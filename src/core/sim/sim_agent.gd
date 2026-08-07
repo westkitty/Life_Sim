@@ -300,8 +300,8 @@ func _animate_locomotion(delta: float, moving: bool) -> void:
 	if _body_mesh == null:
 		return
 	if moving:
-		_anim_phase += delta * 9.0
-		var bob := sin(_anim_phase) * 0.045
+		_anim_phase += delta * 10.5
+		var bob := sin(_anim_phase) * 0.055
 		var sway := sin(_anim_phase * 0.5) * 0.04
 		_body_mesh.position.y = bob
 		_body_mesh.rotation.z = sway
