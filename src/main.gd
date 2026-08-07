@@ -126,7 +126,7 @@ func _build_camera() -> void:
 	camera.name = "NeighborhoodCamera"
 	camera.current = true
 	# Slightly tighter FOV for life-sim composition; avoids wide-angle stretch.
-	camera.fov = 42.0
+	camera.fov = 40.0
 	camera.near = 0.15
 	camera.far = 280.0
 	# Explicit cull mask: the camera must see the world render layer. Render
@@ -326,12 +326,12 @@ func _update_camera_transform() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP and event.pressed:
-			camera_distance = clampf(camera_distance - 3.0, 14.0, 56.0)
-			camera_height = clampf(camera_height - 1.5, 12.0, 38.0)
+			camera_distance = clampf(camera_distance - 2.5, 12.0, 60.0)
+			camera_height = clampf(camera_height - 1.2, 10.0, 40.0)
 			return
 		if event.button_index == MOUSE_BUTTON_WHEEL_DOWN and event.pressed:
-			camera_distance = clampf(camera_distance + 3.0, 14.0, 56.0)
-			camera_height = clampf(camera_height + 1.5, 12.0, 38.0)
+			camera_distance = clampf(camera_distance + 2.5, 12.0, 60.0)
+			camera_height = clampf(camera_height + 1.2, 10.0, 40.0)
 			return
 		if event.button_index == MOUSE_BUTTON_LEFT and event.pressed and not _pointer_over_hud(event.position):
 			_handle_world_click(event.position)

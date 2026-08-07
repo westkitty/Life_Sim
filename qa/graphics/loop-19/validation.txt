@@ -1,0 +1,2 @@
+Loop 19
+Tighter FOV, smoother zoom limits, cutaway cooperation.

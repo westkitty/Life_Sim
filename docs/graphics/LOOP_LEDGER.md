@@ -174,3 +174,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-18/` |
 
 ---
+
+## Loop 19
+
+| **Objective** | Tighter FOV, smoother zoom limits, cutaway cooperation. |
+| **Evidence** | `qa/graphics/loop-19/` |
+
+---
