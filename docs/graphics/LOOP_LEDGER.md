@@ -46,3 +46,15 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Remote push** | _(pending)_ |
 
 ---
+
+## Loop 03 — Residential architecture exteriors
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Replace simple house shells with detailed suburban exteriors. |
+| **Assets created** | Regenerated house_founders/blue/rose, community shells, trees/shrubs (project GLB). |
+| **Before/After** | `qa/graphics/loop-03/` |
+| **Tests** | import, visual capture, visual gate, validate_assets |
+| **Commit SHA** | _(pending)_ |
+
+---

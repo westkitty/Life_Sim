@@ -1,0 +1,9 @@
+Loop 03 validation
+- import PASS
+- visual capture PASS
+- visual_scene OPENLIFE_VISUAL_PASS
+- assets PASS
+
+Improvements: rebuilt house_founders/blue/rose + community buildings with
+foundation, gable roofs, eaves/fascia, porch columns/steps, windows+shutters,
+doors, chimney, gutters, corner trim; upgraded trees/shrubs.
