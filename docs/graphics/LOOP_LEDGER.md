@@ -167,3 +167,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-17/` |
 
 ---
+
+## Loop 18
+
+| **Objective** | Refined CAS card sizing and translucent editing chrome. |
+| **Evidence** | `qa/graphics/loop-18/` |
+
+---

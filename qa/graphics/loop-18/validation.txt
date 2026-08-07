@@ -1,0 +1,2 @@
+Loop 18
+Refined CAS card sizing and translucent editing chrome.

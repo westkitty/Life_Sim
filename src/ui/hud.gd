@@ -341,10 +341,11 @@ func _build_cas_panel() -> void:
 	cas_panel.anchor_right = 0.5
 	cas_panel.anchor_top = 0.5
 	cas_panel.anchor_bottom = 0.5
-	cas_panel.offset_left = -250.0
-	cas_panel.offset_right = 250.0
-	cas_panel.offset_top = -345.0
-	cas_panel.offset_bottom = 345.0
+	cas_panel.offset_left = -280.0
+	cas_panel.offset_right = 280.0
+	cas_panel.offset_top = -320.0
+	cas_panel.offset_bottom = 320.0
+	cas_panel.modulate = Color(1, 1, 1, 0.95)
 	cas_panel.visible = false
 	add_child(cas_panel)
 	ui_regions.append(cas_panel)
