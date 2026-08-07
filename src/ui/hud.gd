@@ -298,7 +298,8 @@ func _build_object_panel() -> void:
 	column.add_child(_h_separator())
 	pack_summary_label = Label.new()
 	pack_summary_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	pack_summary_label.add_theme_font_size_override("font_size", 12)
+	pack_summary_label.add_theme_font_size_override("font_size", 10)
+	pack_summary_label.modulate = Color(1, 1, 1, 0.75)
 	column.add_child(pack_summary_label)
 
 func _build_notification() -> void:

@@ -160,3 +160,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-16/` |
 
 ---
+
+## Loop 17
+
+| **Objective** | Narrower translucent panels, smaller type, thinner motive bars. |
+| **Evidence** | `qa/graphics/loop-17/` |
+
+---
