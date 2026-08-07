@@ -77,3 +77,12 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-05/` |
 
 ---
+
+## Loop 06
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Kitchen stove/sink/dishwasher/coffee and bath tub/vanity with ceramic/metal materials. |
+| **Evidence** | `qa/graphics/loop-06/` |
+
+---
