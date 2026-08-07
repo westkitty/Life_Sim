@@ -29,6 +29,7 @@ var _route_points: Array[Vector3] = []
 var _route_index := 0
 var _anim_phase := 0.0
 var _was_moving := false
+var _selection_pulse := 0.0
 
 func setup(data: Dictionary, body_color: Color) -> void:
 	profile = SimProfile.new(data)
@@ -286,6 +287,10 @@ func _physics_process(delta: float) -> void:
 		_animate_locomotion(delta, false)
 		return
 
+	if selected and _selection_marker != null and _selection_marker.visible:
+		_selection_pulse += delta * 3.0
+		var pulse_scale := 1.0 + sin(_selection_pulse) * 0.08
+		_selection_marker.scale = Vector3(pulse_scale, 1.0, pulse_scale)
 	if _phase == "moving":
 		_move_to_current_target(delta)
 		_animate_locomotion(delta, true)

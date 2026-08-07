@@ -153,3 +153,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-15/` |
 
 ---
+
+## Loop 16
+
+| **Objective** | Original amber selection pulse; softer fading object labels. |
+| **Evidence** | `qa/graphics/loop-16/` |
+
+---

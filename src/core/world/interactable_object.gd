@@ -80,7 +80,7 @@ func _build_visual(data: Dictionary) -> void:
 
 	_label = Label3D.new()
 	_label.text = display_name
-	_label.font_size = 28
+	_label.font_size = 18
 	_label.outline_size = 7
 	_label.position = Vector3(0.0, dimensions.y + 0.35, 0.0)
 	_label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
