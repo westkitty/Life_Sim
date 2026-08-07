@@ -95,3 +95,12 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-07/` |
 
 ---
+
+## Loop 08
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Coherent humanoid GLB foundation for adult/teen/elder/child shapes; parse fix restore render path. |
+| **Evidence** | `qa/graphics/loop-08/` |
+
+---

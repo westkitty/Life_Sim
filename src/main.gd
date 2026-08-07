@@ -843,9 +843,9 @@ func _on_birth_ready(mother_id: String, father_id: String) -> void:
 	var father := _sim_by_id(father_id)
 	if mother == null or father == null:
 		return
-	var child_index := sims.size() + 1
-	var child_data := parity_hub.genetics.make_child_profile(mother.profile, father.profile, child_index)
-	var child := _spawn_sim(child_data, mother.global_position + Vector3(1.4, 0.0, 0.0), Color("#d8aa8c"))
+	var child_index: int = sims.size() + 1
+	var child_data: Dictionary = parity_hub.genetics.make_child_profile(mother.profile, father.profile, child_index)
+	var child: SimAgent = _spawn_sim(child_data, mother.global_position + Vector3(1.4, 0.0, 0.0), Color("#d8aa8c"))
 	parity_hub.genealogy.record_birth(child.profile.sim_id, mother.profile.sim_id, father.profile.sim_id)
 	if household_system.households.has(mother.profile.household_id):
 		var household: Dictionary = household_system.households[mother.profile.household_id]
@@ -866,7 +866,7 @@ func _update_wall_cutaway() -> void:
 	if world_builder == null or camera == null:
 		return
 	# Life-sim cutaway: when zoomed close/low enough over a home lot, hide interior partitions/ceilings.
-	var close := camera_distance < 22.0 and camera_height < 18.0
+	var close: bool = camera_distance < 22.0 and camera_height < 18.0
 	world_builder.set_wall_cutaway(close)
 
 func _update_environment_visuals() -> void:
@@ -878,7 +878,9 @@ func _update_environment_visuals() -> void:
 	if sun == null or we == null or we.environment == null:
 		return
 	var env := we.environment
-	var minute := SimulationClock.current_absolute_minutes() % 1440 if SimulationClock else 8 * 60
+	var minute: int = 8 * 60
+	if SimulationClock != null:
+		minute = SimulationClock.current_absolute_minutes() % 1440
 	var day_t := float(minute) / 1440.0
 	# Sun pitch from dawn to dusk
 	var sun_pitch := -12.0
@@ -935,7 +937,7 @@ func _spawn_pet_visuals() -> void:
 	]
 	for index in placements.size():
 		var entry: Array = placements[index]
-		var node := AssetLibrary.instantiate_model(String(entry[0]))
+		var node: Node3D = AssetLibrary.instantiate_model(String(entry[0]))
 		if node == null:
 			continue
 		node.name = "PetVisual_%02d" % index

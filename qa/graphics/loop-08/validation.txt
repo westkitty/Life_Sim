@@ -1,0 +1,2 @@
+Loop 08
+Coherent humanoid GLB foundation for adult/teen/elder/child shapes; parse fix restore render path.

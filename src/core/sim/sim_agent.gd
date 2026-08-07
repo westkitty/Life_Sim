@@ -139,14 +139,18 @@ func _apply_individuality_tints(root: Node, body_color: Color) -> void:
 	## Recolor materials so default household Sims are not clones.
 	var skin_hex := String(profile.genetics.get("skin_tone", ""))
 	var hair_hex := String(profile.genetics.get("hair_color", ""))
-	var skin := Color(skin_hex) if skin_hex.begins_with("#") else Color("#c99572")
-	var hair := Color(hair_hex) if hair_hex.begins_with("#") else Color("#3a2a24")
+	var skin: Color = Color("#c99572")
+	var hair: Color = Color("#3a2a24")
+	if skin_hex.begins_with("#"):
+		skin = Color(skin_hex)
+	if hair_hex.begins_with("#"):
+		hair = Color(hair_hex)
 	# Stable per-sim clothing variation from sim_id hash.
 	var h: int = hash(profile.sim_id)
 	var tops: Array = [Color("#5d98ca"), Color("#8b5a6b"), Color("#6b8f62"), Color("#c98980"), Color("#6d4f82"), Color("#4d8f93"), body_color]
 	var bots: Array = [Color("#3f2d22"), Color("#252b2e"), Color("#4a5a6a"), Color("#5a4228"), Color("#2f3a48")]
-	var top: Color = tops[abs(h) % tops.size()]
-	var bot: Color = bots[abs(int(h / 7)) % bots.size()]
+	var top: Color = tops[abs(h) % tops.size()] as Color
+	var bot: Color = bots[abs(int(h / 7)) % bots.size()] as Color
 	var idx := 0
 	for child in root.get_children():
 		_tint_mesh_tree(child, skin, hair, top, bot, idx)
