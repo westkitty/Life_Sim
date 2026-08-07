@@ -118,3 +118,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-10/` |
 
 ---
+
+## Loop 11
+
+| **Objective** | Aligned sit/sleep/task body poses during object interactions. |
+| **Evidence** | `qa/graphics/loop-11/` |
+
+---
