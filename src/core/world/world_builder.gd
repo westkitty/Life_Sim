@@ -457,6 +457,10 @@ func _dress_lot_surfaces() -> void:
 	_add_asset("garden_planter", Vector3(-20.0, 0.0, -18.5), "FoundersPlanterB")
 	_add_asset("potted_plant", Vector3(-24.5, 0.0, -21.0), "FoundersPot")
 	_add_asset("flower_bed", Vector3(-29.5, 0.0, -21.0), "FoundersFlowers")
+	_create_flat_box(Vector3(-22.0, 0.05, -26.5), Vector3(2.4, 0.03, 1.6), Color("#7a4a4a"), "FoundersRug")
+	_add_asset("potted_plant", Vector3(-27.5, 0.0, -27.0), "IndoorPlantA")
+	_add_asset("potted_plant", Vector3(-19.5, 0.0, -27.5), "IndoorPlantB")
+	_add_asset("garden_planter", Vector3(-21.0, 0.0, -29.5), "IndoorPlanter")
 	# Streetlights along roads
 	for z in [-30.0, -15.0, 0.0, 15.0, 30.0]:
 		_add_asset("streetlight", Vector3(-6.8, 0.0, z), "StreetLightW_%d" % int(z))

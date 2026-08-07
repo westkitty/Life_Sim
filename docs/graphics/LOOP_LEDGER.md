@@ -86,3 +86,12 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-06/` |
 
 ---
+
+## Loop 07
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Indoor plants, rugs, planters and denser domestic dressing without blocking routes. |
+| **Evidence** | `qa/graphics/loop-07/` |
+
+---
