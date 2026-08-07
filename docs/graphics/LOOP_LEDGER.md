@@ -181,3 +181,13 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-19/` |
 
 ---
+
+## Loop 20 — Cohesion master pass
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Final cohesion, report, full gates |
+| **Evidence** | `qa/graphics/loop-20/`, `docs/graphics/FINAL_GRAPHICS_REPORT.md` |
+| **Tests** | smoke, visual, integration, assets, static |
+
+---

@@ -186,8 +186,11 @@ func _test_impossible_blocker() -> void:
 	var grid: BuildGridSystem = main.parity_hub.build_grid
 	var routing: RoutingSystem = main.parity_hub.routing
 	var sim: SimAgent = main.sims[0]
-	# Seal a single free cell behind a ring of occupied cells inside the lot.
+	# Probe must stay inside a residential lot so temporary seal objects can register.
+	# free_start stays outdoors so denser interior furniture cannot trap the actor.
+	var free_start := Vector3(-14.0, 0.0, -12.0)
 	var center := Vector3(-14.0, 0.0, -14.0)
+	sim.global_position = free_start
 	var center_cell := grid.world_to_cell(center)
 	var sealed_ids: Array[String] = []
 	for dx in range(-1, 2):
@@ -196,10 +199,11 @@ func _test_impossible_blocker() -> void:
 				continue
 			var cell := center_cell + Vector2i(dx, dz)
 			var blocker_id := "integration_seal_%d_%d" % [cell.x, cell.y]
-			grid.register_object(blocker_id, grid.cell_to_world(cell), Vector2i.ONE)
-			sealed_ids.append(blocker_id)
+			if grid.register_object(blocker_id, grid.cell_to_world(cell), Vector2i.ONE):
+				sealed_ids.append(blocker_id)
+	_check(sealed_ids.size() == 8, "temporary seal ring registered on lot grid")
 	routing.mark_dirty()
-	var route := routing.route(sim.global_position, grid.cell_to_world(center_cell))
+	var route := routing.route(free_start, grid.cell_to_world(center_cell))
 	_check(route.is_empty(), "routing reports failure instead of phasing through an impossible blocker")
 	var interaction := {"id": "sealed_probe", "target_position": grid.cell_to_world(center_cell), "duration_minutes": 5.0}
 	_check(main.parity_hub.prepare_interaction_route(sim, interaction).is_empty(),
@@ -207,7 +211,7 @@ func _test_impossible_blocker() -> void:
 	for blocker_id in sealed_ids:
 		grid.unregister_object(blocker_id)
 	routing.mark_dirty()
-	_check(not routing.route(sim.global_position, grid.cell_to_world(center_cell)).is_empty(),
+	_check(not routing.route(free_start, grid.cell_to_world(center_cell)).is_empty(),
 		"navigation grid recovers after temporary blockers are removed")
 	# Houses are real navigation obstacles, not decoration.
 	_check(main.world_builder.structure_blockers.size() >= 3, "architecture registered navigation blockers")

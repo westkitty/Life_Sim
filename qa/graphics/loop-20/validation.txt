@@ -1,0 +1,7 @@
+Loop 20 final validation
+- smoke: OPENLIFE_GODOT_SMOKE_PASS
+- visual_scene: OPENLIFE_VISUAL_PASS
+- integration: OPENLIFE_INTEGRATION_PASS
+- validate_assets: PASS
+- static_validate: see run output
+- FINAL_GRAPHICS_REPORT.md present

@@ -455,8 +455,8 @@ func _dress_lot_surfaces() -> void:
 	_apply_texture(apron, "sidewalk", Vector3(4.0, 2.0, 4.0))
 
 	# Outdoor domestic dressing
-	_add_asset("mailbox_basic", Vector3(-15.5, 0.0, -14.5), "FoundersMailbox")
-	_add_asset("trash_bin", Vector3(-14.5, 0.0, -15.5), "FoundersTrash")
+	_add_asset("mailbox_basic", Vector3(-12.0, 0.0, -18.5), "FoundersMailbox")
+	_add_asset("trash_bin", Vector3(-11.5, 0.0, -19.0), "FoundersTrash")
 	_add_asset("fence_panel", Vector3(-34.0, 0.0, -22.0), "FoundersFenceW")
 	_add_asset("fence_panel", Vector3(-34.0, 0.0, -28.0), "FoundersFenceW2")
 	_add_asset("garden_planter", Vector3(-22.0, 0.0, -18.5), "FoundersPlanterA")
