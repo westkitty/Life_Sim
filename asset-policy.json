@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project": "OpenLife Godot",
+  "distribution": "local source bundle",
+  "commercial_status": "unspecified; choose assets safe for commercial use",
+  "public_repository_compatible": true,
+  "hard_rules": {
+    "runtime_network": false,
+    "paid_assets": false,
+    "subscriptions": false,
+    "account_required_assets": false,
+    "authenticated_downloads": false,
+    "proprietary_game_rips": false,
+    "recognizable_commercial_characters": false,
+    "unclear_provenance": false
+  },
+  "accepted_asset_rights": ["project-owned", "CC0-1.0", "public-domain"],
+  "preferred_formats": ["glb", "gltf", "svg", "png", "wav", "ogg"],
+  "max_optional_third_party_pack_mb": 250,
+  "default_strategy": "Bundle project-owned generated assets; keep verified third-party packs optional and replaceable behind stable aliases."
+}

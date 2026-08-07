@@ -1,0 +1,146 @@
+PASS: 125
+  + required file exists: project.godot
+  + required file exists: scenes/main.tscn
+  + required file exists: src/main.gd
+  + required file exists: icon.svg
+  + required file exists: src/autoload/event_bus.gd
+  + required file exists: src/autoload/simulation_clock.gd
+  + required file exists: src/autoload/content_registry.gd
+  + required file exists: src/autoload/asset_library.gd
+  + required file exists: src/autoload/audio_service.gd
+  + required file exists: src/autoload/save_service.gd
+  + required file exists: src/core/sim/sim_agent.gd
+  + required file exists: src/ui/hud.gd
+  + required file exists: data/pack_registry.json
+  + required file exists: data/object_catalog.json
+  + required file exists: data/career_catalog.json
+  + required file exists: data/trait_catalog.json
+  + required file exists: data/feature_ledger.json
+  + required file exists: data/asset_aliases.json
+  + required file exists: assets/generated/manifest.json
+  + required file exists: asset-policy.json
+  + required file exists: README.md
+  + required file exists: OPERATIONAL_STATE.md
+  + pack registry is an array
+  + object catalog is an array
+  + career catalog is an array
+  + trait catalog is an array
+  + feature ledger is an array
+  + packs have unique IDs
+  + objects have unique IDs
+  + careers have unique IDs
+  + traits have unique IDs
+  + features have unique IDs
+  + all eleven expansion contracts EP01-EP11 exist
+  + all nine stuff-pack contracts SP01-SP09 exist
+  + base, Store, and world-content contracts exist
+  + feature ledger includes source-wired implementation rows
+  + unimplemented parity remains visible as architecture contracts
+  + catalog has at least thirty actionable objects
+  + career registry covers base and expansion career families
+  + trait registry covers broad base and expansion trait space
+  + object asset alias exists: fridge_basic
+  + object asset file exists: fridge_basic
+  + object asset alias exists: toilet_basic
+  + object asset file exists: toilet_basic
+  + object asset alias exists: shower_basic
+  + object asset file exists: shower_basic
+  + object asset alias exists: bed_double
+  + object asset file exists: bed_double
+  + object asset alias exists: sofa_basic
+  + object asset file exists: sofa_basic
+  + object asset alias exists: bookshelf_basic
+  + object asset file exists: bookshelf_basic
+  + object asset alias exists: computer_basic
+  + object asset file exists: computer_basic
+  + object asset alias exists: stereo_basic
+  + object asset file exists: stereo_basic
+  + object asset alias exists: easel_basic
+  + object asset file exists: easel_basic
+  + object asset alias exists: chess_table
+  + object asset file exists: chess_table
+  + object asset alias exists: grill_basic
+  + object asset file exists: grill_basic
+  + object asset alias exists: telescope_basic
+  + object asset file exists: telescope_basic
+  + object asset alias exists: park_bench
+  + object asset file exists: park_bench
+  + object asset alias exists: gym_treadmill
+  + object asset file exists: gym_treadmill
+  + object asset alias exists: alchemy_station
+  + object asset file exists: alchemy_station
+  + object asset alias exists: future_workbench
+  + object asset file exists: future_workbench
+  + object asset alias exists: pet_bowl
+  + object asset file exists: pet_bowl
+  + object asset alias exists: resort_desk
+  + object asset file exists: resort_desk
+  + object asset alias exists: kitchen_stove
+  + object asset file exists: kitchen_stove
+  + object asset alias exists: kitchen_sink
+  + object asset file exists: kitchen_sink
+  + object asset alias exists: dining_table
+  + object asset file exists: dining_table
+  + object asset alias exists: dining_chair
+  + object asset file exists: dining_chair
+  + object asset alias exists: television_basic
+  + object asset file exists: television_basic
+  + object asset alias exists: desk_basic
+  + object asset file exists: desk_basic
+  + object asset alias exists: dresser_basic
+  + object asset file exists: dresser_basic
+  + object asset alias exists: bathtub_basic
+  + object asset file exists: bathtub_basic
+  + object asset alias exists: crib_basic
+  + object asset file exists: crib_basic
+  + object asset alias exists: guitar_basic
+  + object asset file exists: guitar_basic
+  + object asset alias exists: laundry_washer
+  + object asset file exists: laundry_washer
+  + object asset alias exists: hot_tub
+  + object asset file exists: hot_tub
+  + object asset alias exists: arcade_machine
+  + object asset file exists: arcade_machine
+  + object asset alias exists: sculpting_station
+  + object asset file exists: sculpting_station
+  + object asset alias exists: nectar_maker
+  + object asset file exists: nectar_maker
+  + object asset alias exists: inventing_bench
+  + object asset file exists: inventing_bench
+  + bundled generated model pack contains at least fifty GLBs
+  + bundled generated audio pack contains at least nine SFX
+  + legacy overclaiming evidence state implemented_shell is absent
+  + operational state has parseable metadata block
+  + operational state project identity matches
+  + operational state has a positive revision
+  + operational state contains every required section
+  + operational state sections are in canonical order
+  + autoload configured: EventBus
+  + autoload configured: SimulationClock
+  + autoload configured: ContentRegistry
+  + autoload configured: AssetLibrary
+  + autoload configured: AudioService
+  + autoload configured: SaveService
+  + modular runtime exposes at least fourteen named Godot classes
+  + runtime scripts contain no network dependency
+  + runtime scripts contain no API-key dependency
+WARNING: 0
+FAIL: 0
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+ASSET PASS: 333
+ASSET FAIL: 0
+GODOT SMOKE: SKIP - Godot executable not found. Source remains runtime-unverified.
+
+==> /opt/pyvenv/bin/python3 tests/static_validate.py
+
+==> /opt/pyvenv/bin/python3 -m unittest tests/test_data.py
+
+==> /opt/pyvenv/bin/python3 tools/validate_assets.py
+
+==> /opt/pyvenv/bin/python3 tools/run_godot_smoke.py
+
+VALIDATION COMMANDS COMPLETED. A skipped Godot smoke test means runtime behavior is still unverified.

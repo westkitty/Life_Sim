@@ -1,0 +1,270 @@
+PASS: 249
+  + required file exists: project.godot
+  + required file exists: scenes/main.tscn
+  + required file exists: src/main.gd
+  + required file exists: icon.svg
+  + required file exists: src/autoload/event_bus.gd
+  + required file exists: src/autoload/simulation_clock.gd
+  + required file exists: src/autoload/content_registry.gd
+  + required file exists: src/autoload/asset_library.gd
+  + required file exists: src/autoload/audio_service.gd
+  + required file exists: src/autoload/save_service.gd
+  + required file exists: src/core/sim/sim_agent.gd
+  + required file exists: src/ui/hud.gd
+  + required file exists: data/pack_registry.json
+  + required file exists: data/object_catalog.json
+  + required file exists: data/career_catalog.json
+  + required file exists: data/trait_catalog.json
+  + required file exists: data/feature_ledger.json
+  + required file exists: data/asset_aliases.json
+  + required file exists: assets/generated/manifest.json
+  + required file exists: asset-policy.json
+  + required file exists: README.md
+  + required file exists: OPERATIONAL_STATE.md
+  + required file exists: src/core/systems/pet_system.gd
+  + required file exists: src/core/systems/performer_system.gd
+  + required file exists: tools/import_optional_asset_pack.py
+  + required file exists: tools/capture_improvement_metrics.py
+  + required file exists: docs/resources/ASSET_SOURCE_REPORT.md
+  + required file exists: docs/resources/evidence/EXTERNAL_SOURCE_EVIDENCE.md
+  + pack registry is an array
+  + object catalog is an array
+  + career catalog is an array
+  + trait catalog is an array
+  + feature ledger is an array
+  + packs have unique IDs
+  + objects have unique IDs
+  + careers have unique IDs
+  + traits have unique IDs
+  + features have unique IDs
+  + all eleven expansion contracts EP01-EP11 exist
+  + all nine stuff-pack contracts SP01-SP09 exist
+  + base, Store, and world-content contracts exist
+  + feature ledger includes source-wired implementation rows
+  + unimplemented parity remains visible as architecture contracts
+  + runtime-wired slice exists for BG
+  + runtime-wired slice exists for EP01
+  + runtime-wired slice exists for EP02
+  + runtime-wired slice exists for EP03
+  + runtime-wired slice exists for EP04
+  + runtime-wired slice exists for EP05
+  + runtime-wired slice exists for EP06
+  + runtime-wired slice exists for EP07
+  + runtime-wired slice exists for EP08
+  + runtime-wired slice exists for EP09
+  + runtime-wired slice exists for EP10
+  + runtime-wired slice exists for EP11
+  + runtime-wired slice exists for SP01
+  + runtime-wired slice exists for SP02
+  + runtime-wired slice exists for SP03
+  + runtime-wired slice exists for SP04
+  + runtime-wired slice exists for SP05
+  + runtime-wired slice exists for SP06
+  + runtime-wired slice exists for SP07
+  + runtime-wired slice exists for SP08
+  + runtime-wired slice exists for SP09
+  + catalog has at least seventy actionable objects
+  + career registry covers base and expansion career families
+  + trait registry covers broad base and expansion trait space
+  + object asset alias exists: fridge_basic
+  + object asset file exists: fridge_basic
+  + object asset alias exists: toilet_basic
+  + object asset file exists: toilet_basic
+  + object asset alias exists: shower_basic
+  + object asset file exists: shower_basic
+  + object asset alias exists: bed_double
+  + object asset file exists: bed_double
+  + object asset alias exists: sofa_basic
+  + object asset file exists: sofa_basic
+  + object asset alias exists: bookshelf_basic
+  + object asset file exists: bookshelf_basic
+  + object asset alias exists: computer_basic
+  + object asset file exists: computer_basic
+  + object asset alias exists: stereo_basic
+  + object asset file exists: stereo_basic
+  + object asset alias exists: easel_basic
+  + object asset file exists: easel_basic
+  + object asset alias exists: chess_table
+  + object asset file exists: chess_table
+  + object asset alias exists: grill_basic
+  + object asset file exists: grill_basic
+  + object asset alias exists: telescope_basic
+  + object asset file exists: telescope_basic
+  + object asset alias exists: park_bench
+  + object asset file exists: park_bench
+  + object asset alias exists: gym_treadmill
+  + object asset file exists: gym_treadmill
+  + object asset alias exists: alchemy_station
+  + object asset file exists: alchemy_station
+  + object asset alias exists: future_workbench
+  + object asset file exists: future_workbench
+  + object asset alias exists: pet_bowl
+  + object asset file exists: pet_bowl
+  + object asset alias exists: resort_desk
+  + object asset file exists: resort_desk
+  + object asset alias exists: kitchen_stove
+  + object asset file exists: kitchen_stove
+  + object asset alias exists: kitchen_sink
+  + object asset file exists: kitchen_sink
+  + object asset alias exists: dining_table
+  + object asset file exists: dining_table
+  + object asset alias exists: dining_chair
+  + object asset file exists: dining_chair
+  + object asset alias exists: television_basic
+  + object asset file exists: television_basic
+  + object asset alias exists: desk_basic
+  + object asset file exists: desk_basic
+  + object asset alias exists: dresser_basic
+  + object asset file exists: dresser_basic
+  + object asset alias exists: bathtub_basic
+  + object asset file exists: bathtub_basic
+  + object asset alias exists: crib_basic
+  + object asset file exists: crib_basic
+  + object asset alias exists: guitar_basic
+  + object asset file exists: guitar_basic
+  + object asset alias exists: laundry_washer
+  + object asset file exists: laundry_washer
+  + object asset alias exists: hot_tub
+  + object asset file exists: hot_tub
+  + object asset alias exists: arcade_machine
+  + object asset file exists: arcade_machine
+  + object asset alias exists: sculpting_station
+  + object asset file exists: sculpting_station
+  + object asset alias exists: nectar_maker
+  + object asset file exists: nectar_maker
+  + object asset alias exists: inventing_bench
+  + object asset file exists: inventing_bench
+  + object asset alias exists: mailbox_basic
+  + object asset file exists: mailbox_basic
+  + object asset alias exists: trash_can
+  + object asset file exists: trash_can
+  + object asset alias exists: dishwasher
+  + object asset file exists: dishwasher
+  + object asset alias exists: microwave
+  + object asset file exists: microwave
+  + object asset alias exists: coffee_maker
+  + object asset file exists: coffee_maker
+  + object asset alias exists: highchair
+  + object asset file exists: highchair
+  + object asset alias exists: birthday_cake
+  + object asset file exists: birthday_cake
+  + object asset alias exists: garden_planter
+  + object asset file exists: garden_planter
+  + object asset alias exists: fishing_sign
+  + object asset file exists: fishing_sign
+  + object asset alias exists: gem_display
+  + object asset file exists: gem_display
+  + object asset alias exists: piano_upright
+  + object asset file exists: piano_upright
+  + object asset alias exists: drum_set
+  + object asset file exists: drum_set
+  + object asset alias exists: mixology_bar
+  + object asset file exists: mixology_bar
+  + object asset alias exists: martial_arts_dummy
+  + object asset file exists: martial_arts_dummy
+  + object asset alias exists: photo_booth
+  + object asset file exists: photo_booth
+  + object asset alias exists: tattoo_chair
+  + object asset file exists: tattoo_chair
+  + object asset alias exists: treehouse
+  + object asset file exists: treehouse
+  + object asset alias exists: dog_bed
+  + object asset file exists: dog_bed
+  + object asset alias exists: cat_tree
+  + object asset file exists: cat_tree
+  + object asset alias exists: horse_trough
+  + object asset file exists: horse_trough
+  + object asset alias exists: karaoke_machine
+  + object asset file exists: karaoke_machine
+  + object asset alias exists: bonfire
+  + object asset file exists: bonfire
+  + object asset alias exists: festival_booth
+  + object asset file exists: festival_booth
+  + object asset alias exists: university_podium
+  + object asset file exists: university_podium
+  + object asset alias exists: diving_buoy
+  + object asset file exists: diving_buoy
+  + object asset alias exists: time_portal
+  + object asset file exists: time_portal
+  + object asset alias exists: dream_pod
+  + object asset file exists: dream_pod
+  + object asset alias exists: bot_charging_station
+  + object asset file exists: bot_charging_station
+  + object asset alias exists: resort_tower
+  + object asset file exists: resort_tower
+  + object asset alias exists: food_truck
+  + object asset file exists: food_truck
+  + object asset alias exists: luxury_lounge_chair
+  + object asset file exists: luxury_lounge_chair
+  + object asset alias exists: sport_car_display
+  + object asset file exists: sport_car_display
+  + object asset alias exists: community_locker
+  + object asset file exists: community_locker
+  + object asset alias exists: spa_vanity
+  + object asset file exists: spa_vanity
+  + object asset alias exists: candy_floor_lamp
+  + object asset file exists: candy_floor_lamp
+  + object asset alias exists: industrial_coffee_table
+  + object asset file exists: industrial_coffee_table
+  + object asset alias exists: retro_dance_console
+  + object asset file exists: retro_dance_console
+  + object asset alias exists: movie_prop_statue
+  + object asset file exists: movie_prop_statue
+  + object asset alias exists: performance_stage
+  + object asset file exists: performance_stage
+  + bundled generated model pack contains at least one hundred GLBs
+  + bundled generated audio pack contains at least twenty-four audio files
+  + bundled generated texture pack contains at least seven PNGs
+  + legacy overclaiming evidence state implemented_shell is absent
+  + visual manifest preserves optional external candidates
+  + visual candidate lifecycle valid: quaternius-universal-base-characters
+  + visual candidate exact source recorded: quaternius-universal-base-characters
+  + visual candidate lifecycle valid: quaternius-universal-animation-library-2
+  + visual candidate exact source recorded: quaternius-universal-animation-library-2
+  + visual candidate lifecycle valid: quaternius-ultimate-house-interior
+  + visual candidate exact source recorded: quaternius-ultimate-house-interior
+  + visual candidate lifecycle valid: kenney-furniture-kit
+  + visual candidate exact source recorded: kenney-furniture-kit
+  + visual candidate lifecycle valid: kenney-city-suburban
+  + visual candidate exact source recorded: kenney-city-suburban
+  + visual candidate lifecycle valid: kenney-city-commercial
+  + visual candidate exact source recorded: kenney-city-commercial
+  + visual candidate lifecycle valid: kenney-mini-characters
+  + visual candidate exact source recorded: kenney-mini-characters
+  + visual candidate lifecycle valid: polyhaven-wood-floor
+  + visual candidate exact source recorded: polyhaven-wood-floor
+  + coherent Quaternius character plus animation source pair is recorded
+  + operational state has parseable metadata block
+  + operational state project identity matches
+  + operational state has a positive revision
+  + operational state contains every required section
+  + operational state sections are in canonical order
+  + autoload configured: EventBus
+  + autoload configured: SimulationClock
+  + autoload configured: ContentRegistry
+  + autoload configured: AssetLibrary
+  + autoload configured: AudioService
+  + autoload configured: SaveService
+  + modular runtime exposes at least fourteen named Godot classes
+  + runtime scripts contain no network dependency
+  + runtime scripts contain no API-key dependency
+WARNING: 0
+FAIL: 0
+..............
+----------------------------------------------------------------------
+Ran 14 tests in 0.004s
+
+OK
+ASSET PASS: 729
+ASSET FAIL: 0
+GODOT SMOKE: SKIP - Godot executable not found. Source remains runtime-unverified.
+
+==> /opt/pyvenv/bin/python3 tests/static_validate.py
+
+==> /opt/pyvenv/bin/python3 -m unittest tests/test_data.py
+
+==> /opt/pyvenv/bin/python3 tools/validate_assets.py
+
+==> /opt/pyvenv/bin/python3 tools/run_godot_smoke.py
+
+VALIDATION COMMANDS COMPLETED. A skipped Godot smoke test means runtime behavior is still unverified.

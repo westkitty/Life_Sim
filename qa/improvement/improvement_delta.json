@@ -1,0 +1,114 @@
+{
+  "baseline_release": "0.2.0-baseline",
+  "final_release": "0.3.0-candidate",
+  "measures": {
+    "feature_rows": {
+      "before": 169,
+      "after": 187,
+      "absolute_delta": 18,
+      "percent_delta": 10.650887573964498
+    },
+    "object_catalog_count": {
+      "before": 34,
+      "after": 73,
+      "absolute_delta": 39,
+      "percent_delta": 114.70588235294117
+    },
+    "model_count": {
+      "before": 51,
+      "after": 106,
+      "absolute_delta": 55,
+      "percent_delta": 107.84313725490196
+    },
+    "audio_count": {
+      "before": 9,
+      "after": 24,
+      "absolute_delta": 15,
+      "percent_delta": 166.66666666666669
+    },
+    "texture_count": {
+      "before": 0,
+      "after": 7,
+      "absolute_delta": 7,
+      "percent_delta": null
+    },
+    "gdscript_files": {
+      "before": 28,
+      "after": 49,
+      "absolute_delta": 21,
+      "percent_delta": 75.0
+    },
+    "gdscript_lines": {
+      "before": 2785,
+      "after": 4455,
+      "absolute_delta": 1670,
+      "percent_delta": 59.964093357271096
+    },
+    "asset_vertices_total": {
+      "before": 4426,
+      "after": 20236,
+      "absolute_delta": 15810,
+      "percent_delta": 357.2074107546317
+    },
+    "asset_faces_total": {
+      "before": 7892,
+      "after": 37844,
+      "absolute_delta": 29952,
+      "percent_delta": 379.52356817029903
+    },
+    "asset_geometries_total": {
+      "before": 240,
+      "after": 657,
+      "absolute_delta": 417,
+      "percent_delta": 173.75
+    },
+    "asset_materials_total": {
+      "before": 139,
+      "after": 334,
+      "absolute_delta": 195,
+      "percent_delta": 140.28776978417267
+    },
+    "asset_bytes_total": {
+      "before": 261572,
+      "after": 863096,
+      "absolute_delta": 601524,
+      "percent_delta": 229.96498096126498
+    },
+    "static_checks_pass": {
+      "before": 125,
+      "after": 249,
+      "absolute_delta": 124,
+      "percent_delta": 99.2
+    },
+    "unit_tests_pass": {
+      "before": 4,
+      "after": 14,
+      "absolute_delta": 10,
+      "percent_delta": 250.0
+    },
+    "asset_checks_pass": {
+      "before": 333,
+      "after": 729,
+      "absolute_delta": 396,
+      "percent_delta": 118.91891891891892
+    },
+    "feature_status:implemented_unverified": {
+      "before": 23,
+      "after": 78,
+      "absolute_delta": 55,
+      "percent_delta": 239.1304347826087
+    },
+    "feature_status:architecture_contract": {
+      "before": 137,
+      "after": 100,
+      "absolute_delta": -37,
+      "percent_delta": -27.00729927007299
+    },
+    "feature_status:data_contract": {
+      "before": 9,
+      "after": 9,
+      "absolute_delta": 0,
+      "percent_delta": 0.0
+    }
+  }
+}

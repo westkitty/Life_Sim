@@ -1,0 +1,23 @@
+{
+  "release": "0.2.0-baseline",
+  "feature_rows": 169,
+  "feature_statuses": {
+    "implemented_unverified": 23,
+    "architecture_contract": 137,
+    "data_contract": 9
+  },
+  "object_catalog_count": 34,
+  "model_count": 51,
+  "audio_count": 9,
+  "ui_asset_count": 5,
+  "gdscript_files": 28,
+  "gdscript_lines": 2785,
+  "asset_vertices_total": 4426,
+  "asset_faces_total": 7892,
+  "asset_geometries_total": 240,
+  "asset_materials_total": 139,
+  "asset_vertices_mean": 86.7843137254902,
+  "asset_faces_mean": 154.7450980392157,
+  "asset_bytes_total": 261572,
+  "runtime_engine_validation": "SKIP: Godot executable unavailable"
+}

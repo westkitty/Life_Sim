@@ -1,0 +1,2116 @@
+{
+  "schema_version": 1,
+  "generator": "tools/generate_assets.py",
+  "license": "Project-owned original procedural assets; see LICENSE",
+  "models": [
+    {
+      "id": "house_founders",
+      "path": "res://assets/generated/models/house_founders.glb",
+      "role": "building",
+      "tags": [
+        "residential",
+        "suburban"
+      ],
+      "nominal_size": [
+        12,
+        7,
+        11
+      ],
+      "sha256": "d7f0178f09530d975f073bbd1743d4a72ad7bc87220a29859828cf972a936000",
+      "bytes": 13576
+    },
+    {
+      "id": "house_blue",
+      "path": "res://assets/generated/models/house_blue.glb",
+      "role": "building",
+      "tags": [
+        "residential",
+        "suburban"
+      ],
+      "nominal_size": [
+        12,
+        7,
+        11
+      ],
+      "sha256": "c2eeba9f0ba96ff94b44548837eb246191126254670407d5187d3ab32ca3e5ae",
+      "bytes": 15132
+    },
+    {
+      "id": "house_rose",
+      "path": "res://assets/generated/models/house_rose.glb",
+      "role": "building",
+      "tags": [
+        "residential",
+        "suburban"
+      ],
+      "nominal_size": [
+        12,
+        7,
+        11
+      ],
+      "sha256": "58463c406b09d74df9fd4dafa251ee20e123f438c80bf9e498f5fb75ae7e7378",
+      "bytes": 14916
+    },
+    {
+      "id": "community_center",
+      "path": "res://assets/generated/models/community_center.glb",
+      "role": "building",
+      "tags": [
+        "community",
+        "rabbit_hole"
+      ],
+      "nominal_size": [
+        14,
+        5,
+        10
+      ],
+      "sha256": "b0bf2d1b3190a8f7297df119206a60177c026ac770d675139dff771a35f037dc",
+      "bytes": 5456
+    },
+    {
+      "id": "cafe",
+      "path": "res://assets/generated/models/cafe.glb",
+      "role": "building",
+      "tags": [
+        "community",
+        "restaurant"
+      ],
+      "nominal_size": [
+        11,
+        4,
+        8
+      ],
+      "sha256": "b4dc175121878ccc6812a4dc8b1ae4856bf9c2061535090f06e1424ff403c621",
+      "bytes": 3284
+    },
+    {
+      "id": "hospital_rabbit_hole",
+      "path": "res://assets/generated/models/hospital_rabbit_hole.glb",
+      "role": "building",
+      "tags": [
+        "community",
+        "rabbit_hole",
+        "career"
+      ],
+      "nominal_size": [
+        16,
+        7,
+        10
+      ],
+      "sha256": "4d976093291c32ca5713d8c13d4c49eb0d0c31fa62be7cd21661fcb8450603fc",
+      "bytes": 3700
+    },
+    {
+      "id": "road_straight",
+      "path": "res://assets/generated/models/road_straight.glb",
+      "role": "road",
+      "tags": [
+        "road",
+        "modular"
+      ],
+      "nominal_size": [
+        8,
+        0.15,
+        16
+      ],
+      "sha256": "681c50c892f41c36dc3a1791b9c1000345ae0ed680d93a38be70f100fa07b8a2",
+      "bytes": 1880
+    },
+    {
+      "id": "road_cross",
+      "path": "res://assets/generated/models/road_cross.glb",
+      "role": "road",
+      "tags": [
+        "road",
+        "intersection"
+      ],
+      "nominal_size": [
+        22,
+        0.15,
+        22
+      ],
+      "sha256": "c14578e8239581f5fe2670db90453a0dcfcba4a5991e0f5ceb8985a3b75d88c2",
+      "bytes": 1664
+    },
+    {
+      "id": "tree_deciduous",
+      "path": "res://assets/generated/models/tree_deciduous.glb",
+      "role": "nature",
+      "tags": [
+        "tree"
+      ],
+      "nominal_size": [
+        3,
+        4.8,
+        3
+      ],
+      "sha256": "3111f2d3f3ff35d3dc5b903b13c1d9484153d50750c98f4806b0a630af5c1339",
+      "bytes": 10480
+    },
+    {
+      "id": "tree_pine",
+      "path": "res://assets/generated/models/tree_pine.glb",
+      "role": "nature",
+      "tags": [
+        "tree",
+        "pine"
+      ],
+      "nominal_size": [
+        3,
+        5.5,
+        3
+      ],
+      "sha256": "b05a4709833280e2806786114ff08e70fd767c55d8d7b2b6a4901af0ce376f12",
+      "bytes": 3476
+    },
+    {
+      "id": "shrub",
+      "path": "res://assets/generated/models/shrub.glb",
+      "role": "nature",
+      "tags": [
+        "shrub"
+      ],
+      "nominal_size": [
+        1.8,
+        1.4,
+        1.8
+      ],
+      "sha256": "73aca172e35e39eeaed488a4620437e788fea4f8b301facebeee5aa5d4f132bc",
+      "bytes": 4512
+    },
+    {
+      "id": "rock_cluster",
+      "path": "res://assets/generated/models/rock_cluster.glb",
+      "role": "nature",
+      "tags": [
+        "rock"
+      ],
+      "nominal_size": [
+        1.6,
+        0.9,
+        1.3
+      ],
+      "sha256": "4e32099f7af90f304c3c1991fe973cc06bfd1f262ed93df3923a79c1cfaedad1",
+      "bytes": 4316
+    },
+    {
+      "id": "fridge_basic",
+      "path": "res://assets/generated/models/fridge_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "kitchen",
+        "appliance"
+      ],
+      "nominal_size": [
+        1.3,
+        2.2,
+        1.1
+      ],
+      "sha256": "9371f48dea66013053b76310371904f3cad0c987207f9edcf84cf44d02641c97",
+      "bytes": 5972
+    },
+    {
+      "id": "toilet_basic",
+      "path": "res://assets/generated/models/toilet_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "plumbing",
+        "bathroom"
+      ],
+      "nominal_size": [
+        1,
+        1.2,
+        1.1
+      ],
+      "sha256": "1d79092ca6ed3c31e7ac42380ab4ffe267fa40143dec42c196cb49939a5e68df",
+      "bytes": 3892
+    },
+    {
+      "id": "shower_basic",
+      "path": "res://assets/generated/models/shower_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "plumbing",
+        "bathroom"
+      ],
+      "nominal_size": [
+        1.2,
+        2.3,
+        1.2
+      ],
+      "sha256": "17780fbcbb65c3cb223077b165a11498c19a660851ac0342bb442d07c5edaf7c",
+      "bytes": 5900
+    },
+    {
+      "id": "bed_double",
+      "path": "res://assets/generated/models/bed_double.glb",
+      "role": "interactable",
+      "tags": [
+        "comfort",
+        "bedroom"
+      ],
+      "nominal_size": [
+        2.6,
+        1.4,
+        2.3
+      ],
+      "sha256": "77d8ca883d69f8d43ef7b1a843557b0f031bb2dca9d1d0ce207e91002e1d8179",
+      "bytes": 7336
+    },
+    {
+      "id": "sofa_basic",
+      "path": "res://assets/generated/models/sofa_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "comfort",
+        "living"
+      ],
+      "nominal_size": [
+        2.6,
+        1.3,
+        1
+      ],
+      "sha256": "f1747d019b0c94161cadd99106d4d93804eeb3f0d7039bf535aacbf9ef19fc8b",
+      "bytes": 6388
+    },
+    {
+      "id": "bookshelf_basic",
+      "path": "res://assets/generated/models/bookshelf_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "study",
+        "storage"
+      ],
+      "nominal_size": [
+        1.6,
+        2.1,
+        0.5
+      ],
+      "sha256": "6c7b4170be031a8afbdafc21d33d9f6036b5994dbb994881289161030bf83373",
+      "bytes": 3576
+    },
+    {
+      "id": "computer_basic",
+      "path": "res://assets/generated/models/computer_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "electronics",
+        "study",
+        "computer"
+      ],
+      "nominal_size": [
+        1.6,
+        1.6,
+        0.9
+      ],
+      "sha256": "b86eee0f534fba4e505e27be38df65d7c21ff90f4b2a8e10159e6bc3a8e141d1",
+      "bytes": 8236
+    },
+    {
+      "id": "stereo_basic",
+      "path": "res://assets/generated/models/stereo_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "electronics",
+        "music"
+      ],
+      "nominal_size": [
+        1,
+        0.75,
+        0.55
+      ],
+      "sha256": "61c0f9637badca47fb5b4556c70708df125c9fc6743486932649906b8126b9ed",
+      "bytes": 4252
+    },
+    {
+      "id": "easel_basic",
+      "path": "res://assets/generated/models/easel_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "hobbies",
+        "painting"
+      ],
+      "nominal_size": [
+        1.1,
+        1.9,
+        0.7
+      ],
+      "sha256": "4152b4a09ff8446fa36d76535714adf75c05d72e6dd5f42be7fef6077876c57c",
+      "bytes": 3008
+    },
+    {
+      "id": "chess_table",
+      "path": "res://assets/generated/models/chess_table.glb",
+      "role": "interactable",
+      "tags": [
+        "hobbies",
+        "logic"
+      ],
+      "nominal_size": [
+        1.4,
+        0.95,
+        1.4
+      ],
+      "sha256": "54bdf237f6b2e78008a8ecd1c2a9db360152c1b1686ca5bc535b2d935294419b",
+      "bytes": 11784
+    },
+    {
+      "id": "grill_basic",
+      "path": "res://assets/generated/models/grill_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "outdoor",
+        "cooking"
+      ],
+      "nominal_size": [
+        1.4,
+        1.4,
+        0.8
+      ],
+      "sha256": "3d41045b9dfc2d3c8ba854db43c5c3880db24ca41943dcf3f3d1e4f1d639c3f5",
+      "bytes": 3808
+    },
+    {
+      "id": "telescope_basic",
+      "path": "res://assets/generated/models/telescope_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "hobbies",
+        "science"
+      ],
+      "nominal_size": [
+        0.9,
+        2.2,
+        0.9
+      ],
+      "sha256": "fb4ac1c4e8ca0ba4ae16b353d3390b2250534b3637c424b7602b330e31152bd9",
+      "bytes": 4212
+    },
+    {
+      "id": "park_bench",
+      "path": "res://assets/generated/models/park_bench.glb",
+      "role": "interactable",
+      "tags": [
+        "community",
+        "seating"
+      ],
+      "nominal_size": [
+        2.4,
+        1.2,
+        0.7
+      ],
+      "sha256": "adfcf52e2e570d50f45f7d0116a4054d8706a9036d0782ed6c5f465c96cbd070",
+      "bytes": 3020
+    },
+    {
+      "id": "gym_treadmill",
+      "path": "res://assets/generated/models/gym_treadmill.glb",
+      "role": "interactable",
+      "tags": [
+        "fitness",
+        "athletic"
+      ],
+      "nominal_size": [
+        1.1,
+        1.55,
+        2
+      ],
+      "sha256": "fe6950c586b30a4b36a38d93e4a549ce6b229a64a35bb60f1a8b4dfce05a3de2",
+      "bytes": 4348
+    },
+    {
+      "id": "alchemy_station",
+      "path": "res://assets/generated/models/alchemy_station.glb",
+      "role": "interactable",
+      "tags": [
+        "supernatural",
+        "alchemy",
+        "magic"
+      ],
+      "nominal_size": [
+        1.9,
+        1.7,
+        1.1
+      ],
+      "sha256": "92ec4b2c8cb223d4f1f16a8d92be301b541dc2cefdc1e5bec88e15974df620cd",
+      "bytes": 17556
+    },
+    {
+      "id": "future_workbench",
+      "path": "res://assets/generated/models/future_workbench.glb",
+      "role": "interactable",
+      "tags": [
+        "future",
+        "workbench",
+        "technology"
+      ],
+      "nominal_size": [
+        2.2,
+        1.9,
+        1.25
+      ],
+      "sha256": "a1fe3a4c29d0b352273ee85ae9979d716d18eb5521a7d010e11fd3a19673c801",
+      "bytes": 15612
+    },
+    {
+      "id": "pet_bowl",
+      "path": "res://assets/generated/models/pet_bowl.glb",
+      "role": "interactable",
+      "tags": [
+        "pets",
+        "feeding"
+      ],
+      "nominal_size": [
+        0.8,
+        0.25,
+        0.8
+      ],
+      "sha256": "4925ecf2d46333337a8660ea987852f4eea2d05549cf20c65cc1138b397e5325",
+      "bytes": 3488
+    },
+    {
+      "id": "resort_desk",
+      "path": "res://assets/generated/models/resort_desk.glb",
+      "role": "interactable",
+      "tags": [
+        "resort",
+        "service"
+      ],
+      "nominal_size": [
+        2.5,
+        1.7,
+        1
+      ],
+      "sha256": "9e90103f1ca0b06c0b0bf84ab2d7bf7ebe851069ba82bb9e0d27f846684fbe0e",
+      "bytes": 2612
+    },
+    {
+      "id": "kitchen_stove",
+      "path": "res://assets/generated/models/kitchen_stove.glb",
+      "role": "interactable",
+      "tags": [
+        "kitchen",
+        "cooking",
+        "appliance"
+      ],
+      "nominal_size": [
+        1.3,
+        1.1,
+        1.1
+      ],
+      "sha256": "08d3b42c0bb195d63094a9ffa75dcc7aa0cbd55d7968ecc8ea372a956b7ac4a5",
+      "bytes": 13464
+    },
+    {
+      "id": "kitchen_sink",
+      "path": "res://assets/generated/models/kitchen_sink.glb",
+      "role": "interactable",
+      "tags": [
+        "kitchen",
+        "plumbing"
+      ],
+      "nominal_size": [
+        1.3,
+        1.4,
+        0.8
+      ],
+      "sha256": "c9aa3e4fe26d022f5fedd32bac5d98cd20a5e31d662b40f66f3f8a63481e08f6",
+      "bytes": 3248
+    },
+    {
+      "id": "dining_table",
+      "path": "res://assets/generated/models/dining_table.glb",
+      "role": "interactable",
+      "tags": [
+        "dining",
+        "surface"
+      ],
+      "nominal_size": [
+        1.9,
+        1,
+        1.3
+      ],
+      "sha256": "fbf941b549ba1676b05307bf0b1b456dd1c7ee3b2bdf4402d1c9ec468dc648ca",
+      "bytes": 3520
+    },
+    {
+      "id": "dining_chair",
+      "path": "res://assets/generated/models/dining_chair.glb",
+      "role": "interactable",
+      "tags": [
+        "dining",
+        "seating"
+      ],
+      "nominal_size": [
+        0.7,
+        1.4,
+        0.7
+      ],
+      "sha256": "b305f07c68ff66c2ad90f287d29bdc060c66ed77c2daeec1f423fc77ec680ef4",
+      "bytes": 4144
+    },
+    {
+      "id": "television_basic",
+      "path": "res://assets/generated/models/television_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "electronics",
+        "fun"
+      ],
+      "nominal_size": [
+        1.6,
+        1.75,
+        0.55
+      ],
+      "sha256": "94ac9b3eeb112932d074f7519c743ed3d62e6b4e0a832e1d1c409509faad6ec2",
+      "bytes": 6184
+    },
+    {
+      "id": "desk_basic",
+      "path": "res://assets/generated/models/desk_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "study",
+        "surface"
+      ],
+      "nominal_size": [
+        1.8,
+        1.1,
+        0.9
+      ],
+      "sha256": "316e6f4af7cd9f6cdb32267ad60b32e4c1cdcbbc4ed4695eab5023f787a9982f",
+      "bytes": 3024
+    },
+    {
+      "id": "dresser_basic",
+      "path": "res://assets/generated/models/dresser_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "bedroom",
+        "storage"
+      ],
+      "nominal_size": [
+        1.5,
+        1.3,
+        0.6
+      ],
+      "sha256": "72735d3aff5d0a24ceb90c709012634e56907c4da8ab625dcb1d2c9d239d2b4b",
+      "bytes": 2940
+    },
+    {
+      "id": "bathtub_basic",
+      "path": "res://assets/generated/models/bathtub_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "bathroom",
+        "plumbing"
+      ],
+      "nominal_size": [
+        1.2,
+        1.1,
+        2.1
+      ],
+      "sha256": "ea6384e617de90f1c35435ba5a6bd6ef1936936ba60605d854d09346a7b7d652",
+      "bytes": 3328
+    },
+    {
+      "id": "crib_basic",
+      "path": "res://assets/generated/models/crib_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "nursery",
+        "baby"
+      ],
+      "nominal_size": [
+        1.2,
+        1.2,
+        1.9
+      ],
+      "sha256": "8a127d59da1995db205039bfcb7985c871e021531a484b572a04af28047383dd",
+      "bytes": 10080
+    },
+    {
+      "id": "guitar_basic",
+      "path": "res://assets/generated/models/guitar_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "music",
+        "hobby"
+      ],
+      "nominal_size": [
+        0.8,
+        1.7,
+        0.5
+      ],
+      "sha256": "344b8e756203e3fbf95736fe5b430158eae2b099d023df5b16f603518753bcbc",
+      "bytes": 12124
+    },
+    {
+      "id": "laundry_washer",
+      "path": "res://assets/generated/models/laundry_washer.glb",
+      "role": "interactable",
+      "tags": [
+        "laundry",
+        "appliance",
+        "ambitions"
+      ],
+      "nominal_size": [
+        1.2,
+        1.3,
+        1.1
+      ],
+      "sha256": "340228b59e30eea911473b0eecdb94438790baa636ab87748f3be3164c36c9cc",
+      "bytes": 4152
+    },
+    {
+      "id": "hot_tub",
+      "path": "res://assets/generated/models/hot_tub.glb",
+      "role": "interactable",
+      "tags": [
+        "outdoor",
+        "social",
+        "luxury"
+      ],
+      "nominal_size": [
+        2.5,
+        1.1,
+        2.5
+      ],
+      "sha256": "a8a42a35a8f67d20fd2526b2553e7aed4c1e890acb98ee195c0cd782b9f9ddb8",
+      "bytes": 5036
+    },
+    {
+      "id": "arcade_machine",
+      "path": "res://assets/generated/models/arcade_machine.glb",
+      "role": "interactable",
+      "tags": [
+        "electronics",
+        "arcade",
+        "fun"
+      ],
+      "nominal_size": [
+        1,
+        1.8,
+        0.8
+      ],
+      "sha256": "189b8fdfafef45a59c033bf09297faa8889e1bd2795820129e6ebd597b2fcfd8",
+      "bytes": 2656
+    },
+    {
+      "id": "sculpting_station",
+      "path": "res://assets/generated/models/sculpting_station.glb",
+      "role": "interactable",
+      "tags": [
+        "hobby",
+        "sculpting",
+        "ambitions"
+      ],
+      "nominal_size": [
+        1.4,
+        2,
+        1.2
+      ],
+      "sha256": "1ecb681426fdcf520fdaeee72e36f52b8712b4120f203b944d0a7d755bf621ff",
+      "bytes": 3440
+    },
+    {
+      "id": "nectar_maker",
+      "path": "res://assets/generated/models/nectar_maker.glb",
+      "role": "interactable",
+      "tags": [
+        "world_adventures",
+        "nectar",
+        "crafting"
+      ],
+      "nominal_size": [
+        1.5,
+        1.8,
+        1.1
+      ],
+      "sha256": "971e50cc3386ae79ef875b12d83d0399804a5078becd3e1b816363c860b26776",
+      "bytes": 4564
+    },
+    {
+      "id": "inventing_bench",
+      "path": "res://assets/generated/models/inventing_bench.glb",
+      "role": "interactable",
+      "tags": [
+        "ambitions",
+        "inventing",
+        "crafting"
+      ],
+      "nominal_size": [
+        2.1,
+        1.7,
+        1.1
+      ],
+      "sha256": "e62bd0c983564c3815ce56b912d2c33c227378d183cd18f44611d2f154ee0e90",
+      "bytes": 4288
+    },
+    {
+      "id": "mailbox_basic",
+      "path": "res://assets/generated/models/mailbox_basic.glb",
+      "role": "interactable",
+      "tags": [
+        "mail",
+        "bills",
+        "service"
+      ],
+      "nominal_size": [
+        0.8,
+        1.8,
+        0.6
+      ],
+      "sha256": "cb191c5d11272fa5646e92b57f8136fcf0b1162947a1cb2484d62e0ef66cf1d3",
+      "bytes": 4668
+    },
+    {
+      "id": "trash_can",
+      "path": "res://assets/generated/models/trash_can.glb",
+      "role": "interactable",
+      "tags": [
+        "trash",
+        "clean"
+      ],
+      "nominal_size": [
+        1,
+        1.1,
+        1
+      ],
+      "sha256": "991643a8e368a06ad018b913ba5881ed2beeebb6c2756511565dcc6f870175fb",
+      "bytes": 4876
+    },
+    {
+      "id": "dishwasher",
+      "path": "res://assets/generated/models/dishwasher.glb",
+      "role": "interactable",
+      "tags": [
+        "kitchen",
+        "clean",
+        "appliance"
+      ],
+      "nominal_size": [
+        1.2,
+        1,
+        1.05
+      ],
+      "sha256": "cd368864fac26b7c13287e8b25b5bfa331a3a97d09fe815cbb40a32206a254c8",
+      "bytes": 5808
+    },
+    {
+      "id": "microwave",
+      "path": "res://assets/generated/models/microwave.glb",
+      "role": "interactable",
+      "tags": [
+        "kitchen",
+        "cooking",
+        "appliance"
+      ],
+      "nominal_size": [
+        1.05,
+        1.05,
+        0.65
+      ],
+      "sha256": "ad9c42cf4de310a3e38981afb1f9a31132ad1f18b838162185671fc2216c1abc",
+      "bytes": 4684
+    },
+    {
+      "id": "coffee_maker",
+      "path": "res://assets/generated/models/coffee_maker.glb",
+      "role": "interactable",
+      "tags": [
+        "kitchen",
+        "coffee",
+        "energy"
+      ],
+      "nominal_size": [
+        0.7,
+        1,
+        0.7
+      ],
+      "sha256": "6001c89e0b80cf55e97283ea2e7941156dbddd2ad90cf23463ebd4ce5e445c3a",
+      "bytes": 6448
+    },
+    {
+      "id": "highchair",
+      "path": "res://assets/generated/models/highchair.glb",
+      "role": "interactable",
+      "tags": [
+        "nursery",
+        "baby",
+        "family"
+      ],
+      "nominal_size": [
+        0.9,
+        1.5,
+        0.9
+      ],
+      "sha256": "c7eed8b22834334621553b67443602888ee9e8164099410fbc961032a104729e",
+      "bytes": 6456
+    },
+    {
+      "id": "birthday_cake",
+      "path": "res://assets/generated/models/birthday_cake.glb",
+      "role": "interactable",
+      "tags": [
+        "family",
+        "birthday",
+        "food"
+      ],
+      "nominal_size": [
+        1,
+        0.8,
+        1
+      ],
+      "sha256": "9cc3570d08ad8f3074cf5644860012406e24efc200fd09a2a00f560acf3acf25",
+      "bytes": 7408
+    },
+    {
+      "id": "garden_planter",
+      "path": "res://assets/generated/models/garden_planter.glb",
+      "role": "interactable",
+      "tags": [
+        "garden",
+        "plant",
+        "outdoor"
+      ],
+      "nominal_size": [
+        2,
+        1,
+        1.4
+      ],
+      "sha256": "3341665c5b2cb4179ef578d8f09c0d53701841d98f07219f5965eeb205435921",
+      "bytes": 20332
+    },
+    {
+      "id": "fishing_sign",
+      "path": "res://assets/generated/models/fishing_sign.glb",
+      "role": "interactable",
+      "tags": [
+        "fishing",
+        "outdoor",
+        "water"
+      ],
+      "nominal_size": [
+        1,
+        1.8,
+        0.3
+      ],
+      "sha256": "a7edebdd0369fb92b16ec8b4eda2bbb9730f0e7b78fbdc53215a2f00e39607a7",
+      "bytes": 3932
+    },
+    {
+      "id": "gem_display",
+      "path": "res://assets/generated/models/gem_display.glb",
+      "role": "interactable",
+      "tags": [
+        "collecting",
+        "gems",
+        "display"
+      ],
+      "nominal_size": [
+        1.5,
+        1.4,
+        0.8
+      ],
+      "sha256": "05fbf2a72958961a6b7198ee3119b7f767dd11a030f64ae4dc8759a41f5c7ec5",
+      "bytes": 9580
+    },
+    {
+      "id": "piano_upright",
+      "path": "res://assets/generated/models/piano_upright.glb",
+      "role": "interactable",
+      "tags": [
+        "music",
+        "piano",
+        "performance"
+      ],
+      "nominal_size": [
+        1.8,
+        1.5,
+        0.8
+      ],
+      "sha256": "ca61b4fc0724b65744929ff60638046ecce094afda54e3e379e4c7c1f98b1451",
+      "bytes": 7720
+    },
+    {
+      "id": "drum_set",
+      "path": "res://assets/generated/models/drum_set.glb",
+      "role": "interactable",
+      "tags": [
+        "music",
+        "drums",
+        "performance"
+      ],
+      "nominal_size": [
+        2.2,
+        1.5,
+        1.5
+      ],
+      "sha256": "b6360ccdc47d3ba6f7c695032803e5e61c0f85b7720ec125b8839a886a42321f",
+      "bytes": 8928
+    },
+    {
+      "id": "mixology_bar",
+      "path": "res://assets/generated/models/mixology_bar.glb",
+      "role": "interactable",
+      "tags": [
+        "bar",
+        "mixology",
+        "nightlife"
+      ],
+      "nominal_size": [
+        2.8,
+        1.7,
+        1.2
+      ],
+      "sha256": "5094b9b3f2d68b8d270d764b170a1e4a9052eb2b84c9d6ab7741a4bd7fa0ef13",
+      "bytes": 7756
+    },
+    {
+      "id": "martial_arts_dummy",
+      "path": "res://assets/generated/models/martial_arts_dummy.glb",
+      "role": "interactable",
+      "tags": [
+        "martial_arts",
+        "training",
+        "world_adventures"
+      ],
+      "nominal_size": [
+        1.2,
+        2,
+        1.2
+      ],
+      "sha256": "e42edbd84c3b746797afb350b5e40d728ed3a6b24cd11fc0d5f20242ef90fde5",
+      "bytes": 4568
+    },
+    {
+      "id": "photo_booth",
+      "path": "res://assets/generated/models/photo_booth.glb",
+      "role": "interactable",
+      "tags": [
+        "photography",
+        "social",
+        "nightlife"
+      ],
+      "nominal_size": [
+        1.5,
+        2.1,
+        1.4
+      ],
+      "sha256": "619c6b73fc8b35d6a0bcddc568d3180cc9b2c8549fa79dba73d9759fb608c15d",
+      "bytes": 4836
+    },
+    {
+      "id": "tattoo_chair",
+      "path": "res://assets/generated/models/tattoo_chair.glb",
+      "role": "interactable",
+      "tags": [
+        "tattoo",
+        "profession",
+        "ambitions"
+      ],
+      "nominal_size": [
+        1.1,
+        1.5,
+        1.8
+      ],
+      "sha256": "542915a628a7a864d29ca530fd4174ebbd0e21a8dc54d69d230f5f888ba68b8d",
+      "bytes": 4212
+    },
+    {
+      "id": "treehouse",
+      "path": "res://assets/generated/models/treehouse.glb",
+      "role": "interactable",
+      "tags": [
+        "children",
+        "tree_house",
+        "generations"
+      ],
+      "nominal_size": [
+        3,
+        4.2,
+        2.8
+      ],
+      "sha256": "292ad286aa9241352bdd2b2678d7a4f2d29648cab07a44ff88eef6136dd8095f",
+      "bytes": 8836
+    },
+    {
+      "id": "dog_bed",
+      "path": "res://assets/generated/models/dog_bed.glb",
+      "role": "interactable",
+      "tags": [
+        "pets",
+        "dog",
+        "comfort"
+      ],
+      "nominal_size": [
+        1.4,
+        0.4,
+        1.4
+      ],
+      "sha256": "ef2d2464ab698d9b5cc0731b4042d0e710f0005a510c6c5c56f7aa9dcdf54b36",
+      "bytes": 4428
+    },
+    {
+      "id": "cat_tree",
+      "path": "res://assets/generated/models/cat_tree.glb",
+      "role": "interactable",
+      "tags": [
+        "pets",
+        "cat",
+        "fun"
+      ],
+      "nominal_size": [
+        1.2,
+        1.9,
+        1.2
+      ],
+      "sha256": "f02c0b72213dd156f4a17c1ca827df4d0cd6367a9b6f8582ca85a6f28f59cf63",
+      "bytes": 4924
+    },
+    {
+      "id": "horse_trough",
+      "path": "res://assets/generated/models/horse_trough.glb",
+      "role": "interactable",
+      "tags": [
+        "pets",
+        "horse",
+        "feeding"
+      ],
+      "nominal_size": [
+        2.4,
+        0.9,
+        1
+      ],
+      "sha256": "0077b86f49b39c5633f8073b3f7e0b4ba44fcaf27f5d1def7e2ec0ddd9973804",
+      "bytes": 1980
+    },
+    {
+      "id": "karaoke_machine",
+      "path": "res://assets/generated/models/karaoke_machine.glb",
+      "role": "interactable",
+      "tags": [
+        "karaoke",
+        "music",
+        "showtime"
+      ],
+      "nominal_size": [
+        1.4,
+        1.8,
+        0.7
+      ],
+      "sha256": "31642ef8340825b768de0a927ba3805447558395d2eecb019529b21dfc6796f5",
+      "bytes": 9960
+    },
+    {
+      "id": "bonfire",
+      "path": "res://assets/generated/models/bonfire.glb",
+      "role": "interactable",
+      "tags": [
+        "outdoor",
+        "festival",
+        "fire"
+      ],
+      "nominal_size": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "sha256": "8d9a92430ff15b7ba212f2eb2d9cf12e8c052f45b6ab0374697533eaf5782594",
+      "bytes": 4512
+    },
+    {
+      "id": "festival_booth",
+      "path": "res://assets/generated/models/festival_booth.glb",
+      "role": "interactable",
+      "tags": [
+        "festival",
+        "seasonal",
+        "community"
+      ],
+      "nominal_size": [
+        3,
+        2.6,
+        1.7
+      ],
+      "sha256": "a25c71a8dd71b6ee21b4939eafaa0aec1633c35cb6f8f5af060ecac7ccf2c4f6",
+      "bytes": 6628
+    },
+    {
+      "id": "university_podium",
+      "path": "res://assets/generated/models/university_podium.glb",
+      "role": "interactable",
+      "tags": [
+        "university",
+        "class",
+        "education"
+      ],
+      "nominal_size": [
+        1.4,
+        1.7,
+        1
+      ],
+      "sha256": "3d6415e7d7a878eff12c590849ecca816f6eb1e881e51470c8900ddbdec4b25b",
+      "bytes": 2648
+    },
+    {
+      "id": "diving_buoy",
+      "path": "res://assets/generated/models/diving_buoy.glb",
+      "role": "interactable",
+      "tags": [
+        "island_paradise",
+        "diving",
+        "water"
+      ],
+      "nominal_size": [
+        1.2,
+        2.1,
+        1.2
+      ],
+      "sha256": "6648eb9eb0318543dfce9e6c58306a980d3049c3b24287d5a60250375149e7d5",
+      "bytes": 9804
+    },
+    {
+      "id": "time_portal",
+      "path": "res://assets/generated/models/time_portal.glb",
+      "role": "interactable",
+      "tags": [
+        "future",
+        "portal",
+        "time_travel"
+      ],
+      "nominal_size": [
+        2.5,
+        3.2,
+        1
+      ],
+      "sha256": "5ff7282f14512117a5d5d2a320957fa28f51a93c0e8cda926f34db344d2ea519",
+      "bytes": 11212
+    },
+    {
+      "id": "dream_pod",
+      "path": "res://assets/generated/models/dream_pod.glb",
+      "role": "interactable",
+      "tags": [
+        "future",
+        "sleep",
+        "dream"
+      ],
+      "nominal_size": [
+        1.5,
+        1.4,
+        2.4
+      ],
+      "sha256": "c3aa2c8f8295a4591c6aa48c9ebb3db0a9a21e4f29ddbc127b1e1d680bfdc9b6",
+      "bytes": 2672
+    },
+    {
+      "id": "bot_charging_station",
+      "path": "res://assets/generated/models/bot_charging_station.glb",
+      "role": "interactable",
+      "tags": [
+        "future",
+        "plumbot",
+        "charging"
+      ],
+      "nominal_size": [
+        1.4,
+        1.6,
+        1.4
+      ],
+      "sha256": "280bbe07ade44cfff55faed40d4bde43c1c73aababfc9a0f90168b7532272cce",
+      "bytes": 6260
+    },
+    {
+      "id": "resort_tower",
+      "path": "res://assets/generated/models/resort_tower.glb",
+      "role": "interactable",
+      "tags": [
+        "resort",
+        "tower",
+        "island_paradise"
+      ],
+      "nominal_size": [
+        4,
+        5.2,
+        4
+      ],
+      "sha256": "cfca05bf870247da9fee699fa9c22465dbfc76830d7af44f9210cb6973ac974a",
+      "bytes": 8404
+    },
+    {
+      "id": "food_truck",
+      "path": "res://assets/generated/models/food_truck.glb",
+      "role": "interactable",
+      "tags": [
+        "food",
+        "vehicle",
+        "community"
+      ],
+      "nominal_size": [
+        4.2,
+        2.2,
+        2.1
+      ],
+      "sha256": "b2daa599a9a0bd271aca9e51034667ecc018adc9e93157d0ea9c814e69e9751c",
+      "bytes": 7036
+    },
+    {
+      "id": "sim_child_slender",
+      "path": "res://assets/generated/models/sim_child_slender.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "child",
+        "slender"
+      ],
+      "nominal_size": [
+        0.864,
+        1.728,
+        0.576
+      ],
+      "sha256": "5054b1bfea34955511140bdd97eb5ba0e62b85539e71774d0a3e4b3fe0b42f90",
+      "bytes": 15128
+    },
+    {
+      "id": "sim_child_average",
+      "path": "res://assets/generated/models/sim_child_average.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "child",
+        "average"
+      ],
+      "nominal_size": [
+        0.864,
+        1.728,
+        0.576
+      ],
+      "sha256": "130ad233403bfc18c4b9dfd509f1032289400ad1ce74567f430b970184999213",
+      "bytes": 15116
+    },
+    {
+      "id": "sim_child_athletic",
+      "path": "res://assets/generated/models/sim_child_athletic.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "child",
+        "athletic"
+      ],
+      "nominal_size": [
+        0.864,
+        1.728,
+        0.576
+      ],
+      "sha256": "872423774ceb263bd5818234271a6a700e598edf6e8372b09d680b9b84d8c5cb",
+      "bytes": 15112
+    },
+    {
+      "id": "sim_child_soft",
+      "path": "res://assets/generated/models/sim_child_soft.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "child",
+        "soft"
+      ],
+      "nominal_size": [
+        0.864,
+        1.728,
+        0.576
+      ],
+      "sha256": "1cad7bc8b36734b296ddc67b1a58d0b29da644e90af2fad2970c8cd2eef525f4",
+      "bytes": 15128
+    },
+    {
+      "id": "sim_teen_slender",
+      "path": "res://assets/generated/models/sim_teen_slender.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "teen",
+        "slender"
+      ],
+      "nominal_size": [
+        1.08,
+        2.16,
+        0.7200000000000001
+      ],
+      "sha256": "1e8571256ec3bede72b7448fcbbcfd866f7269ae17797af95c22b3e1bcc4a25e",
+      "bytes": 15148
+    },
+    {
+      "id": "sim_teen_average",
+      "path": "res://assets/generated/models/sim_teen_average.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "teen",
+        "average"
+      ],
+      "nominal_size": [
+        1.08,
+        2.16,
+        0.7200000000000001
+      ],
+      "sha256": "afa5596d0b521a0c3464cc660dab11f2d99f3314bf4e5dfb1a7f5be4f8c01065",
+      "bytes": 15136
+    },
+    {
+      "id": "sim_teen_athletic",
+      "path": "res://assets/generated/models/sim_teen_athletic.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "teen",
+        "athletic"
+      ],
+      "nominal_size": [
+        1.08,
+        2.16,
+        0.7200000000000001
+      ],
+      "sha256": "6643dd44c4d1cd7498d777a1fe8a4188159b75ff89fbff928080009b4f38aae8",
+      "bytes": 15148
+    },
+    {
+      "id": "sim_teen_soft",
+      "path": "res://assets/generated/models/sim_teen_soft.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "teen",
+        "soft"
+      ],
+      "nominal_size": [
+        1.08,
+        2.16,
+        0.7200000000000001
+      ],
+      "sha256": "b0c59736035892c553a301ef09e0ba27e0e5addcbedaac3383a385d4014989ed",
+      "bytes": 15140
+    },
+    {
+      "id": "sim_adult_slender",
+      "path": "res://assets/generated/models/sim_adult_slender.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "adult",
+        "slender"
+      ],
+      "nominal_size": [
+        1.2,
+        2.4,
+        0.8
+      ],
+      "sha256": "7d84e10c144f2b953f8fd25b4a6c19169a0b773141e60cc54bf0dd8829155b51",
+      "bytes": 15060
+    },
+    {
+      "id": "sim_adult_average",
+      "path": "res://assets/generated/models/sim_adult_average.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "adult",
+        "average"
+      ],
+      "nominal_size": [
+        1.2,
+        2.4,
+        0.8
+      ],
+      "sha256": "2180ff0e76c6828dd1bc2ddd88212912ed4e2392b4b9fd9d32d41e46a10fdcc5",
+      "bytes": 15052
+    },
+    {
+      "id": "sim_adult_athletic",
+      "path": "res://assets/generated/models/sim_adult_athletic.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "adult",
+        "athletic"
+      ],
+      "nominal_size": [
+        1.2,
+        2.4,
+        0.8
+      ],
+      "sha256": "e9727fcf435ed1e99667cdd70701c1b21e3451b0ae1c7c04f09d3a1031ea6e0c",
+      "bytes": 15064
+    },
+    {
+      "id": "sim_adult_soft",
+      "path": "res://assets/generated/models/sim_adult_soft.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "adult",
+        "soft"
+      ],
+      "nominal_size": [
+        1.2,
+        2.4,
+        0.8
+      ],
+      "sha256": "a68d7156fc25600ff818d5ac7c1bf443e57a88896511c391c1da822861b39455",
+      "bytes": 15048
+    },
+    {
+      "id": "sim_elder_slender",
+      "path": "res://assets/generated/models/sim_elder_slender.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "elder",
+        "slender"
+      ],
+      "nominal_size": [
+        1.176,
+        2.352,
+        0.784
+      ],
+      "sha256": "f9857766157a4c54a3ce5df6236fbdbb1f8b8d52cdaadd79b34e7d631fc1b532",
+      "bytes": 15112
+    },
+    {
+      "id": "sim_elder_average",
+      "path": "res://assets/generated/models/sim_elder_average.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "elder",
+        "average"
+      ],
+      "nominal_size": [
+        1.176,
+        2.352,
+        0.784
+      ],
+      "sha256": "05708782fe526fa9cf9d51a0ba63ce862db00219ef06f25b23235691d4ec5385",
+      "bytes": 15108
+    },
+    {
+      "id": "sim_elder_athletic",
+      "path": "res://assets/generated/models/sim_elder_athletic.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "elder",
+        "athletic"
+      ],
+      "nominal_size": [
+        1.176,
+        2.352,
+        0.784
+      ],
+      "sha256": "b7825c7c198715103584b510b65278eecb9d63ce86a53d8e9873193205d6ebe7",
+      "bytes": 15116
+    },
+    {
+      "id": "sim_elder_soft",
+      "path": "res://assets/generated/models/sim_elder_soft.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "cas",
+        "elder",
+        "soft"
+      ],
+      "nominal_size": [
+        1.176,
+        2.352,
+        0.784
+      ],
+      "sha256": "56486cd89033b8e223f9566e644bb14c79c98cffe1f113b56c02785598e3685d",
+      "bytes": 15112
+    },
+    {
+      "id": "luxury_lounge_chair",
+      "path": "res://assets/generated/models/luxury_lounge_chair.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp01",
+        "comfort"
+      ],
+      "nominal_size": [
+        1.1,
+        1.3,
+        1.1
+      ],
+      "sha256": "2eab4fcdc6198d4f37394d0cff45d3b593eb00211691b9d3ce6a5721e8cf5f4c",
+      "bytes": 6484
+    },
+    {
+      "id": "sport_car_display",
+      "path": "res://assets/generated/models/sport_car_display.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp02",
+        "vehicle"
+      ],
+      "nominal_size": [
+        4.0,
+        1.6,
+        2.0
+      ],
+      "sha256": "72a7d60f1c4ff1f61a354301d5a8002a621666320de56277a9663fb20f6c2360",
+      "bytes": 7572
+    },
+    {
+      "id": "community_locker",
+      "path": "res://assets/generated/models/community_locker.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp04",
+        "community"
+      ],
+      "nominal_size": [
+        1.1,
+        2.0,
+        0.65
+      ],
+      "sha256": "798804dc91fcf85c7dbb68e995478492674f585f84f1f6b5eab1166d2ce3fb8c",
+      "bytes": 8620
+    },
+    {
+      "id": "spa_vanity",
+      "path": "res://assets/generated/models/spa_vanity.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp05",
+        "vanity"
+      ],
+      "nominal_size": [
+        1.5,
+        1.8,
+        0.7
+      ],
+      "sha256": "afc64a5398ff5c17b1d07e66fc8ba711679126c824965c4edcf3154b089a5c2e",
+      "bytes": 4948
+    },
+    {
+      "id": "candy_floor_lamp",
+      "path": "res://assets/generated/models/candy_floor_lamp.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp06",
+        "lighting"
+      ],
+      "nominal_size": [
+        0.8,
+        2.1,
+        0.8
+      ],
+      "sha256": "5dbe38b7ae67f0260c8219925a50c61fa28863322ea4f217ac9d0378970e7728",
+      "bytes": 13716
+    },
+    {
+      "id": "industrial_coffee_table",
+      "path": "res://assets/generated/models/industrial_coffee_table.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp07",
+        "industrial"
+      ],
+      "nominal_size": [
+        1.8,
+        0.75,
+        0.95
+      ],
+      "sha256": "99fe5ad8925cf7403eee6bb0c2656c431926d896534a3c19307dedd16c3e6163",
+      "bytes": 9940
+    },
+    {
+      "id": "retro_dance_console",
+      "path": "res://assets/generated/models/retro_dance_console.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp08",
+        "retro",
+        "electronics"
+      ],
+      "nominal_size": [
+        1.1,
+        1.5,
+        0.8
+      ],
+      "sha256": "11a8cd46b4373b3820ae1ae26bc8a738a9b4a2d5ad9e6d64401492d83a8369db",
+      "bytes": 5848
+    },
+    {
+      "id": "movie_prop_statue",
+      "path": "res://assets/generated/models/movie_prop_statue.glb",
+      "role": "interactable",
+      "tags": [
+        "stuff_pack",
+        "sp09",
+        "cinema",
+        "decor"
+      ],
+      "nominal_size": [
+        1.2,
+        2.4,
+        1.2
+      ],
+      "sha256": "2d6d406247251acc8d307eca3ef28950586b99e207a54a8296b6a442b11a3d65",
+      "bytes": 12700
+    },
+    {
+      "id": "performance_stage",
+      "path": "res://assets/generated/models/performance_stage.glb",
+      "role": "interactable",
+      "tags": [
+        "showtime",
+        "performance",
+        "stage"
+      ],
+      "nominal_size": [
+        4.8,
+        3.0,
+        3.8
+      ],
+      "sha256": "e3657eef603933eb9f8fc0e295e8c77f5b1e59ba2fafb53d9d79fa17773c3d2c",
+      "bytes": 8460
+    },
+    {
+      "id": "vehicle_compact",
+      "path": "res://assets/generated/models/vehicle_compact.glb",
+      "role": "vehicle",
+      "tags": [
+        "car",
+        "transport"
+      ],
+      "nominal_size": [
+        4,
+        2,
+        2
+      ],
+      "sha256": "71ae8ca6818f73f8915229aac731a05ef07d2ef8407459b87d4e004f52a0f90a",
+      "bytes": 6544
+    },
+    {
+      "id": "pet_dog",
+      "path": "res://assets/generated/models/pet_dog.glb",
+      "role": "character",
+      "tags": [
+        "pet",
+        "dog"
+      ],
+      "nominal_size": [
+        1.5,
+        1.5,
+        0.8
+      ],
+      "sha256": "7eb7a7961d10c820608aed427bd5d7d96a4453556264a8fd976e81b24012e751",
+      "bytes": 16464
+    },
+    {
+      "id": "pet_cat",
+      "path": "res://assets/generated/models/pet_cat.glb",
+      "role": "character",
+      "tags": [
+        "pet",
+        "cat"
+      ],
+      "nominal_size": [
+        1,
+        1.3,
+        0.55
+      ],
+      "sha256": "4c2794fdff7de59b770ee5af858b02137f3b0d1d30c684df7e5206ca4645ad66",
+      "bytes": 8876
+    },
+    {
+      "id": "pet_horse",
+      "path": "res://assets/generated/models/pet_horse.glb",
+      "role": "character",
+      "tags": [
+        "pet",
+        "horse"
+      ],
+      "nominal_size": [
+        2.7,
+        2.6,
+        0.9
+      ],
+      "sha256": "a9a1b672aaf87a5d8828441c62ac123ce455f175b032c892dc0bf0a45d94e45e",
+      "bytes": 14392
+    },
+    {
+      "id": "sim_avatar_reference",
+      "path": "res://assets/generated/models/sim_avatar_reference.glb",
+      "role": "character",
+      "tags": [
+        "sim",
+        "reference",
+        "unrigged"
+      ],
+      "nominal_size": [
+        1.1,
+        2.35,
+        0.7
+      ],
+      "sha256": "6d6be19fe5f2d6785b903e61667c1f025c7a1e6fc355c0ad704491ed67587449",
+      "bytes": 11704
+    }
+  ],
+  "audio": [
+    {
+      "id": "ui_click",
+      "path": "res://assets/generated/audio/ui_click.wav",
+      "role": "sfx",
+      "sha256": "325ffe0ac37114905183130c58acbc66f84bfb79fb8f5abcb01c1a0305509571",
+      "bytes": 7100,
+      "duration_seconds": 0.08,
+      "sample_rate": 44100
+    },
+    {
+      "id": "ui_confirm",
+      "path": "res://assets/generated/audio/ui_confirm.wav",
+      "role": "sfx",
+      "sha256": "83ad573a2e2b6e55eddac3fb397379a8e9bab2b8a160f8a1f4175e8a7856f63b",
+      "bytes": 17684,
+      "duration_seconds": 0.2,
+      "sample_rate": 44100
+    },
+    {
+      "id": "ui_cancel",
+      "path": "res://assets/generated/audio/ui_cancel.wav",
+      "role": "sfx",
+      "sha256": "e1ff1a207b0de4f0263a846243b566fcb2c9a5ed1cbf1d48d0228dbf1ebe05fe",
+      "bytes": 15920,
+      "duration_seconds": 0.18,
+      "sample_rate": 44100
+    },
+    {
+      "id": "ui_notification",
+      "path": "res://assets/generated/audio/ui_notification.wav",
+      "role": "sfx",
+      "sha256": "281b363389fd5b19e0dc1731a7e0af594f61bc6112dc2a07c44d85cffd00d37e",
+      "bytes": 24740,
+      "duration_seconds": 0.28,
+      "sample_rate": 44100
+    },
+    {
+      "id": "ui_money",
+      "path": "res://assets/generated/audio/ui_money.wav",
+      "role": "sfx",
+      "sha256": "68273ae75cf8583ee185c24f39cabf9e9d86c61897ec44c6f2231fb20c0fb450",
+      "bytes": 26504,
+      "duration_seconds": 0.3,
+      "sample_rate": 44100
+    },
+    {
+      "id": "build_place",
+      "path": "res://assets/generated/audio/build_place.wav",
+      "role": "sfx",
+      "sha256": "3ebb041dd60c0019f06729a22e44175e6029c9c7b57e14a3d49d7882ac5973bd",
+      "bytes": 10628,
+      "duration_seconds": 0.12,
+      "sample_rate": 44100
+    },
+    {
+      "id": "build_sell",
+      "path": "res://assets/generated/audio/build_sell.wav",
+      "role": "sfx",
+      "sha256": "4384a664b879818cf759c38847011e80eaf805e77a7e29e54f0636d27e0dd5bf",
+      "bytes": 14156,
+      "duration_seconds": 0.16,
+      "sample_rate": 44100
+    },
+    {
+      "id": "save_complete",
+      "path": "res://assets/generated/audio/save_complete.wav",
+      "role": "sfx",
+      "sha256": "7ef1726abb4dd8ae314bca875c321909ac1d10ebaebda2ea0fdc551d463b1cd6",
+      "bytes": 30032,
+      "duration_seconds": 0.34,
+      "sample_rate": 44100
+    },
+    {
+      "id": "load_complete",
+      "path": "res://assets/generated/audio/load_complete.wav",
+      "role": "sfx",
+      "sha256": "2261c0cef8c80153d6a920c2e2c6021cd36c2e6b990689efd5d577c784e2e1bb",
+      "bytes": 30032,
+      "duration_seconds": 0.34,
+      "sample_rate": 44100
+    },
+    {
+      "id": "event_birth",
+      "path": "res://assets/generated/audio/event_birth.wav",
+      "role": "sfx",
+      "sha256": "4f4903f7f175f8c92a0effd64f61ca02201f82648f96cb9935c50f3a346ec327",
+      "bytes": 48554,
+      "duration_seconds": 0.55,
+      "sample_rate": 44100
+    },
+    {
+      "id": "event_skill",
+      "path": "res://assets/generated/audio/event_skill.wav",
+      "role": "sfx",
+      "sha256": "0c7fff3cf0c0a73480c297178d37e41407709ed100812a43e72655e8a616f016",
+      "bytes": 37088,
+      "duration_seconds": 0.42,
+      "sample_rate": 44100
+    },
+    {
+      "id": "event_promotion",
+      "path": "res://assets/generated/audio/event_promotion.wav",
+      "role": "sfx",
+      "sha256": "cebf5205aa97ec1cd9b782eddce87f3e7d00958c3ea27a23010a9eee1fb2a56b",
+      "bytes": 61782,
+      "duration_seconds": 0.7,
+      "sample_rate": 44100
+    },
+    {
+      "id": "event_relationship",
+      "path": "res://assets/generated/audio/event_relationship.wav",
+      "role": "sfx",
+      "sha256": "e96f6e3b9dd6273b53328efa568bb04c15fa0601be5410d4a7cd825b85328d5d",
+      "bytes": 30032,
+      "duration_seconds": 0.34,
+      "sample_rate": 44100
+    },
+    {
+      "id": "object_water",
+      "path": "res://assets/generated/audio/object_water.wav",
+      "role": "sfx",
+      "sha256": "ab1a18c578375e634fd30a8baa9d19567f1b50b727aa4a1c687a70301d971e1e",
+      "bytes": 39734,
+      "duration_seconds": 0.45,
+      "sample_rate": 44100
+    },
+    {
+      "id": "object_cook",
+      "path": "res://assets/generated/audio/object_cook.wav",
+      "role": "sfx",
+      "sha256": "0739d05b5827ca5adf778ecca57cc3b11aecdf5c6104b479ae64223e8efd74a5",
+      "bytes": 42380,
+      "duration_seconds": 0.48,
+      "sample_rate": 44100
+    },
+    {
+      "id": "object_music",
+      "path": "res://assets/generated/audio/object_music.wav",
+      "role": "sfx",
+      "sha256": "1b383bd18d6f0d2bbd3bb4df80388b757f46b89ab46d02146722af01bf52eedc",
+      "bytes": 37088,
+      "duration_seconds": 0.42,
+      "sample_rate": 44100
+    },
+    {
+      "id": "object_computer",
+      "path": "res://assets/generated/audio/object_computer.wav",
+      "role": "sfx",
+      "sha256": "3080b04ef236bcbbda804ff670d8ca4357a321ae7c5fea58b3da005ba4d41f46",
+      "bytes": 15920,
+      "duration_seconds": 0.18,
+      "sample_rate": 44100
+    },
+    {
+      "id": "weather_thunder",
+      "path": "res://assets/generated/audio/weather_thunder.wav",
+      "role": "sfx",
+      "sha256": "d5852b2c03a00d8be687d930ac3efb894b8567af2b207ab297aeab4d14afe51b",
+      "bytes": 97064,
+      "duration_seconds": 1.1,
+      "sample_rate": 44100
+    },
+    {
+      "id": "magic_cast",
+      "path": "res://assets/generated/audio/magic_cast.wav",
+      "role": "sfx",
+      "sha256": "bdc1439c07fa1f82b942a7575f2e6a66438f769c84a44b304c964800de49c674",
+      "bytes": 54728,
+      "duration_seconds": 0.62,
+      "sample_rate": 44100
+    },
+    {
+      "id": "festival_chime",
+      "path": "res://assets/generated/audio/festival_chime.wav",
+      "role": "sfx",
+      "sha256": "0338d33e7dbeb5fcd7faceb67730d501e5b791f342bec33d4b0704ecc648262e",
+      "bytes": 63548,
+      "duration_seconds": 0.72,
+      "sample_rate": 44100
+    },
+    {
+      "id": "portal_open",
+      "path": "res://assets/generated/audio/portal_open.wav",
+      "role": "sfx",
+      "sha256": "2c4549059f5772e3fa8bbc0b1dd2ee55656fa690c4b23d5509a7b8c7532491e1",
+      "bytes": 79424,
+      "duration_seconds": 0.9,
+      "sample_rate": 44100
+    },
+    {
+      "id": "music_live_loop",
+      "path": "res://assets/generated/audio/music_live_loop.wav",
+      "role": "music",
+      "sha256": "868b71b6569bf7281fe44f56f26256200d0fd34cc154c324c2356e1f7cd25550",
+      "bytes": 1058444,
+      "duration_seconds": 12.0,
+      "sample_rate": 44100
+    },
+    {
+      "id": "music_build_loop",
+      "path": "res://assets/generated/audio/music_build_loop.wav",
+      "role": "music",
+      "sha256": "f9e525c9ac773359c46b522b5d00a60baaf138e75d9dbe91394f825c348da4f4",
+      "bytes": 1058444,
+      "duration_seconds": 12.0,
+      "sample_rate": 44100
+    },
+    {
+      "id": "music_cas_loop",
+      "path": "res://assets/generated/audio/music_cas_loop.wav",
+      "role": "music",
+      "sha256": "18a969fe35b79b0820feb04e76adc7f4cf9560f1a5cfbce4696cc99a9ed9c40e",
+      "bytes": 1058444,
+      "duration_seconds": 12.0,
+      "sample_rate": 44100
+    }
+  ],
+  "textures": [
+    {
+      "id": "floor_tile",
+      "path": "res://assets/generated/textures/floor_tile.png",
+      "sha256": "9e175dcdd255a805971fc4eb08143547c212c350acf3047b40144803dd2ef1fe",
+      "bytes": 652,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "id": "floor_wood",
+      "path": "res://assets/generated/textures/floor_wood.png",
+      "sha256": "a2574b9d642d63e5f6e2dbb7f6c9f72a65ab3ec5b33e5a019f14b89a80eedb80",
+      "bytes": 678,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "id": "sidewalk",
+      "path": "res://assets/generated/textures/sidewalk.png",
+      "sha256": "ffcfe4f6e69401ea08c05f64f3b295612bb05f5ed8d8880bb6ea74d4e7d223ac",
+      "bytes": 2450,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "stone_paver",
+      "path": "res://assets/generated/textures/stone_paver.png",
+      "sha256": "02abb40590c687855bc6451faeb7c599bf8396c249147e93be370dc80b8ac03d",
+      "bytes": 786,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "id": "terrain_grass",
+      "path": "res://assets/generated/textures/terrain_grass.png",
+      "sha256": "680dbe586fb786e5fba2aef40723625db736091694933c1a578c3b45a51cc89f",
+      "bytes": 495550,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "terrain_road",
+      "path": "res://assets/generated/textures/terrain_road.png",
+      "sha256": "3038524cc6b451a0d33aea0a49b85a05804b26975d645f245e87cf1ba4e2cfa3",
+      "bytes": 517838,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "wallpaper_blue",
+      "path": "res://assets/generated/textures/wallpaper_blue.png",
+      "sha256": "28d7a2c0fe18cd5003901c961b7ead9f2dc8275a201be3c1ab3db8cc3b8ca4ba",
+      "bytes": 855,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "id": "wallpaper_cream",
+      "path": "res://assets/generated/textures/wallpaper_cream.png",
+      "sha256": "6cb01231ebc55a5bd4217ed429ae3fdf90d9c128fba7cebafc6fbb39026ed112",
+      "bytes": 857,
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "id": "map",
+      "path": "res://assets/generated/ui/map.svg",
+      "sha256": "2dff50aadb72cb36b612318a83577ebded29a7163cb842984b4a7bb159e0f42e",
+      "bytes": 238
+    },
+    {
+      "id": "mode_build",
+      "path": "res://assets/generated/ui/mode_build.svg",
+      "sha256": "a562aaba17557279d79e65ed6a9ddebcc054aedb931ba8eb0b09be79e9acb0da",
+      "bytes": 226
+    },
+    {
+      "id": "mode_cas",
+      "path": "res://assets/generated/ui/mode_cas.svg",
+      "sha256": "e4acdc3ea3e67bbfd2d46c99c3bba9f559621c451e51da5359ee852f965a60bf",
+      "bytes": 237
+    },
+    {
+      "id": "mode_live",
+      "path": "res://assets/generated/ui/mode_live.svg",
+      "sha256": "efa805f9ac65608128f5e932eaf6a816baab3a62691fe6ee00aba04fe6605eab",
+      "bytes": 219
+    },
+    {
+      "id": "save",
+      "path": "res://assets/generated/ui/save.svg",
+      "sha256": "24b590998701f925ba24a2992b721a2d9db6dcbf2fea8372d5e4401ed423dabf",
+      "bytes": 233
+    }
+  ]
+}

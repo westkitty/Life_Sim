@@ -1,0 +1,451 @@
+[
+  {
+    "id": "BG",
+    "name": "Core Life Simulation",
+    "type": "base",
+    "enabled": true,
+    "release_order": 0,
+    "reference_product": "The Sims 3 base game",
+    "parity_scope": [
+      "open neighborhood",
+      "households",
+      "Create-a-Sim",
+      "Build/Buy",
+      "motives",
+      "traits",
+      "wishes",
+      "moodlets",
+      "relationships",
+      "careers",
+      "skills",
+      "aging",
+      "pregnancy",
+      "genetics",
+      "routing",
+      "vehicles",
+      "services",
+      "Story Progression",
+      "opportunities",
+      "collecting",
+      "gardening",
+      "fishing",
+      "cooking",
+      "inventory",
+      "rabbit holes",
+      "save/load",
+      "options",
+      "camera",
+      "audio"
+    ]
+  },
+  {
+    "id": "EP01",
+    "name": "World Adventures Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 1,
+    "reference_product": "World Adventures",
+    "parity_scope": [
+      "travel worlds",
+      "visa levels",
+      "adventures",
+      "tombs",
+      "traps",
+      "relics",
+      "nectar making",
+      "photography",
+      "martial arts",
+      "mummies",
+      "vacation homes",
+      "culture skills"
+    ]
+  },
+  {
+    "id": "EP02",
+    "name": "Ambitions Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 2,
+    "reference_product": "Ambitions",
+    "parity_scope": [
+      "active professions",
+      "self-employment",
+      "inventing",
+      "sculpting",
+      "tattooing",
+      "styling",
+      "firefighter",
+      "investigator",
+      "ghost hunter",
+      "architectural designer",
+      "education career",
+      "laundry",
+      "consignment",
+      "earthquakes"
+    ]
+  },
+  {
+    "id": "EP03",
+    "name": "Late Night Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 3,
+    "reference_product": "Late Night",
+    "parity_scope": [
+      "city world",
+      "high-rise shells",
+      "apartments",
+      "venues",
+      "clubs",
+      "bands",
+      "celebrity",
+      "paparazzi",
+      "vampires",
+      "mixology",
+      "subways",
+      "hot tubs",
+      "group outings"
+    ]
+  },
+  {
+    "id": "EP04",
+    "name": "Generations Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 4,
+    "reference_product": "Generations",
+    "parity_scope": [
+      "life-stage depth",
+      "memories",
+      "imaginary friends",
+      "daycare",
+      "boarding school",
+      "prom",
+      "graduation",
+      "pranks",
+      "punishment",
+      "weddings",
+      "midlife crisis",
+      "strollers",
+      "tree houses"
+    ]
+  },
+  {
+    "id": "EP05",
+    "name": "Pets Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 5,
+    "reference_product": "Pets",
+    "parity_scope": [
+      "cats",
+      "dogs",
+      "horses",
+      "pet Create-a-Sim",
+      "pet autonomy",
+      "traits",
+      "training",
+      "breeding",
+      "genetics",
+      "wildlife",
+      "unicorns",
+      "equestrian skill",
+      "pet careers",
+      "riding"
+    ]
+  },
+  {
+    "id": "EP06",
+    "name": "Showtime Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 6,
+    "reference_product": "Showtime",
+    "parity_scope": [
+      "singer profession",
+      "magician profession",
+      "acrobat profession",
+      "venues",
+      "gig booking",
+      "SimFest",
+      "stage setup",
+      "genies",
+      "DJ skill",
+      "karaoke",
+      "Simport-compatible local exchange hook"
+    ]
+  },
+  {
+    "id": "EP07",
+    "name": "Supernatural Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 7,
+    "reference_product": "Supernatural",
+    "parity_scope": [
+      "witches",
+      "werewolves",
+      "fairies",
+      "zombies",
+      "vampire extensions",
+      "alchemy",
+      "lunar cycle",
+      "magic duels",
+      "elixirs",
+      "Bonehilda-style service",
+      "supernatural population controls"
+    ]
+  },
+  {
+    "id": "EP08",
+    "name": "Seasons Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 8,
+    "reference_product": "Seasons",
+    "parity_scope": [
+      "seasons",
+      "weather",
+      "temperature",
+      "outerwear",
+      "festivals",
+      "holidays",
+      "seasonal lots",
+      "swimming",
+      "snow depth",
+      "rain",
+      "storms",
+      "aliens",
+      "online dating"
+    ]
+  },
+  {
+    "id": "EP09",
+    "name": "University Life Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 9,
+    "reference_product": "University Life",
+    "parity_scope": [
+      "university world",
+      "enrollment",
+      "degrees",
+      "classes",
+      "exams",
+      "dorms",
+      "roommates",
+      "social groups",
+      "protests",
+      "street art",
+      "science skill",
+      "smartphones",
+      "social networking",
+      "PlantSims"
+    ]
+  },
+  {
+    "id": "EP10",
+    "name": "Island Paradise Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 10,
+    "reference_product": "Island Paradise",
+    "parity_scope": [
+      "boats",
+      "water routing",
+      "houseboats",
+      "resorts",
+      "resort ownership",
+      "scuba diving",
+      "underwater lots",
+      "uncharted islands",
+      "lifeguard profession",
+      "mermaids",
+      "kraken events",
+      "island discovery"
+    ]
+  },
+  {
+    "id": "EP11",
+    "name": "Into the Future Compatibility Contract",
+    "type": "expansion",
+    "enabled": true,
+    "release_order": 11,
+    "reference_product": "Into the Future",
+    "parity_scope": [
+      "future world",
+      "time portal",
+      "future states",
+      "descendants",
+      "plumbots",
+      "trait chips",
+      "advanced technology",
+      "laser rhythm",
+      "bot building",
+      "dream pods",
+      "hover vehicles",
+      "utopian and dystopian futures"
+    ]
+  },
+  {
+    "id": "SP01",
+    "name": "High-End Loft Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 12,
+    "reference_product": "High-End Loft Stuff",
+    "parity_scope": [
+      "modern luxury furniture, electronics, apparel",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP02",
+    "name": "Fast Lane Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 13,
+    "reference_product": "Fast Lane Stuff",
+    "parity_scope": [
+      "vehicles, garage decor, motoring apparel",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP03",
+    "name": "Outdoor Living Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 14,
+    "reference_product": "Outdoor Living Stuff",
+    "parity_scope": [
+      "outdoor kitchens, patios, hot tubs, apparel",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP04",
+    "name": "Town Life Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 15,
+    "reference_product": "Town Life Stuff",
+    "parity_scope": [
+      "community lot objects, laundromat, gym, library, apparel",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP05",
+    "name": "Master Suite Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 16,
+    "reference_product": "Master Suite Stuff",
+    "parity_scope": [
+      "bedroom and bathroom furnishings, sleepwear",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP06",
+    "name": "Katy Perry's Sweet Treats Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 17,
+    "reference_product": "Katy Perry's Sweet Treats Stuff",
+    "parity_scope": [
+      "candy-themed objects, apparel, venue props",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP07",
+    "name": "Diesel Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 18,
+    "reference_product": "Diesel Stuff",
+    "parity_scope": [
+      "licensed-style apparel and industrial furnishings",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP08",
+    "name": "70s, 80s, & 90s Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 19,
+    "reference_product": "70s, 80s, & 90s Stuff",
+    "parity_scope": [
+      "decade apparel, hair, furnishings",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "SP09",
+    "name": "Movie Stuff Compatibility Contract",
+    "type": "stuff",
+    "enabled": true,
+    "release_order": 20,
+    "reference_product": "Movie Stuff",
+    "parity_scope": [
+      "western, horror, and heroic cinema-themed content",
+      "catalog filtering",
+      "collection tagging",
+      "randomization exclusions"
+    ]
+  },
+  {
+    "id": "STORE",
+    "name": "Official Store and Premium Content Hook",
+    "type": "content_platform",
+    "enabled": true,
+    "release_order": 21,
+    "reference_product": "The Sims 3 Store",
+    "parity_scope": [
+      "installable catalog packages",
+      "premium-object scripts",
+      "world packages",
+      "lot packages",
+      "Create-a-Sim assets",
+      "Build/Buy assets",
+      "content ownership flags",
+      "launcher-free local package management"
+    ]
+  },
+  {
+    "id": "WORLD",
+    "name": "Official World Compatibility Hook",
+    "type": "world_content",
+    "enabled": true,
+    "release_order": 22,
+    "reference_product": "official downloadable worlds",
+    "parity_scope": [
+      "world manifests",
+      "routing data",
+      "lots",
+      "families",
+      "rabbit holes",
+      "world-specific premium objects",
+      "save migration"
+    ]
+  }
+]

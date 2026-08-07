@@ -1,0 +1,850 @@
+[
+  {
+    "path": "assets/generated/models/house_founders.glb",
+    "bytes": 13576,
+    "vertices": 202,
+    "faces": 328,
+    "geometries": 19,
+    "materials": 7
+  },
+  {
+    "path": "assets/generated/models/house_blue.glb",
+    "bytes": 15132,
+    "vertices": 224,
+    "faces": 360,
+    "geometries": 22,
+    "materials": 7
+  },
+  {
+    "path": "assets/generated/models/house_rose.glb",
+    "bytes": 14916,
+    "vertices": 224,
+    "faces": 360,
+    "geometries": 22,
+    "materials": 6
+  },
+  {
+    "path": "assets/generated/models/community_center.glb",
+    "bytes": 5456,
+    "vertices": 76,
+    "faces": 128,
+    "geometries": 6,
+    "materials": 5
+  },
+  {
+    "path": "assets/generated/models/cafe.glb",
+    "bytes": 3284,
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/hospital_rabbit_hole.glb",
+    "bytes": 3700,
+    "vertices": 40,
+    "faces": 60,
+    "geometries": 5,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/road_straight.glb",
+    "bytes": 1880,
+    "vertices": 16,
+    "faces": 24,
+    "geometries": 2,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/road_cross.glb",
+    "bytes": 1664,
+    "vertices": 16,
+    "faces": 24,
+    "geometries": 2,
+    "materials": 1
+  },
+  {
+    "path": "assets/generated/models/tree_deciduous.glb",
+    "bytes": 10480,
+    "vertices": 224,
+    "faces": 436,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/tree_pine.glb",
+    "bytes": 3476,
+    "vertices": 42,
+    "faces": 72,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/shrub.glb",
+    "bytes": 4512,
+    "vertices": 126,
+    "faces": 240,
+    "geometries": 3,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/rock_cluster.glb",
+    "bytes": 4316,
+    "vertices": 126,
+    "faces": 240,
+    "geometries": 3,
+    "materials": 1
+  },
+  {
+    "path": "assets/generated/models/fridge_basic.glb",
+    "bytes": 5972,
+    "vertices": 92,
+    "faces": 156,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/toilet_basic.glb",
+    "bytes": 3892,
+    "vertices": 76,
+    "faces": 140,
+    "geometries": 3,
+    "materials": 1
+  },
+  {
+    "path": "assets/generated/models/shower_basic.glb",
+    "bytes": 5900,
+    "vertices": 84,
+    "faces": 148,
+    "geometries": 5,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/bed_double.glb",
+    "bytes": 7336,
+    "vertices": 88,
+    "faces": 132,
+    "geometries": 11,
+    "materials": 5
+  },
+  {
+    "path": "assets/generated/models/sofa_basic.glb",
+    "bytes": 6388,
+    "vertices": 80,
+    "faces": 120,
+    "geometries": 10,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/bookshelf_basic.glb",
+    "bytes": 3576,
+    "vertices": 40,
+    "faces": 60,
+    "geometries": 5,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/computer_basic.glb",
+    "bytes": 8236,
+    "vertices": 106,
+    "faces": 168,
+    "geometries": 11,
+    "materials": 5
+  },
+  {
+    "path": "assets/generated/models/stereo_basic.glb",
+    "bytes": 4252,
+    "vertices": 84,
+    "faces": 156,
+    "geometries": 3,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/easel_basic.glb",
+    "bytes": 3008,
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/chess_table.glb",
+    "bytes": 11784,
+    "vertices": 158,
+    "faces": 244,
+    "geometries": 18,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/grill_basic.glb",
+    "bytes": 3808,
+    "vertices": 52,
+    "faces": 88,
+    "geometries": 4,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/telescope_basic.glb",
+    "bytes": 4212,
+    "vertices": 68,
+    "faces": 120,
+    "geometries": 4,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/park_bench.glb",
+    "bytes": 3020,
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/gym_treadmill.glb",
+    "bytes": 4348,
+    "vertices": 60,
+    "faces": 100,
+    "geometries": 5,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/alchemy_station.glb",
+    "bytes": 17556,
+    "vertices": 482,
+    "faces": 932,
+    "geometries": 8,
+    "materials": 8
+  },
+  {
+    "path": "assets/generated/models/future_workbench.glb",
+    "bytes": 15612,
+    "vertices": 424,
+    "faces": 820,
+    "geometries": 7,
+    "materials": 5
+  },
+  {
+    "path": "assets/generated/models/pet_bowl.glb",
+    "bytes": 3488,
+    "vertices": 76,
+    "faces": 144,
+    "geometries": 2,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/resort_desk.glb",
+    "bytes": 2612,
+    "vertices": 24,
+    "faces": 36,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/kitchen_stove.glb",
+    "bytes": 13464,
+    "vertices": 400,
+    "faces": 752,
+    "geometries": 12,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/kitchen_sink.glb",
+    "bytes": 3248,
+    "vertices": 38,
+    "faces": 64,
+    "geometries": 3,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/dining_table.glb",
+    "bytes": 3520,
+    "vertices": 40,
+    "faces": 60,
+    "geometries": 5,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/dining_chair.glb",
+    "bytes": 4144,
+    "vertices": 48,
+    "faces": 72,
+    "geometries": 6,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/television_basic.glb",
+    "bytes": 6184,
+    "vertices": 82,
+    "faces": 140,
+    "geometries": 6,
+    "materials": 5
+  },
+  {
+    "path": "assets/generated/models/desk_basic.glb",
+    "bytes": 3024,
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/dresser_basic.glb",
+    "bytes": 2940,
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/bathtub_basic.glb",
+    "bytes": 3328,
+    "vertices": 34,
+    "faces": 56,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/crib_basic.glb",
+    "bytes": 10080,
+    "vertices": 224,
+    "faces": 396,
+    "geometries": 13,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/guitar_basic.glb",
+    "bytes": 12124,
+    "vertices": 366,
+    "faces": 716,
+    "geometries": 4,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/laundry_washer.glb",
+    "bytes": 4152,
+    "vertices": 58,
+    "faces": 104,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/hot_tub.glb",
+    "bytes": 5036,
+    "vertices": 108,
+    "faces": 204,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/arcade_machine.glb",
+    "bytes": 2656,
+    "vertices": 24,
+    "faces": 36,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sculpting_station.glb",
+    "bytes": 3440,
+    "vertices": 42,
+    "faces": 72,
+    "geometries": 3,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/nectar_maker.glb",
+    "bytes": 4564,
+    "vertices": 60,
+    "faces": 108,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/inventing_bench.glb",
+    "bytes": 4288,
+    "vertices": 50,
+    "faces": 84,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/mailbox_basic.glb",
+    "bytes": 4668,
+    "vertices": 58,
+    "faces": 100,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/trash_can.glb",
+    "bytes": 4876,
+    "vertices": 108,
+    "faces": 204,
+    "geometries": 3,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/dishwasher.glb",
+    "bytes": 5808,
+    "vertices": 142,
+    "faces": 264,
+    "geometries": 5,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/microwave.glb",
+    "bytes": 4684,
+    "vertices": 66,
+    "faces": 116,
+    "geometries": 4,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/coffee_maker.glb",
+    "bytes": 6448,
+    "vertices": 100,
+    "faces": 184,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/highchair.glb",
+    "bytes": 6456,
+    "vertices": 82,
+    "faces": 132,
+    "geometries": 8,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/birthday_cake.glb",
+    "bytes": 7408,
+    "vertices": 182,
+    "faces": 344,
+    "geometries": 5,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/garden_planter.glb",
+    "bytes": 20332,
+    "vertices": 988,
+    "faces": 1944,
+    "geometries": 8,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/fishing_sign.glb",
+    "bytes": 3932,
+    "vertices": 50,
+    "faces": 88,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/gem_display.glb",
+    "bytes": 9580,
+    "vertices": 188,
+    "faces": 360,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/piano_upright.glb",
+    "bytes": 7720,
+    "vertices": 96,
+    "faces": 144,
+    "geometries": 12,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/drum_set.glb",
+    "bytes": 8928,
+    "vertices": 266,
+    "faces": 512,
+    "geometries": 5,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/mixology_bar.glb",
+    "bytes": 7756,
+    "vertices": 166,
+    "faces": 304,
+    "geometries": 7,
+    "materials": 7
+  },
+  {
+    "path": "assets/generated/models/martial_arts_dummy.glb",
+    "bytes": 4568,
+    "vertices": 62,
+    "faces": 108,
+    "geometries": 4,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/photo_booth.glb",
+    "bytes": 4836,
+    "vertices": 66,
+    "faces": 116,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/tattoo_chair.glb",
+    "bytes": 4212,
+    "vertices": 58,
+    "faces": 100,
+    "geometries": 4,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/treehouse.glb",
+    "bytes": 8836,
+    "vertices": 126,
+    "faces": 204,
+    "geometries": 12,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/dog_bed.glb",
+    "bytes": 4428,
+    "vertices": 116,
+    "faces": 224,
+    "geometries": 2,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/cat_tree.glb",
+    "bytes": 4924,
+    "vertices": 84,
+    "faces": 152,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/horse_trough.glb",
+    "bytes": 1980,
+    "vertices": 16,
+    "faces": 24,
+    "geometries": 2,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/karaoke_machine.glb",
+    "bytes": 9960,
+    "vertices": 204,
+    "faces": 392,
+    "geometries": 4,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/bonfire.glb",
+    "bytes": 4512,
+    "vertices": 72,
+    "faces": 128,
+    "geometries": 4,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/festival_booth.glb",
+    "bytes": 6628,
+    "vertices": 128,
+    "faces": 228,
+    "geometries": 7,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/university_podium.glb",
+    "bytes": 2648,
+    "vertices": 24,
+    "faces": 36,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/diving_buoy.glb",
+    "bytes": 9804,
+    "vertices": 206,
+    "faces": 400,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/time_portal.glb",
+    "bytes": 11212,
+    "vertices": 254,
+    "faces": 488,
+    "geometries": 5,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/dream_pod.glb",
+    "bytes": 2672,
+    "vertices": 24,
+    "faces": 36,
+    "geometries": 3,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/bot_charging_station.glb",
+    "bytes": 6260,
+    "vertices": 100,
+    "faces": 184,
+    "geometries": 4,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/resort_tower.glb",
+    "bytes": 8404,
+    "vertices": 112,
+    "faces": 168,
+    "geometries": 14,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/food_truck.glb",
+    "bytes": 7036,
+    "vertices": 184,
+    "faces": 344,
+    "geometries": 6,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_child_slender.glb",
+    "bytes": 15128,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_child_average.glb",
+    "bytes": 15116,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_child_athletic.glb",
+    "bytes": 15112,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_child_soft.glb",
+    "bytes": 15128,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_teen_slender.glb",
+    "bytes": 15148,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_teen_average.glb",
+    "bytes": 15136,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_teen_athletic.glb",
+    "bytes": 15148,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_teen_soft.glb",
+    "bytes": 15140,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_adult_slender.glb",
+    "bytes": 15060,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_adult_average.glb",
+    "bytes": 15052,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_adult_athletic.glb",
+    "bytes": 15064,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_adult_soft.glb",
+    "bytes": 15048,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_elder_slender.glb",
+    "bytes": 15112,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_elder_average.glb",
+    "bytes": 15108,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_elder_athletic.glb",
+    "bytes": 15116,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/sim_elder_soft.glb",
+    "bytes": 15112,
+    "vertices": 484,
+    "faces": 940,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/luxury_lounge_chair.glb",
+    "bytes": 6484,
+    "vertices": 120,
+    "faces": 208,
+    "geometries": 8,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/sport_car_display.glb",
+    "bytes": 7572,
+    "vertices": 192,
+    "faces": 356,
+    "geometries": 7,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/community_locker.glb",
+    "bytes": 8620,
+    "vertices": 208,
+    "faces": 380,
+    "geometries": 9,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/spa_vanity.glb",
+    "bytes": 4948,
+    "vertices": 56,
+    "faces": 84,
+    "geometries": 7,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/candy_floor_lamp.glb",
+    "bytes": 13716,
+    "vertices": 404,
+    "faces": 792,
+    "geometries": 4,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/industrial_coffee_table.glb",
+    "bytes": 9940,
+    "vertices": 264,
+    "faces": 492,
+    "geometries": 9,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/retro_dance_console.glb",
+    "bytes": 5848,
+    "vertices": 100,
+    "faces": 180,
+    "geometries": 5,
+    "materials": 5
+  },
+  {
+    "path": "assets/generated/models/movie_prop_statue.glb",
+    "bytes": 12700,
+    "vertices": 252,
+    "faces": 484,
+    "geometries": 5,
+    "materials": 4
+  },
+  {
+    "path": "assets/generated/models/performance_stage.glb",
+    "bytes": 8460,
+    "vertices": 124,
+    "faces": 204,
+    "geometries": 11,
+    "materials": 5
+  },
+  {
+    "path": "assets/generated/models/vehicle_compact.glb",
+    "bytes": 6544,
+    "vertices": 152,
+    "faces": 280,
+    "geometries": 6,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/pet_dog.glb",
+    "bytes": 16464,
+    "vertices": 482,
+    "faces": 924,
+    "geometries": 10,
+    "materials": 3
+  },
+  {
+    "path": "assets/generated/models/pet_cat.glb",
+    "bytes": 8876,
+    "vertices": 182,
+    "faces": 348,
+    "geometries": 4,
+    "materials": 1
+  },
+  {
+    "path": "assets/generated/models/pet_horse.glb",
+    "bytes": 14392,
+    "vertices": 328,
+    "faces": 616,
+    "geometries": 10,
+    "materials": 2
+  },
+  {
+    "path": "assets/generated/models/sim_avatar_reference.glb",
+    "bytes": 11704,
+    "vertices": 256,
+    "faces": 488,
+    "geometries": 6,
+    "materials": 3
+  }
+]

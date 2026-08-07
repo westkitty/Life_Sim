@@ -1,0 +1,2241 @@
+[
+  {
+    "id": "fridge_basic",
+    "name": "Reliable Refrigerator",
+    "category": "kitchen",
+    "price": 675,
+    "mesh": "box",
+    "color": "#d8e2e6",
+    "size_x": 1.3,
+    "size_y": 2.2,
+    "size_z": 1.1,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "quick_meal",
+        "name": "Have Quick Meal",
+        "duration_minutes": 24,
+        "motive_effects": {
+          "hunger": 34,
+          "fun": 2
+        },
+        "skill_id": "cooking",
+        "skill_points": 3
+      },
+      {
+        "id": "serve_meal",
+        "name": "Serve Group Meal",
+        "duration_minutes": 55,
+        "motive_effects": {
+          "hunger": 55,
+          "social": 6
+        },
+        "skill_id": "cooking",
+        "skill_points": 14
+      }
+    ],
+    "asset_id": "fridge_basic"
+  },
+  {
+    "id": "toilet_basic",
+    "name": "Porcelain Throne",
+    "category": "plumbing",
+    "price": 300,
+    "mesh": "cylinder",
+    "color": "#f3f5ed",
+    "size_x": 1.0,
+    "size_y": 1.0,
+    "size_z": 1.1,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "use_toilet",
+        "name": "Use Toilet",
+        "duration_minutes": 12,
+        "motive_effects": {
+          "bladder": 88,
+          "hygiene": -4
+        }
+      }
+    ],
+    "asset_id": "toilet_basic"
+  },
+  {
+    "id": "shower_basic",
+    "name": "Fresh Start Shower",
+    "category": "plumbing",
+    "price": 520,
+    "mesh": "box",
+    "color": "#92c8d1",
+    "size_x": 1.2,
+    "size_y": 2.3,
+    "size_z": 1.2,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "take_shower",
+        "name": "Take Shower",
+        "duration_minutes": 22,
+        "motive_effects": {
+          "hygiene": 72,
+          "fun": 2
+        }
+      }
+    ],
+    "asset_id": "shower_basic"
+  },
+  {
+    "id": "bed_double",
+    "name": "Restful Double Bed",
+    "category": "comfort",
+    "price": 950,
+    "mesh": "box",
+    "color": "#7e92bd",
+    "size_x": 2.5,
+    "size_y": 0.65,
+    "size_z": 2.2,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "interactions": [
+      {
+        "id": "sleep",
+        "name": "Sleep",
+        "duration_minutes": 420,
+        "motive_effects": {
+          "energy": 100,
+          "hunger": -12,
+          "bladder": -18
+        }
+      },
+      {
+        "id": "nap",
+        "name": "Nap",
+        "duration_minutes": 90,
+        "motive_effects": {
+          "energy": 34
+        }
+      }
+    ],
+    "asset_id": "bed_double"
+  },
+  {
+    "id": "sofa_basic",
+    "name": "Everyday Sofa",
+    "category": "comfort",
+    "price": 640,
+    "mesh": "box",
+    "color": "#c68d69",
+    "size_x": 2.6,
+    "size_y": 1.0,
+    "size_z": 1.0,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "relax",
+        "name": "Relax",
+        "duration_minutes": 45,
+        "motive_effects": {
+          "energy": 10,
+          "fun": 12
+        }
+      },
+      {
+        "id": "watch_tv",
+        "name": "Watch Television",
+        "duration_minutes": 60,
+        "motive_effects": {
+          "fun": 32,
+          "social": 4
+        }
+      }
+    ],
+    "asset_id": "sofa_basic"
+  },
+  {
+    "id": "bookshelf_basic",
+    "name": "Neighborhood Bookshelf",
+    "category": "study",
+    "price": 450,
+    "mesh": "box",
+    "color": "#70482f",
+    "size_x": 1.6,
+    "size_y": 2.1,
+    "size_z": 0.45,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "read_book",
+        "name": "Read Something",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 24
+        },
+        "skill_id": "logic",
+        "skill_points": 8
+      },
+      {
+        "id": "study_cooking",
+        "name": "Study Cooking",
+        "duration_minutes": 90,
+        "motive_effects": {
+          "fun": 8
+        },
+        "skill_id": "cooking",
+        "skill_points": 18
+      }
+    ],
+    "asset_id": "bookshelf_basic"
+  },
+  {
+    "id": "computer_basic",
+    "name": "OpenLife Computer",
+    "category": "electronics",
+    "price": 800,
+    "mesh": "box",
+    "color": "#39444e",
+    "size_x": 1.4,
+    "size_y": 1.1,
+    "size_z": 0.75,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "browse_web",
+        "name": "Browse Web",
+        "duration_minutes": 45,
+        "motive_effects": {
+          "fun": 28,
+          "social": 8
+        }
+      },
+      {
+        "id": "write_novel",
+        "name": "Write Novel",
+        "duration_minutes": 120,
+        "motive_effects": {
+          "fun": 8
+        },
+        "skill_id": "writing",
+        "skill_points": 26
+      },
+      {
+        "id": "find_job",
+        "name": "Find a Job",
+        "duration_minutes": 30,
+        "motive_effects": {
+          "fun": 2
+        },
+        "special": "career_picker"
+      }
+    ],
+    "asset_id": "computer_basic"
+  },
+  {
+    "id": "stereo_basic",
+    "name": "Room Stereo",
+    "category": "electronics",
+    "price": 420,
+    "mesh": "box",
+    "color": "#2f3338",
+    "size_x": 1.0,
+    "size_y": 0.75,
+    "size_z": 0.55,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "listen_music",
+        "name": "Listen to Music",
+        "duration_minutes": 50,
+        "motive_effects": {
+          "fun": 30
+        }
+      },
+      {
+        "id": "dance",
+        "name": "Dance",
+        "duration_minutes": 45,
+        "motive_effects": {
+          "fun": 34,
+          "social": 6,
+          "hygiene": -4
+        },
+        "skill_id": "dance",
+        "skill_points": 9
+      }
+    ],
+    "asset_id": "stereo_basic"
+  },
+  {
+    "id": "easel_basic",
+    "name": "Painter's Easel",
+    "category": "hobbies",
+    "price": 350,
+    "mesh": "box",
+    "color": "#8d6c45",
+    "size_x": 1.1,
+    "size_y": 1.9,
+    "size_z": 0.6,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "paint",
+        "name": "Paint",
+        "duration_minutes": 120,
+        "motive_effects": {
+          "fun": 18
+        },
+        "skill_id": "painting",
+        "skill_points": 30,
+        "earnings": 70
+      }
+    ],
+    "asset_id": "easel_basic"
+  },
+  {
+    "id": "chess_table",
+    "name": "Logic Chess Table",
+    "category": "hobbies",
+    "price": 540,
+    "mesh": "cylinder",
+    "color": "#b28c57",
+    "size_x": 1.4,
+    "size_y": 0.8,
+    "size_z": 1.4,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "interactions": [
+      {
+        "id": "practice_chess",
+        "name": "Practice Chess",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 18
+        },
+        "skill_id": "logic",
+        "skill_points": 18
+      }
+    ],
+    "asset_id": "chess_table"
+  },
+  {
+    "id": "grill_basic",
+    "name": "Backyard Grill",
+    "category": "outdoor",
+    "price": 560,
+    "mesh": "box",
+    "color": "#4c5559",
+    "size_x": 1.4,
+    "size_y": 1.25,
+    "size_z": 0.8,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "grill_food",
+        "name": "Grill Food",
+        "duration_minutes": 55,
+        "motive_effects": {
+          "hunger": 52,
+          "social": 6,
+          "fun": 8
+        },
+        "skill_id": "cooking",
+        "skill_points": 16
+      }
+    ],
+    "asset_id": "grill_basic"
+  },
+  {
+    "id": "telescope_basic",
+    "name": "Backyard Telescope",
+    "category": "hobbies",
+    "price": 690,
+    "mesh": "cylinder",
+    "color": "#5b6d7d",
+    "size_x": 0.8,
+    "size_y": 1.8,
+    "size_z": 0.8,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "stargaze",
+        "name": "Stargaze",
+        "duration_minutes": 90,
+        "motive_effects": {
+          "fun": 22
+        },
+        "skill_id": "logic",
+        "skill_points": 20,
+        "special": "alien_chance"
+      }
+    ],
+    "asset_id": "telescope_basic"
+  },
+  {
+    "id": "park_bench",
+    "name": "Park Bench",
+    "category": "community",
+    "price": 220,
+    "mesh": "box",
+    "color": "#6e4f39",
+    "size_x": 2.4,
+    "size_y": 0.85,
+    "size_z": 0.7,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "sit_park",
+        "name": "Sit in Park",
+        "duration_minutes": 45,
+        "motive_effects": {
+          "energy": 8,
+          "fun": 14,
+          "social": 4
+        }
+      }
+    ],
+    "asset_id": "park_bench"
+  },
+  {
+    "id": "gym_treadmill",
+    "name": "Cardio Treadmill",
+    "category": "fitness",
+    "price": 1250,
+    "mesh": "box",
+    "color": "#59646d",
+    "size_x": 1.1,
+    "size_y": 1.4,
+    "size_z": 2.0,
+    "footprint_x": 1,
+    "footprint_z": 2,
+    "interactions": [
+      {
+        "id": "work_out",
+        "name": "Work Out",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 8,
+          "hygiene": -18,
+          "energy": -12
+        },
+        "skill_id": "athletic",
+        "skill_points": 24
+      }
+    ],
+    "asset_id": "gym_treadmill"
+  },
+  {
+    "id": "alchemy_station",
+    "name": "Arcane Alchemy Station",
+    "category": "supernatural",
+    "price": 1500,
+    "mesh": "box",
+    "color": "#6f4b82",
+    "size_x": 1.8,
+    "size_y": 1.6,
+    "size_z": 1.0,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "EP07",
+    "interactions": [
+      {
+        "id": "research_alchemy",
+        "name": "Research Alchemy",
+        "duration_minutes": 90,
+        "motive_effects": {
+          "fun": 16
+        },
+        "skill_id": "alchemy",
+        "skill_points": 24
+      },
+      {
+        "id": "brew_elixir",
+        "name": "Brew Elixir",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 10
+        },
+        "skill_id": "alchemy",
+        "skill_points": 18,
+        "special": "elixir_result"
+      }
+    ],
+    "asset_id": "alchemy_station"
+  },
+  {
+    "id": "future_workbench",
+    "name": "Bot Workshop",
+    "category": "future",
+    "price": 1750,
+    "mesh": "box",
+    "color": "#4c8e98",
+    "size_x": 2.1,
+    "size_y": 1.4,
+    "size_z": 1.2,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "EP11",
+    "interactions": [
+      {
+        "id": "design_trait_chip",
+        "name": "Design Trait Chip",
+        "duration_minutes": 100,
+        "motive_effects": {
+          "fun": 18
+        },
+        "skill_id": "bot_building",
+        "skill_points": 25
+      },
+      {
+        "id": "build_plumbot",
+        "name": "Build Plumbot",
+        "duration_minutes": 180,
+        "motive_effects": {
+          "fun": 12,
+          "energy": -10
+        },
+        "skill_id": "bot_building",
+        "skill_points": 42,
+        "special": "spawn_plumbot"
+      }
+    ],
+    "asset_id": "future_workbench"
+  },
+  {
+    "id": "pet_bowl",
+    "name": "Pet Food Bowl",
+    "category": "pets",
+    "price": 75,
+    "mesh": "cylinder",
+    "color": "#d76752",
+    "size_x": 0.8,
+    "size_y": 0.18,
+    "size_z": 0.8,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "EP05",
+    "interactions": [
+      {
+        "id": "fill_pet_bowl",
+        "name": "Fill Pet Bowl",
+        "duration_minutes": 8,
+        "motive_effects": {
+          "fun": 2
+        },
+        "special": "pet_feed"
+      }
+    ],
+    "asset_id": "pet_bowl"
+  },
+  {
+    "id": "resort_desk",
+    "name": "Resort Front Desk",
+    "category": "resort",
+    "price": 2200,
+    "mesh": "box",
+    "color": "#d7b77e",
+    "size_x": 2.5,
+    "size_y": 1.2,
+    "size_z": 1.0,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "EP10",
+    "interactions": [
+      {
+        "id": "manage_resort",
+        "name": "Manage Resort",
+        "duration_minutes": 60,
+        "motive_effects": {
+          "fun": 5
+        },
+        "skill_id": "charisma",
+        "skill_points": 8,
+        "earnings": 180
+      }
+    ],
+    "asset_id": "resort_desk"
+  },
+  {
+    "id": "kitchen_stove",
+    "name": "Four Burner Stove",
+    "category": "kitchen",
+    "price": 780,
+    "size_x": 1.3,
+    "size_y": 1.1,
+    "size_z": 1.1,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "cook_meal",
+        "name": "Cook Meal",
+        "duration_minutes": 50,
+        "motive_effects": {
+          "hunger": 58,
+          "fun": 5
+        },
+        "skill_id": "cooking",
+        "skill_points": 18,
+        "special": "cook_recipe",
+        "recipe_id": "spaghetti",
+        "tags": [
+          "cooking",
+          "food"
+        ]
+      }
+    ],
+    "asset_id": "kitchen_stove",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "kitchen_sink",
+    "name": "Everyday Kitchen Sink",
+    "category": "kitchen",
+    "price": 260,
+    "size_x": 1.3,
+    "size_y": 1.4,
+    "size_z": 0.8,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "wash_hands",
+        "name": "Wash Hands",
+        "duration_minutes": 8,
+        "motive_effects": {
+          "hygiene": 18
+        }
+      },
+      {
+        "id": "wash_dishes",
+        "name": "Wash Dishes",
+        "duration_minutes": 16,
+        "motive_effects": {
+          "hygiene": 3
+        },
+        "skill_id": "handiness",
+        "skill_points": 2
+      }
+    ],
+    "asset_id": "kitchen_sink",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "dining_table",
+    "name": "Family Dining Table",
+    "category": "dining",
+    "price": 390,
+    "size_x": 1.9,
+    "size_y": 1.0,
+    "size_z": 1.3,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "interactions": [
+      {
+        "id": "sit_at_table",
+        "name": "Sit at Table",
+        "duration_minutes": 30,
+        "motive_effects": {
+          "social": 5,
+          "energy": 2
+        }
+      }
+    ],
+    "asset_id": "dining_table",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "dining_chair",
+    "name": "Simple Dining Chair",
+    "category": "dining",
+    "price": 95,
+    "size_x": 0.7,
+    "size_y": 1.4,
+    "size_z": 0.7,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "sit_chair",
+        "name": "Sit",
+        "duration_minutes": 30,
+        "motive_effects": {
+          "energy": 4
+        }
+      }
+    ],
+    "asset_id": "dining_chair",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "television_basic",
+    "name": "Neighborhood Television",
+    "category": "electronics",
+    "price": 625,
+    "size_x": 1.5,
+    "size_y": 1.7,
+    "size_z": 0.5,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "watch_tv",
+        "name": "Watch Television",
+        "duration_minutes": 60,
+        "motive_effects": {
+          "fun": 38,
+          "social": 4
+        }
+      }
+    ],
+    "asset_id": "television_basic",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "desk_basic",
+    "name": "Work and Study Desk",
+    "category": "study",
+    "price": 340,
+    "size_x": 1.8,
+    "size_y": 1.1,
+    "size_z": 0.9,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "study_at_desk",
+        "name": "Study",
+        "duration_minutes": 70,
+        "motive_effects": {
+          "fun": 8
+        },
+        "skill_id": "logic",
+        "skill_points": 14
+      },
+      {
+        "id": "do_homework",
+        "name": "Do Homework",
+        "duration_minutes": 60,
+        "motive_effects": {
+          "fun": -4
+        },
+        "skill_id": "logic",
+        "skill_points": 6,
+        "special": "do_homework",
+        "homework_amount": 45
+      }
+    ],
+    "asset_id": "desk_basic",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "dresser_basic",
+    "name": "Bedroom Dresser",
+    "category": "storage",
+    "price": 290,
+    "size_x": 1.5,
+    "size_y": 1.3,
+    "size_z": 0.6,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "plan_outfit",
+        "name": "Plan Outfit",
+        "duration_minutes": 35,
+        "motive_effects": {
+          "fun": 12
+        },
+        "special": "cas_outfit"
+      }
+    ],
+    "asset_id": "dresser_basic",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "bathtub_basic",
+    "name": "Deep Soak Bathtub",
+    "category": "plumbing",
+    "price": 710,
+    "size_x": 1.2,
+    "size_y": 1.1,
+    "size_z": 2.1,
+    "footprint_x": 1,
+    "footprint_z": 2,
+    "interactions": [
+      {
+        "id": "take_bath",
+        "name": "Take Bath",
+        "duration_minutes": 45,
+        "motive_effects": {
+          "hygiene": 82,
+          "fun": 8
+        }
+      }
+    ],
+    "asset_id": "bathtub_basic",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "crib_basic",
+    "name": "Starter Crib",
+    "category": "nursery",
+    "price": 430,
+    "size_x": 1.2,
+    "size_y": 1.2,
+    "size_z": 1.9,
+    "footprint_x": 1,
+    "footprint_z": 2,
+    "interactions": [
+      {
+        "id": "inspect_crib",
+        "name": "Inspect Crib",
+        "duration_minutes": 12,
+        "motive_effects": {
+          "social": 2
+        },
+        "special": "baby_system_hook"
+      }
+    ],
+    "asset_id": "crib_basic",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "guitar_basic",
+    "name": "Acoustic Guitar",
+    "category": "hobbies",
+    "price": 600,
+    "size_x": 0.8,
+    "size_y": 1.7,
+    "size_z": 0.5,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "interactions": [
+      {
+        "id": "practice_guitar",
+        "name": "Practice Guitar",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 30
+        },
+        "skill_id": "guitar",
+        "skill_points": 22
+      }
+    ],
+    "asset_id": "guitar_basic",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "laundry_washer",
+    "name": "Front Loading Washer",
+    "category": "laundry",
+    "price": 900,
+    "size_x": 1.2,
+    "size_y": 1.3,
+    "size_z": 1.1,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "EP02",
+    "interactions": [
+      {
+        "id": "do_laundry",
+        "name": "Do Laundry",
+        "duration_minutes": 48,
+        "motive_effects": {
+          "hygiene": 4
+        },
+        "special": "laundry_cycle"
+      }
+    ],
+    "asset_id": "laundry_washer",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "hot_tub",
+    "name": "Backyard Hot Tub",
+    "category": "outdoor",
+    "price": 2400,
+    "size_x": 2.5,
+    "size_y": 1.1,
+    "size_z": 2.5,
+    "footprint_x": 3,
+    "footprint_z": 3,
+    "pack_id": "SP03",
+    "interactions": [
+      {
+        "id": "soak_hot_tub",
+        "name": "Soak in Hot Tub",
+        "duration_minutes": 70,
+        "motive_effects": {
+          "fun": 38,
+          "social": 18,
+          "hygiene": 8
+        }
+      }
+    ],
+    "asset_id": "hot_tub",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "arcade_machine",
+    "name": "Arcade Cabinet",
+    "category": "electronics",
+    "price": 1550,
+    "size_x": 1.0,
+    "size_y": 1.8,
+    "size_z": 0.8,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "EP06",
+    "interactions": [
+      {
+        "id": "play_arcade",
+        "name": "Play Arcade Game",
+        "duration_minutes": 55,
+        "motive_effects": {
+          "fun": 46,
+          "social": 8
+        }
+      }
+    ],
+    "asset_id": "arcade_machine",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "sculpting_station",
+    "name": "Sculpting Station",
+    "category": "hobbies",
+    "price": 1100,
+    "size_x": 1.4,
+    "size_y": 2.0,
+    "size_z": 1.2,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "pack_id": "EP02",
+    "interactions": [
+      {
+        "id": "sculpt",
+        "name": "Sculpt",
+        "duration_minutes": 120,
+        "motive_effects": {
+          "fun": 20
+        },
+        "skill_id": "sculpting",
+        "skill_points": 28,
+        "earnings": 80
+      }
+    ],
+    "asset_id": "sculpting_station",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "nectar_maker",
+    "name": "Nectar Maker",
+    "category": "crafting",
+    "price": 1800,
+    "size_x": 1.5,
+    "size_y": 1.8,
+    "size_z": 1.1,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "EP01",
+    "interactions": [
+      {
+        "id": "make_nectar",
+        "name": "Make Nectar",
+        "duration_minutes": 95,
+        "motive_effects": {
+          "fun": 16
+        },
+        "skill_id": "nectar_making",
+        "skill_points": 24,
+        "earnings": 60
+      }
+    ],
+    "asset_id": "nectar_maker",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "inventing_bench",
+    "name": "Inventing Workbench",
+    "category": "crafting",
+    "price": 1250,
+    "size_x": 2.1,
+    "size_y": 1.7,
+    "size_z": 1.1,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "EP02",
+    "interactions": [
+      {
+        "id": "invent",
+        "name": "Invent",
+        "duration_minutes": 120,
+        "motive_effects": {
+          "fun": 22
+        },
+        "skill_id": "inventing",
+        "skill_points": 30,
+        "special": "invent_result"
+      }
+    ],
+    "asset_id": "inventing_bench",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "mailbox_basic",
+    "name": "Neighborhood Mailbox",
+    "category": "outdoor",
+    "price": 0,
+    "size_x": 0.8,
+    "size_y": 1.8,
+    "size_z": 0.6,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "pay_bills",
+        "name": "Pay Bills",
+        "duration_minutes": 12,
+        "motive_effects": {
+          "fun": -1
+        },
+        "special": "pay_bills",
+        "tags": [
+          "bills",
+          "mail"
+        ]
+      }
+    ],
+    "asset_id": "mailbox_basic",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "trash_can",
+    "name": "Outdoor Trash Can",
+    "category": "outdoor",
+    "price": 125,
+    "size_x": 1,
+    "size_y": 1.1,
+    "size_z": 1,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "take_out_trash",
+        "name": "Take Out Trash",
+        "duration_minutes": 10,
+        "motive_effects": {
+          "hygiene": 3
+        },
+        "tags": [
+          "clean"
+        ]
+      }
+    ],
+    "asset_id": "trash_can",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "dishwasher",
+    "name": "Quiet Dishwasher",
+    "category": "kitchen",
+    "price": 540,
+    "size_x": 1.2,
+    "size_y": 1,
+    "size_z": 1.05,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "load_dishwasher",
+        "name": "Load Dishwasher",
+        "duration_minutes": 15,
+        "motive_effects": {
+          "hygiene": 4
+        },
+        "skill_id": "handiness",
+        "skill_points": 2,
+        "tags": [
+          "clean",
+          "appliance"
+        ]
+      }
+    ],
+    "asset_id": "dishwasher",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "microwave",
+    "name": "Quick Meal Microwave",
+    "category": "kitchen",
+    "price": 320,
+    "size_x": 1.05,
+    "size_y": 1.05,
+    "size_z": 0.65,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "microwave_meal",
+        "name": "Make Quick Meal",
+        "duration_minutes": 18,
+        "motive_effects": {
+          "hunger": 28
+        },
+        "special": "cook_recipe",
+        "tags": [
+          "cooking"
+        ],
+        "recipe_id": "waffles"
+      }
+    ],
+    "asset_id": "microwave",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "coffee_maker",
+    "name": "Countertop Coffee Maker",
+    "category": "kitchen",
+    "price": 275,
+    "size_x": 0.7,
+    "size_y": 1,
+    "size_z": 0.7,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "brew_coffee",
+        "name": "Brew Coffee",
+        "duration_minutes": 12,
+        "motive_effects": {
+          "energy": 16,
+          "fun": 3
+        },
+        "tags": [
+          "coffee"
+        ]
+      }
+    ],
+    "asset_id": "coffee_maker",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "highchair",
+    "name": "Toddler High Chair",
+    "category": "nursery",
+    "price": 180,
+    "size_x": 0.9,
+    "size_y": 1.5,
+    "size_z": 0.9,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "feed_toddler",
+        "name": "Feed Toddler",
+        "duration_minutes": 25,
+        "motive_effects": {
+          "social": 8
+        },
+        "special": "baby_system_hook",
+        "tags": [
+          "baby",
+          "family"
+        ]
+      }
+    ],
+    "asset_id": "highchair",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "birthday_cake",
+    "name": "Birthday Cake",
+    "category": "decor",
+    "price": 30,
+    "size_x": 1,
+    "size_y": 0.8,
+    "size_z": 1,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "blow_out_candles",
+        "name": "Blow Out Candles",
+        "duration_minutes": 15,
+        "motive_effects": {
+          "fun": 22,
+          "social": 12
+        },
+        "special": "birthday_age_up",
+        "tags": [
+          "birthday",
+          "family"
+        ]
+      }
+    ],
+    "asset_id": "birthday_cake",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "garden_planter",
+    "name": "Raised Garden Planter",
+    "category": "outdoor",
+    "price": 185,
+    "size_x": 2,
+    "size_y": 1,
+    "size_z": 1.4,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "plant_tomatoes",
+        "name": "Plant Tomatoes",
+        "duration_minutes": 35,
+        "motive_effects": {
+          "fun": 5
+        },
+        "skill_id": "gardening",
+        "skill_points": 10,
+        "special": "garden_plant",
+        "tags": [
+          "garden",
+          "plant"
+        ],
+        "species": "tomato"
+      }
+    ],
+    "asset_id": "garden_planter",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "fishing_sign",
+    "name": "Fishing Spot Marker",
+    "category": "outdoor",
+    "price": 0,
+    "size_x": 1,
+    "size_y": 1.8,
+    "size_z": 0.3,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "fish_here",
+        "name": "Go Fishing",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 20
+        },
+        "skill_id": "fishing",
+        "skill_points": 18,
+        "special": "go_fishing",
+        "tags": [
+          "fishing",
+          "outdoor"
+        ]
+      }
+    ],
+    "asset_id": "fishing_sign",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "gem_display",
+    "name": "Collector Display",
+    "category": "decor",
+    "price": 420,
+    "size_x": 1.5,
+    "size_y": 1.4,
+    "size_z": 0.8,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "collect_sample",
+        "name": "Collect Mineral Sample",
+        "duration_minutes": 20,
+        "motive_effects": {
+          "fun": 8
+        },
+        "special": "collect_rock",
+        "tags": [
+          "collecting"
+        ]
+      }
+    ],
+    "asset_id": "gem_display",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "piano_upright",
+    "name": "Upright Piano",
+    "category": "hobbies",
+    "price": 1450,
+    "size_x": 1.8,
+    "size_y": 1.5,
+    "size_z": 0.8,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "BG",
+    "interactions": [
+      {
+        "id": "practice_piano",
+        "name": "Practice Piano",
+        "duration_minutes": 80,
+        "motive_effects": {
+          "fun": 28
+        },
+        "skill_id": "piano",
+        "skill_points": 22,
+        "tags": [
+          "music",
+          "performance"
+        ]
+      }
+    ],
+    "asset_id": "piano_upright",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "drum_set",
+    "name": "Drum Set",
+    "category": "hobbies",
+    "price": 1600,
+    "size_x": 2.2,
+    "size_y": 1.5,
+    "size_z": 1.5,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "pack_id": "EP03",
+    "interactions": [
+      {
+        "id": "practice_drums",
+        "name": "Practice Drums",
+        "duration_minutes": 80,
+        "motive_effects": {
+          "fun": 32
+        },
+        "skill_id": "drums",
+        "skill_points": 22,
+        "tags": [
+          "music",
+          "performance"
+        ]
+      }
+    ],
+    "asset_id": "drum_set",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "mixology_bar",
+    "name": "Professional Mixology Bar",
+    "category": "entertainment",
+    "price": 1900,
+    "size_x": 2.8,
+    "size_y": 1.7,
+    "size_z": 1.2,
+    "footprint_x": 3,
+    "footprint_z": 1,
+    "pack_id": "EP03",
+    "interactions": [
+      {
+        "id": "practice_mixology",
+        "name": "Practice Mixology",
+        "duration_minutes": 65,
+        "motive_effects": {
+          "fun": 18,
+          "social": 5
+        },
+        "skill_id": "mixology",
+        "skill_points": 20,
+        "tags": [
+          "bar",
+          "nightlife"
+        ]
+      }
+    ],
+    "asset_id": "mixology_bar",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "martial_arts_dummy",
+    "name": "Training Dummy",
+    "category": "hobbies",
+    "price": 650,
+    "size_x": 1.2,
+    "size_y": 2,
+    "size_z": 1.2,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "EP01",
+    "interactions": [
+      {
+        "id": "practice_martial_arts",
+        "name": "Practice Martial Arts",
+        "duration_minutes": 80,
+        "motive_effects": {
+          "fun": 20,
+          "energy": -8
+        },
+        "skill_id": "martial_arts",
+        "skill_points": 24,
+        "tags": [
+          "martial_arts"
+        ]
+      }
+    ],
+    "asset_id": "martial_arts_dummy",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "photo_booth",
+    "name": "Photo Booth",
+    "category": "entertainment",
+    "price": 1200,
+    "size_x": 1.5,
+    "size_y": 2.1,
+    "size_z": 1.4,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "pack_id": "EP03",
+    "interactions": [
+      {
+        "id": "take_photos",
+        "name": "Take Photos",
+        "duration_minutes": 25,
+        "motive_effects": {
+          "fun": 20,
+          "social": 6
+        },
+        "skill_id": "photography",
+        "skill_points": 10,
+        "special": "memory_event",
+        "tags": [
+          "photography",
+          "social"
+        ]
+      }
+    ],
+    "asset_id": "photo_booth",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "tattoo_chair",
+    "name": "Tattoo Station",
+    "category": "profession",
+    "price": 950,
+    "size_x": 1.1,
+    "size_y": 1.5,
+    "size_z": 1.8,
+    "footprint_x": 1,
+    "footprint_z": 2,
+    "pack_id": "EP02",
+    "interactions": [
+      {
+        "id": "practice_tattoo",
+        "name": "Practice Tattooing",
+        "duration_minutes": 70,
+        "motive_effects": {
+          "fun": 8
+        },
+        "skill_id": "tattooing",
+        "skill_points": 18,
+        "tags": [
+          "tattoo",
+          "profession"
+        ]
+      }
+    ],
+    "asset_id": "tattoo_chair",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "treehouse",
+    "name": "Backyard Tree House",
+    "category": "children",
+    "price": 1050,
+    "size_x": 3,
+    "size_y": 4.2,
+    "size_z": 2.8,
+    "footprint_x": 3,
+    "footprint_z": 3,
+    "pack_id": "EP04",
+    "interactions": [
+      {
+        "id": "play_treehouse",
+        "name": "Play in Tree House",
+        "duration_minutes": 60,
+        "motive_effects": {
+          "fun": 42,
+          "social": 10
+        },
+        "special": "memory_event",
+        "tags": [
+          "children",
+          "family"
+        ]
+      }
+    ],
+    "asset_id": "treehouse",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "dog_bed",
+    "name": "Dog Bed",
+    "category": "pets",
+    "price": 220,
+    "size_x": 1.4,
+    "size_y": 0.4,
+    "size_z": 1.4,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "pack_id": "EP05",
+    "interactions": [
+      {
+        "id": "pet_dog_bed",
+        "name": "Interact with Dog Bed",
+        "duration_minutes": 20,
+        "motive_effects": {
+          "fun": 6
+        },
+        "tags": [
+          "pets",
+          "dog"
+        ],
+        "special": "pet_play"
+      }
+    ],
+    "asset_id": "dog_bed",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "cat_tree",
+    "name": "Cat Activity Tree",
+    "category": "pets",
+    "price": 350,
+    "size_x": 1.2,
+    "size_y": 1.9,
+    "size_z": 1.2,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "pack_id": "EP05",
+    "interactions": [
+      {
+        "id": "play_cat_tree",
+        "name": "Play with Cat",
+        "duration_minutes": 25,
+        "motive_effects": {
+          "fun": 16,
+          "social": 10
+        },
+        "tags": [
+          "pets",
+          "cat"
+        ],
+        "special": "pet_play"
+      }
+    ],
+    "asset_id": "cat_tree",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "horse_trough",
+    "name": "Horse Water Trough",
+    "category": "pets",
+    "price": 300,
+    "size_x": 2.4,
+    "size_y": 0.9,
+    "size_z": 1,
+    "footprint_x": 3,
+    "footprint_z": 1,
+    "pack_id": "EP05",
+    "interactions": [
+      {
+        "id": "fill_horse_trough",
+        "name": "Fill Trough",
+        "duration_minutes": 15,
+        "motive_effects": {
+          "fun": 2
+        },
+        "tags": [
+          "pets",
+          "horse"
+        ],
+        "special": "pet_feed"
+      }
+    ],
+    "asset_id": "horse_trough",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "karaoke_machine",
+    "name": "Karaoke Machine",
+    "category": "entertainment",
+    "price": 1100,
+    "size_x": 1.4,
+    "size_y": 1.8,
+    "size_z": 0.7,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "EP06",
+    "interactions": [
+      {
+        "id": "sing_karaoke",
+        "name": "Sing Karaoke",
+        "duration_minutes": 50,
+        "motive_effects": {
+          "fun": 38,
+          "social": 15
+        },
+        "skill_id": "charisma",
+        "skill_points": 10,
+        "tags": [
+          "music",
+          "performance"
+        ],
+        "special": "performance"
+      }
+    ],
+    "asset_id": "karaoke_machine",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "bonfire",
+    "name": "Festival Bonfire",
+    "category": "outdoor",
+    "price": 600,
+    "size_x": 1.5,
+    "size_y": 1.5,
+    "size_z": 1.5,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "pack_id": "EP08",
+    "interactions": [
+      {
+        "id": "warm_at_bonfire",
+        "name": "Warm Up",
+        "duration_minutes": 35,
+        "motive_effects": {
+          "fun": 20,
+          "social": 12
+        },
+        "tags": [
+          "festival",
+          "fire"
+        ]
+      }
+    ],
+    "asset_id": "bonfire",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "festival_booth",
+    "name": "Seasonal Festival Booth",
+    "category": "community",
+    "price": 750,
+    "size_x": 3,
+    "size_y": 2.6,
+    "size_z": 1.7,
+    "footprint_x": 3,
+    "footprint_z": 2,
+    "pack_id": "EP08",
+    "interactions": [
+      {
+        "id": "visit_festival_booth",
+        "name": "Visit Festival Booth",
+        "duration_minutes": 40,
+        "motive_effects": {
+          "fun": 30,
+          "social": 8
+        },
+        "special": "festival_visit",
+        "tags": [
+          "festival",
+          "seasonal"
+        ]
+      }
+    ],
+    "asset_id": "festival_booth",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "university_podium",
+    "name": "University Lecture Podium",
+    "category": "education",
+    "price": 900,
+    "size_x": 1.4,
+    "size_y": 1.7,
+    "size_z": 1,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "EP09",
+    "interactions": [
+      {
+        "id": "attend_lecture",
+        "name": "Attend Lecture",
+        "duration_minutes": 90,
+        "motive_effects": {
+          "fun": -4
+        },
+        "skill_id": "science",
+        "skill_points": 16,
+        "special": "university_credits",
+        "tags": [
+          "university",
+          "education"
+        ],
+        "credits": 3
+      }
+    ],
+    "asset_id": "university_podium",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "diving_buoy",
+    "name": "Scuba Diving Buoy",
+    "category": "outdoor",
+    "price": 125,
+    "size_x": 1.2,
+    "size_y": 2.1,
+    "size_z": 1.2,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "EP10",
+    "interactions": [
+      {
+        "id": "scuba_dive",
+        "name": "Go Scuba Diving",
+        "duration_minutes": 120,
+        "motive_effects": {
+          "fun": 40,
+          "energy": -12
+        },
+        "skill_id": "scuba_diving",
+        "skill_points": 25,
+        "special": "scuba_dive",
+        "tags": [
+          "diving",
+          "water"
+        ]
+      }
+    ],
+    "asset_id": "diving_buoy",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "time_portal",
+    "name": "Time Portal",
+    "category": "future",
+    "price": 5000,
+    "size_x": 2.5,
+    "size_y": 3.2,
+    "size_z": 1,
+    "footprint_x": 3,
+    "footprint_z": 1,
+    "pack_id": "EP11",
+    "interactions": [
+      {
+        "id": "enter_time_portal",
+        "name": "Travel to the Future",
+        "duration_minutes": 45,
+        "motive_effects": {
+          "fun": 28
+        },
+        "special": "future_travel",
+        "tags": [
+          "future",
+          "time_travel"
+        ]
+      }
+    ],
+    "asset_id": "time_portal",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "dream_pod",
+    "name": "Dream Pod",
+    "category": "future",
+    "price": 2800,
+    "size_x": 1.5,
+    "size_y": 1.4,
+    "size_z": 2.4,
+    "footprint_x": 2,
+    "footprint_z": 3,
+    "pack_id": "EP11",
+    "interactions": [
+      {
+        "id": "dream_in_pod",
+        "name": "Program Dream",
+        "duration_minutes": 70,
+        "motive_effects": {
+          "energy": 42,
+          "fun": 30
+        },
+        "special": "dream_program",
+        "tags": [
+          "future",
+          "sleep"
+        ]
+      }
+    ],
+    "asset_id": "dream_pod",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "bot_charging_station",
+    "name": "Bot Charging Station",
+    "category": "future",
+    "price": 1700,
+    "size_x": 1.4,
+    "size_y": 1.6,
+    "size_z": 1.4,
+    "footprint_x": 2,
+    "footprint_z": 2,
+    "pack_id": "EP11",
+    "interactions": [
+      {
+        "id": "charge_plumbot",
+        "name": "Recharge Plumbot",
+        "duration_minutes": 60,
+        "motive_effects": {
+          "energy": 50
+        },
+        "special": "bot_charge",
+        "tags": [
+          "future",
+          "plumbot"
+        ]
+      }
+    ],
+    "asset_id": "bot_charging_station",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "resort_tower",
+    "name": "Resort Tower",
+    "category": "resort",
+    "price": 8500,
+    "size_x": 4,
+    "size_y": 5.2,
+    "size_z": 4,
+    "footprint_x": 4,
+    "footprint_z": 4,
+    "pack_id": "EP10",
+    "interactions": [
+      {
+        "id": "manage_resort_tower",
+        "name": "Manage Resort Tower",
+        "duration_minutes": 90,
+        "motive_effects": {
+          "fun": 4
+        },
+        "skill_id": "charisma",
+        "skill_points": 10,
+        "special": "resort_management",
+        "tags": [
+          "resort",
+          "management"
+        ],
+        "earnings": 260
+      }
+    ],
+    "asset_id": "resort_tower",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "food_truck",
+    "name": "Festival Food Truck",
+    "category": "community",
+    "price": 3200,
+    "size_x": 4.2,
+    "size_y": 2.2,
+    "size_z": 2.1,
+    "footprint_x": 4,
+    "footprint_z": 2,
+    "pack_id": "EP08",
+    "interactions": [
+      {
+        "id": "buy_food_truck_meal",
+        "name": "Buy Festival Meal",
+        "duration_minutes": 20,
+        "motive_effects": {
+          "hunger": 42,
+          "fun": 8
+        },
+        "tags": [
+          "food",
+          "festival"
+        ]
+      }
+    ],
+    "asset_id": "food_truck",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "luxury_lounge_chair",
+    "name": "Contour Lounge Chair",
+    "category": "comfort",
+    "price": 950,
+    "size_x": 1.0,
+    "size_y": 1.1,
+    "size_z": 1.1,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "SP01",
+    "interactions": [
+      {
+        "id": "relax_luxury_chair",
+        "name": "Relax",
+        "duration_minutes": 35,
+        "motive_effects": {
+          "fun": 12,
+          "energy": 4
+        },
+        "tags": [
+          "luxury",
+          "comfort"
+        ]
+      }
+    ],
+    "asset_id": "luxury_lounge_chair",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "sport_car_display",
+    "name": "Performance Car Display",
+    "category": "vehicles",
+    "price": 4800,
+    "size_x": 4.0,
+    "size_y": 1.5,
+    "size_z": 2.0,
+    "footprint_x": 4,
+    "footprint_z": 2,
+    "pack_id": "SP02",
+    "interactions": [
+      {
+        "id": "admire_performance_car",
+        "name": "Admire Performance Car",
+        "duration_minutes": 15,
+        "motive_effects": {
+          "fun": 12
+        },
+        "tags": [
+          "vehicle",
+          "garage"
+        ]
+      }
+    ],
+    "asset_id": "sport_car_display",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "community_locker",
+    "name": "Community Locker",
+    "category": "community",
+    "price": 420,
+    "size_x": 1.1,
+    "size_y": 2.0,
+    "size_z": 0.65,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "SP04",
+    "interactions": [
+      {
+        "id": "use_community_locker",
+        "name": "Use Locker",
+        "duration_minutes": 8,
+        "motive_effects": {},
+        "tags": [
+          "community",
+          "gym"
+        ]
+      }
+    ],
+    "asset_id": "community_locker",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "spa_vanity",
+    "name": "Spa Vanity",
+    "category": "bathroom",
+    "price": 780,
+    "size_x": 1.5,
+    "size_y": 1.7,
+    "size_z": 0.65,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "SP05",
+    "interactions": [
+      {
+        "id": "groom_at_vanity",
+        "name": "Freshen Up",
+        "duration_minutes": 25,
+        "motive_effects": {
+          "hygiene": 14,
+          "fun": 5
+        },
+        "tags": [
+          "bedroom",
+          "bathroom"
+        ]
+      }
+    ],
+    "asset_id": "spa_vanity",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "candy_floor_lamp",
+    "name": "Candy Glass Floor Lamp",
+    "category": "lighting",
+    "price": 360,
+    "size_x": 0.65,
+    "size_y": 1.8,
+    "size_z": 0.65,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "SP06",
+    "interactions": [
+      {
+        "id": "admire_candy_lamp",
+        "name": "Admire Lamp",
+        "duration_minutes": 8,
+        "motive_effects": {
+          "fun": 4
+        },
+        "tags": [
+          "decor",
+          "colorful"
+        ]
+      }
+    ],
+    "asset_id": "candy_floor_lamp",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "industrial_coffee_table",
+    "name": "Riveted Coffee Table",
+    "category": "surfaces",
+    "price": 540,
+    "size_x": 1.7,
+    "size_y": 0.55,
+    "size_z": 0.9,
+    "footprint_x": 2,
+    "footprint_z": 1,
+    "pack_id": "SP07",
+    "interactions": [
+      {
+        "id": "use_industrial_table",
+        "name": "Set Down Drink",
+        "duration_minutes": 5,
+        "motive_effects": {},
+        "tags": [
+          "industrial",
+          "surface"
+        ]
+      }
+    ],
+    "asset_id": "industrial_coffee_table",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "retro_dance_console",
+    "name": "Retro Dance Console",
+    "category": "electronics",
+    "price": 1250,
+    "size_x": 1.1,
+    "size_y": 1.5,
+    "size_z": 0.8,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "SP08",
+    "interactions": [
+      {
+        "id": "dance_retro",
+        "name": "Dance Retro",
+        "duration_minutes": 35,
+        "motive_effects": {
+          "fun": 24,
+          "social": 4
+        },
+        "skill_id": "athletic",
+        "skill_points": 3,
+        "tags": [
+          "retro",
+          "electronics",
+          "dance"
+        ]
+      }
+    ],
+    "asset_id": "retro_dance_console",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "movie_prop_statue",
+    "name": "Backlot Adventure Statue",
+    "category": "decor",
+    "price": 990,
+    "size_x": 1.2,
+    "size_y": 2.2,
+    "size_z": 1.2,
+    "footprint_x": 1,
+    "footprint_z": 1,
+    "pack_id": "SP09",
+    "interactions": [
+      {
+        "id": "admire_movie_prop",
+        "name": "Admire Movie Prop",
+        "duration_minutes": 12,
+        "motive_effects": {
+          "fun": 7
+        },
+        "tags": [
+          "cinema",
+          "decor"
+        ]
+      }
+    ],
+    "asset_id": "movie_prop_statue",
+    "mesh": "box",
+    "color": "#7c8791"
+  },
+  {
+    "id": "performance_stage",
+    "name": "Community Performance Stage",
+    "category": "entertainment",
+    "price": 4500,
+    "size_x": 4.5,
+    "size_y": 1.2,
+    "size_z": 3.5,
+    "footprint_x": 5,
+    "footprint_z": 4,
+    "pack_id": "EP06",
+    "interactions": [
+      {
+        "id": "sing_on_stage",
+        "name": "Perform Singing Set",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 18,
+          "social": 8
+        },
+        "skill_id": "charisma",
+        "skill_points": 8,
+        "special": "performance",
+        "tags": [
+          "performance",
+          "singer",
+          "gig"
+        ]
+      },
+      {
+        "id": "perform_magic",
+        "name": "Perform Magic Set",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 18,
+          "social": 8
+        },
+        "skill_id": "logic",
+        "skill_points": 6,
+        "special": "performance",
+        "tags": [
+          "performance",
+          "magician",
+          "gig"
+        ]
+      },
+      {
+        "id": "perform_acrobatics",
+        "name": "Perform Acrobatics Set",
+        "duration_minutes": 75,
+        "motive_effects": {
+          "fun": 18,
+          "social": 8,
+          "energy": -10
+        },
+        "skill_id": "athletic",
+        "skill_points": 8,
+        "special": "performance",
+        "tags": [
+          "performance",
+          "acrobat",
+          "gig"
+        ]
+      }
+    ],
+    "asset_id": "performance_stage",
+    "mesh": "box",
+    "color": "#7c8791"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "release": "0.3.0-candidate",
+  "feature_rows": 187,
+  "feature_statuses": {
+    "implemented_unverified": 78,
+    "architecture_contract": 100,
+    "data_contract": 9
+  },
+  "object_catalog_count": 73,
+  "model_count": 106,
+  "audio_count": 24,
+  "texture_count": 7,
+  "ui_asset_count": 5,
+  "gdscript_files": 49,
+  "gdscript_lines": 4455,
+  "asset_vertices_total": 20236,
+  "asset_faces_total": 37844,
+  "asset_geometries_total": 657,
+  "asset_materials_total": 334,
+  "asset_vertices_mean": 190.9056603773585,
+  "asset_faces_mean": 357.0188679245283,
+  "asset_bytes_total": 863096,
+  "static_checks_pass": 249,
+  "unit_tests_pass": 14,
+  "asset_checks_pass": 729,
+  "runtime_engine_validation": "SKIP - Godot executable not found. Source remains runtime-unverified."
+}

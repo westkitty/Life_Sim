@@ -1,0 +1,410 @@
+[
+  {
+    "file": "alchemy_station.glb",
+    "vertices": 102,
+    "faces": 188,
+    "geometries": 4,
+    "materials": 4,
+    "bytes": 6124
+  },
+  {
+    "file": "arcade_machine.glb",
+    "vertices": 24,
+    "faces": 36,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 2656
+  },
+  {
+    "file": "bathtub_basic.glb",
+    "vertices": 34,
+    "faces": 56,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 3328
+  },
+  {
+    "file": "bed_double.glb",
+    "vertices": 40,
+    "faces": 60,
+    "geometries": 5,
+    "materials": 4,
+    "bytes": 3916
+  },
+  {
+    "file": "bookshelf_basic.glb",
+    "vertices": 40,
+    "faces": 60,
+    "geometries": 5,
+    "materials": 2,
+    "bytes": 3576
+  },
+  {
+    "file": "cafe.glb",
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 4,
+    "bytes": 3284
+  },
+  {
+    "file": "chess_table.glb",
+    "vertices": 158,
+    "faces": 244,
+    "geometries": 18,
+    "materials": 4,
+    "bytes": 11784
+  },
+  {
+    "file": "community_center.glb",
+    "vertices": 76,
+    "faces": 128,
+    "geometries": 6,
+    "materials": 5,
+    "bytes": 5456
+  },
+  {
+    "file": "computer_basic.glb",
+    "vertices": 50,
+    "faces": 80,
+    "geometries": 5,
+    "materials": 4,
+    "bytes": 4608
+  },
+  {
+    "file": "crib_basic.glb",
+    "vertices": 224,
+    "faces": 396,
+    "geometries": 13,
+    "materials": 2,
+    "bytes": 10080
+  },
+  {
+    "file": "desk_basic.glb",
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2,
+    "bytes": 3024
+  },
+  {
+    "file": "dining_chair.glb",
+    "vertices": 48,
+    "faces": 72,
+    "geometries": 6,
+    "materials": 2,
+    "bytes": 4144
+  },
+  {
+    "file": "dining_table.glb",
+    "vertices": 40,
+    "faces": 60,
+    "geometries": 5,
+    "materials": 2,
+    "bytes": 3520
+  },
+  {
+    "file": "dresser_basic.glb",
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2,
+    "bytes": 2940
+  },
+  {
+    "file": "easel_basic.glb",
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2,
+    "bytes": 3008
+  },
+  {
+    "file": "fridge_basic.glb",
+    "vertices": 24,
+    "faces": 36,
+    "geometries": 3,
+    "materials": 2,
+    "bytes": 2472
+  },
+  {
+    "file": "future_workbench.glb",
+    "vertices": 204,
+    "faces": 392,
+    "geometries": 4,
+    "materials": 3,
+    "bytes": 9936
+  },
+  {
+    "file": "grill_basic.glb",
+    "vertices": 52,
+    "faces": 88,
+    "geometries": 4,
+    "materials": 2,
+    "bytes": 3808
+  },
+  {
+    "file": "guitar_basic.glb",
+    "vertices": 366,
+    "faces": 716,
+    "geometries": 4,
+    "materials": 3,
+    "bytes": 12124
+  },
+  {
+    "file": "gym_treadmill.glb",
+    "vertices": 60,
+    "faces": 100,
+    "geometries": 5,
+    "materials": 2,
+    "bytes": 4348
+  },
+  {
+    "file": "hospital_rabbit_hole.glb",
+    "vertices": 40,
+    "faces": 60,
+    "geometries": 5,
+    "materials": 4,
+    "bytes": 3700
+  },
+  {
+    "file": "hot_tub.glb",
+    "vertices": 108,
+    "faces": 204,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 5036
+  },
+  {
+    "file": "house_blue.glb",
+    "vertices": 82,
+    "faces": 128,
+    "geometries": 9,
+    "materials": 6,
+    "bytes": 6904
+  },
+  {
+    "file": "house_founders.glb",
+    "vertices": 66,
+    "faces": 104,
+    "geometries": 7,
+    "materials": 6,
+    "bytes": 5884
+  },
+  {
+    "file": "house_rose.glb",
+    "vertices": 82,
+    "faces": 128,
+    "geometries": 9,
+    "materials": 5,
+    "bytes": 6704
+  },
+  {
+    "file": "inventing_bench.glb",
+    "vertices": 50,
+    "faces": 84,
+    "geometries": 4,
+    "materials": 4,
+    "bytes": 4288
+  },
+  {
+    "file": "kitchen_sink.glb",
+    "vertices": 38,
+    "faces": 64,
+    "geometries": 3,
+    "materials": 2,
+    "bytes": 3248
+  },
+  {
+    "file": "kitchen_stove.glb",
+    "vertices": 152,
+    "faces": 280,
+    "geometries": 6,
+    "materials": 2,
+    "bytes": 6300
+  },
+  {
+    "file": "laundry_washer.glb",
+    "vertices": 58,
+    "faces": 104,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 4152
+  },
+  {
+    "file": "nectar_maker.glb",
+    "vertices": 60,
+    "faces": 108,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 4564
+  },
+  {
+    "file": "park_bench.glb",
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 2,
+    "bytes": 3020
+  },
+  {
+    "file": "pet_bowl.glb",
+    "vertices": 76,
+    "faces": 144,
+    "geometries": 2,
+    "materials": 2,
+    "bytes": 3488
+  },
+  {
+    "file": "pet_cat.glb",
+    "vertices": 182,
+    "faces": 348,
+    "geometries": 4,
+    "materials": 1,
+    "bytes": 8876
+  },
+  {
+    "file": "pet_dog.glb",
+    "vertices": 242,
+    "faces": 460,
+    "geometries": 6,
+    "materials": 2,
+    "bytes": 11056
+  },
+  {
+    "file": "pet_horse.glb",
+    "vertices": 88,
+    "faces": 152,
+    "geometries": 6,
+    "materials": 2,
+    "bytes": 5220
+  },
+  {
+    "file": "resort_desk.glb",
+    "vertices": 24,
+    "faces": 36,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 2612
+  },
+  {
+    "file": "road_cross.glb",
+    "vertices": 16,
+    "faces": 24,
+    "geometries": 2,
+    "materials": 1,
+    "bytes": 1664
+  },
+  {
+    "file": "road_straight.glb",
+    "vertices": 16,
+    "faces": 24,
+    "geometries": 2,
+    "materials": 2,
+    "bytes": 1880
+  },
+  {
+    "file": "rock_cluster.glb",
+    "vertices": 126,
+    "faces": 240,
+    "geometries": 3,
+    "materials": 1,
+    "bytes": 4316
+  },
+  {
+    "file": "sculpting_station.glb",
+    "vertices": 42,
+    "faces": 72,
+    "geometries": 3,
+    "materials": 2,
+    "bytes": 3440
+  },
+  {
+    "file": "shower_basic.glb",
+    "vertices": 84,
+    "faces": 148,
+    "geometries": 5,
+    "materials": 3,
+    "bytes": 5900
+  },
+  {
+    "file": "shrub.glb",
+    "vertices": 126,
+    "faces": 240,
+    "geometries": 3,
+    "materials": 2,
+    "bytes": 4512
+  },
+  {
+    "file": "sim_avatar_reference.glb",
+    "vertices": 256,
+    "faces": 488,
+    "geometries": 6,
+    "materials": 3,
+    "bytes": 11704
+  },
+  {
+    "file": "sofa_basic.glb",
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 1,
+    "bytes": 2864
+  },
+  {
+    "file": "stereo_basic.glb",
+    "vertices": 84,
+    "faces": 156,
+    "geometries": 3,
+    "materials": 2,
+    "bytes": 4252
+  },
+  {
+    "file": "telescope_basic.glb",
+    "vertices": 68,
+    "faces": 120,
+    "geometries": 4,
+    "materials": 2,
+    "bytes": 4212
+  },
+  {
+    "file": "television_basic.glb",
+    "vertices": 32,
+    "faces": 48,
+    "geometries": 4,
+    "materials": 3,
+    "bytes": 3248
+  },
+  {
+    "file": "toilet_basic.glb",
+    "vertices": 76,
+    "faces": 140,
+    "geometries": 3,
+    "materials": 1,
+    "bytes": 3892
+  },
+  {
+    "file": "tree_deciduous.glb",
+    "vertices": 224,
+    "faces": 436,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 10480
+  },
+  {
+    "file": "tree_pine.glb",
+    "vertices": 42,
+    "faces": 72,
+    "geometries": 3,
+    "materials": 3,
+    "bytes": 3476
+  },
+  {
+    "file": "vehicle_compact.glb",
+    "vertices": 152,
+    "faces": 280,
+    "geometries": 6,
+    "materials": 3,
+    "bytes": 6544
+  }
+]

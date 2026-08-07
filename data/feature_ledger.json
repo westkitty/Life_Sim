@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "BG-SIM_CLOCK",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "simulation clock and four speeds",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_simulation_minutes (clock advanced at least six simulation minutes)"
+  },
+  {
+    "id": "BG-OPEN_WORLD",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "single loaded neighborhood",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_boot_main_scene + _test_impossible_blocker (architecture blockers)"
+  },
+  {
+    "id": "BG-SIM_AGENTS",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "multiple controllable autonomous agents",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_boot_main_scene + _test_routing_and_interaction_completion"
+  },
+  {
+    "id": "BG-MOTIVES",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "six motive decay and fulfillment",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_simulation_minutes + _test_routing_and_interaction_completion (decay and effect application)"
+  },
+  {
+    "id": "BG-AUTONOMY",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "utility-based autonomous interaction choice",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_autonomy_queues_legal_interaction"
+  },
+  {
+    "id": "BG-QUEUE",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "bounded cancellable interaction queue",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_routing_and_interaction_completion (enqueue to completion)"
+  },
+  {
+    "id": "BG-RELATIONSHIPS",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "long-term, short-term, romantic relationship state",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_social_relationship_change"
+  },
+  {
+    "id": "BG-SKILLS",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "levelled skills with nonlinear progression",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-CAREERS",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "career assignment, performance, promotion",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_career_wish_progression"
+  },
+  {
+    "id": "BG-AGING",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "life stages and lifespan progression",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-HOUSEHOLDS",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "households, funds, active household",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_household_ownership_coherence"
+  },
+  {
+    "id": "BG-BUILD_BUY",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "runtime catalog placement and selling",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_build_buy_place_rotate_reject_sell"
+  },
+  {
+    "id": "BG-CAS",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "runtime name, age stage, traits, favorites editing",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_mode_and_input_policy + _test_age_geometry"
+  },
+  {
+    "id": "BG-SAVE_LOAD",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "versioned local JSON saves",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_save_load_round_trip + _test_backup_recovery"
+  },
+  {
+    "id": "BG-STORY_PROGRESSION",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "daily inactive household simulation",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-CAMERA",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "pan, rotate, zoom, ray selection",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-WEATHER",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "season, weather, temperature state",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_save_load_round_trip (weather restored)"
+  },
+  {
+    "id": "BG-OCCULT_REGISTRY",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "multi-state occult registry and motive modifiers",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-CONTENT_REGISTRY",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "data-driven pack and catalog loading",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: smoke_test.gd (pack/catalog counts) + integration_test.gd::_test_pack_runtime_slices"
+  },
+  {
+    "id": "BG-WORLD_TRAVEL",
+    "pack_id": "BG",
+    "category": "runtime",
+    "name": "world registry and travel-state hook",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_save_load_round_trip (world state restored)"
+  },
+  {
+    "id": "BG-CAS_GENETICS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "CAS genetics data, age/body-shape avatar selection, inherited appearance state",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_age_geometry + save round trip (genetics restored)"
+  },
+  {
+    "id": "BG-PREGNANCY",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "conception state, timed pregnancy, birth event and newborn household insertion",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-WISHES",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "wishes, lifetime wish, lifetime happiness",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_career_wish_progression + save round trip"
+  },
+  {
+    "id": "BG-MOODLETS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "timed moodlets and mood aggregation",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_services + save round trip"
+  },
+  {
+    "id": "BG-TRAIT_AI",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "trait-weighted autonomy, motive decay and social modifiers",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-ROUTING",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "grid-based A* route generation around Build/Buy occupied cells",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_routing_and_interaction_completion + _test_impossible_blocker"
+  },
+  {
+    "id": "BG-RABBIT_HOLES",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "career and service rabbit-hole venues",
+    "status": "architecture_contract",
+    "proof": "specified in parity docs; executable parity not yet proven"
+  },
+  {
+    "id": "BG-SERVICES",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "scheduled maid, repair, delivery, babysitter, fire and police service request state",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_services"
+  },
+  {
+    "id": "BG-VEHICLES",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "owned and shared vehicles",
+    "status": "architecture_contract",
+    "proof": "specified in parity docs; executable parity not yet proven"
+  },
+  {
+    "id": "BG-INVENTORY",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "personal, family, object, shared inventories",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_services + save round trip"
+  },
+  {
+    "id": "BG-OPPORTUNITIES",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "per-Sim offered opportunities, interaction progress, completion and rewards hook",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_opportunity_reward_pays_once"
+  },
+  {
+    "id": "BG-COLLECTING",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "collectible registry, persistent collection counts and inventory insertion",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-GARDENING",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "plant state, growth days, water, death, harvest readiness and produce output",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-FISHING",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "skill-gated fish table, catches and inventory output",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-COOKING",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "recipe level gates, meal creation and inventory state",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-BUILD_TOOLS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "walls, foundations, roofs, stairs, pools, terrain",
+    "status": "architecture_contract",
+    "proof": "specified in parity docs; executable parity not yet proven"
+  },
+  {
+    "id": "BG-CREATE_STYLE",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "material and color pattern recoloring",
+    "status": "architecture_contract",
+    "proof": "specified in parity docs; executable parity not yet proven"
+  },
+  {
+    "id": "BG-NEIGHBORHOOD_EDIT",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "lot placement, bulldoze, library, household merge/split",
+    "status": "architecture_contract",
+    "proof": "specified in parity docs; executable parity not yet proven"
+  },
+  {
+    "id": "BG-SCHOOLS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "child/teen enrollment state, weekday attendance, homework and grades",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_school_and_homework"
+  },
+  {
+    "id": "BG-DEATH_GHOSTS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "deceased registry, death types and persistent ghost state",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_death_and_ghost"
+  },
+  {
+    "id": "BG-PARTIES",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "party invitations, participants, timed scoring and outcomes",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-SOCIALS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "data-driven friendly, funny, romantic and mean social interaction menu with trait modifiers",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_social_relationship_change"
+  },
+  {
+    "id": "BG-GENETICS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "deterministic parent inheritance for traits, appearance state and occult inheritance",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-AUDIO",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "offline SFX service plus Live/Build/CAS procedural music-mode switching",
+    "status": "engine_verified",
+    "proof": "Godot 4.7.1 runtime evidence: integration_test.gd::_test_mode_and_input_policy (live/CAS music mode assertions)"
+  },
+  {
+    "id": "BG-LOCALIZATION",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "string tables, grammar, localization-safe UI",
+    "status": "architecture_contract",
+    "proof": "specified in parity docs; executable parity not yet proven"
+  },
+  {
+    "id": "BG-MODDING",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "package resources, script mod API, tuning overrides",
+    "status": "architecture_contract",
+    "proof": "specified in parity docs; executable parity not yet proven"
+  },
+  {
+    "id": "EP01-F01",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "travel-world state, trip recording and per-Sim visa progression",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP01-F02",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "adventure board and chains",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP01-F03",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "tomb rooms and markers",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP01-F04",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "traps and hidden doors",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP01-F05",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "relic collections",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP01-F06",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "nectar-making interaction, skill progression and persistent batch count",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP01-F07",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "photography",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP01-F08",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "martial arts",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP01-F09",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "mummies",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP01-F10",
+    "pack_id": "EP01",
+    "category": "expansion_parity",
+    "name": "vacation homes",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F01",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "active profession framework",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F02",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "firefighter incidents",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F03",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "investigator cases",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F04",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "ghost hunting",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F05",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "architectural design jobs",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F06",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "stylist jobs",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F07",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "inventing workbench, inventing skill and prototype inventory result",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP02-F08",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "sculpting station, sculpting skill and persistent completion count",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP02-F09",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "tattooing",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F10",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "laundry washer interaction and persistent laundry-cycle count",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP02-F11",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "consignment",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP02-F12",
+    "pack_id": "EP02",
+    "category": "expansion_parity",
+    "name": "self-employment",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F01",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "high-rise shells and apartments",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F02",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "venue access and bouncers",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F03",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "nightclubs and bars",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F04",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "bands and gigs",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F05",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "celebrity points and derived celebrity level state",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP03-F06",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "paparazzi",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F07",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "vampires",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F08",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "mixology",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F09",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "subways",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP03-F10",
+    "pack_id": "EP03",
+    "category": "expansion_parity",
+    "name": "group outings",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F01",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "per-Sim memory event log with day/minute stamps",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP04-F02",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "imaginary friends",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F03",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "daycare profession",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F04",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "boarding schools",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F05",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "prom and graduation",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F06",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "pranks and punishment",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F07",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "wedding depth",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F08",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "midlife crisis",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F09",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "strollers",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP04-F10",
+    "pack_id": "EP04",
+    "category": "expansion_parity",
+    "name": "tree houses",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP05-F01",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "pet Create-a-Sim",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP05-F02",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "cat simulation",
+    "status": "implemented_unverified",
+    "proof": "object interactions (fill_pet_bowl / play_cat_tree / pet_dog_bed / fill_horse_trough) drive persistent cat state and are engine-exercised by integration_test.gd::_test_pack_runtime_slices; no in-world pet agent, pet selection, pet routing or pet UI exists, so this row is a data-level simulation only"
+  },
+  {
+    "id": "EP05-F03",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "dog simulation",
+    "status": "implemented_unverified",
+    "proof": "object interactions (fill_pet_bowl / play_cat_tree / pet_dog_bed / fill_horse_trough) drive persistent dog state and are engine-exercised by integration_test.gd::_test_pack_runtime_slices; no in-world pet agent, pet selection, pet routing or pet UI exists, so this row is a data-level simulation only"
+  },
+  {
+    "id": "EP05-F04",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "horse simulation",
+    "status": "implemented_unverified",
+    "proof": "object interactions (fill_pet_bowl / play_cat_tree / pet_dog_bed / fill_horse_trough) drive persistent horse state and are engine-exercised by integration_test.gd::_test_pack_runtime_slices; no in-world pet agent, pet selection, pet routing or pet UI exists, so this row is a data-level simulation only"
+  },
+  {
+    "id": "EP05-F05",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "pet autonomy and traits",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP05-F06",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "pet training",
+    "status": "data_contract",
+    "proof": "downgraded after Godot runtime review: pet training has no reachable interaction; PetSystem.interact training branches have no gameplay caller"
+  },
+  {
+    "id": "EP05-F07",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "pet genetics and breeding",
+    "status": "data_contract",
+    "proof": "downgraded after Godot runtime review: pet breeding has no gameplay caller; PetSystem.breed is data-only"
+  },
+  {
+    "id": "EP05-F08",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "riding and equestrian",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP05-F09",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "unicorns",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP05-F10",
+    "pack_id": "EP05",
+    "category": "expansion_parity",
+    "name": "wildlife",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP06-F01",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "singer profession",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP06-F02",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "magician profession",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP06-F03",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "acrobat profession",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP06-F04",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "gig venues",
+    "status": "data_contract",
+    "proof": "downgraded after Godot runtime review: gig venue booking has no gameplay caller; PerformerSystem.book_gig/complete_gig are unreachable from play"
+  },
+  {
+    "id": "EP06-F05",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "stage setup",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP06-F06",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "SimFest",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP06-F07",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "genies",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP06-F08",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "DJ booth",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP06-F09",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "karaoke",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP06-F10",
+    "pack_id": "EP06",
+    "category": "expansion_parity",
+    "name": "local exchange hook replacing retired network dependency",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F01",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "witch simulation",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F02",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "werewolf simulation",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F03",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "fairy simulation",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F04",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "zombies",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F05",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "vampire extensions",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F06",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "alchemy skill, brew-elixir interaction, inventory result and brewed count",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP07-F07",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "eight-phase lunar cycle advanced from world day state",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP07-F08",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "magic duels",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F09",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "Bonehilda-style service",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP07-F10",
+    "pack_id": "EP07",
+    "category": "expansion_parity",
+    "name": "population controls",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F01",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "season progression integrated with daily world weather state",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP08-F02",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "weather rendering",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F03",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "temperature exposure accumulation and shelter warning state",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP08-F04",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "seasonal festivals",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F05",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "holidays",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F06",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "seasonal lot markers",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F07",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "snow accumulation",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F08",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "rain and storms",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F09",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "aliens",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP08-F10",
+    "pack_id": "EP08",
+    "category": "expansion_parity",
+    "name": "online dating",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F01",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "university enrollment state entered through university travel context",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP09-F02",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "university credit and GPA progression state",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP09-F03",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "classes and exams",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F04",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "dorms and roommates",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F05",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "social groups",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F06",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "protests",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F07",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "street art",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F08",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "science skill",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F09",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "smartphone and social networking",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP09-F10",
+    "pack_id": "EP09",
+    "category": "expansion_parity",
+    "name": "PlantSims",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP10-F01",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "boat routing",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP10-F02",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "houseboats",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP10-F03",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "resort ownership record keyed to household",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP10-F04",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "resort rating and revenue progression from management interactions",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP10-F05",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "scuba-diving interaction, skill progress and persistent dive count",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP10-F06",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "underwater lots",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP10-F07",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "uncharted islands",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP10-F08",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "lifeguard profession",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP10-F09",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "mermaids",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP10-F10",
+    "pack_id": "EP10",
+    "category": "expansion_parity",
+    "name": "kraken events",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F01",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "time portal",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F02",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "future world",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F03",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "persistent future-alignment mutation from future interactions",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP11-F04",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "descendants",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F05",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "player-created Plumbot household member with persistent bot registry",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP11-F06",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "trait chips",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F07",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "advanced technology skill",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F08",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "bot building",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F09",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "dream pods",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "EP11-F10",
+    "pack_id": "EP11",
+    "category": "expansion_parity",
+    "name": "utopian and dystopian futures",
+    "status": "architecture_contract",
+    "proof": "registered in pack contract; not full runtime parity"
+  },
+  {
+    "id": "SP01-CATALOG",
+    "pack_id": "SP01",
+    "category": "content_parity",
+    "name": "modern luxury furniture, electronics, apparel",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP02-CATALOG",
+    "pack_id": "SP02",
+    "category": "content_parity",
+    "name": "vehicles, garage decor, motoring apparel",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP03-CATALOG",
+    "pack_id": "SP03",
+    "category": "content_parity",
+    "name": "outdoor kitchens, patios, hot tubs, apparel",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP04-CATALOG",
+    "pack_id": "SP04",
+    "category": "content_parity",
+    "name": "community lot objects, laundromat, gym, library, apparel",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP05-CATALOG",
+    "pack_id": "SP05",
+    "category": "content_parity",
+    "name": "bedroom and bathroom furnishings, sleepwear",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP06-CATALOG",
+    "pack_id": "SP06",
+    "category": "content_parity",
+    "name": "candy-themed objects, apparel, venue props",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP07-CATALOG",
+    "pack_id": "SP07",
+    "category": "content_parity",
+    "name": "licensed-style apparel and industrial furnishings",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP08-CATALOG",
+    "pack_id": "SP08",
+    "category": "content_parity",
+    "name": "decade apparel, hair, furnishings",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "SP09-CATALOG",
+    "pack_id": "SP09",
+    "category": "content_parity",
+    "name": "western, horror, and heroic cinema-themed content",
+    "status": "data_contract",
+    "proof": "catalog namespace and filtering contract exists; copyrighted assets are not included"
+  },
+  {
+    "id": "STORE-PACKAGES",
+    "pack_id": "STORE",
+    "category": "content_platform",
+    "name": "local installable content package framework",
+    "status": "architecture_contract",
+    "proof": "registry hook exists; importer and premium scripts remain"
+  },
+  {
+    "id": "WORLD-WORLDS",
+    "pack_id": "WORLD",
+    "category": "world_content",
+    "name": "external world manifests and save migration",
+    "status": "architecture_contract",
+    "proof": "world registry hook exists; full importer remains"
+  },
+  {
+    "id": "BG-CAS-MORPHS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "full facial morph sliders, layered clothing, hair mesh editing, voice controls and Create-a-Style in CAS",
+    "status": "architecture_contract",
+    "proof": "Not yet source-wired; preserved as residual CAS parity scope"
+  },
+  {
+    "id": "BG-ROUTING-ADVANCED",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "door portals, stairs, elevators, vehicle traffic, lane routing and robust dynamic replanning",
+    "status": "architecture_contract",
+    "proof": "Advanced routing parity remains unimplemented"
+  },
+  {
+    "id": "BG-DEATH-GRIM",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "death animation sequence, Grim Reaper behavior, urn/tombstone objects and playable ghost manifestation",
+    "status": "architecture_contract",
+    "proof": "Residual death/ghost parity remains unimplemented"
+  },
+  {
+    "id": "BG-SOCIAL-CONVERSATION",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "full conversation group routing, topic context, social availability gates, relationship states and animation synchronization",
+    "status": "architecture_contract",
+    "proof": "Residual social-system parity remains unimplemented"
+  },
+  {
+    "id": "BG-AUDIO-ADVANCED",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "full object audio graphs, Sim voices, adaptive music layers, ducking and concurrency management",
+    "status": "architecture_contract",
+    "proof": "Residual audio parity remains unimplemented"
+  },
+  {
+    "id": "BG-BILLS",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "periodic household bill assessment, mailbox payment and persistent balances",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "BG-GENEALOGY",
+    "pack_id": "BG",
+    "category": "parity_contract",
+    "name": "parent/child/sibling genealogy records persisted with births",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "EP04-F01B",
+    "pack_id": "EP04",
+    "category": "parity_contract",
+    "name": "scrapbook UI, memory pictures, custom memory editing and memory-sharing presentation",
+    "status": "architecture_contract",
+    "proof": "Memory state exists but full scrapbook presentation does not"
+  },
+  {
+    "id": "EP09-F02B",
+    "pack_id": "EP09",
+    "category": "parity_contract",
+    "name": "degree completion awards, career boosts and full transcript UI",
+    "status": "architecture_contract",
+    "proof": "Residual degree parity remains unimplemented"
+  },
+  {
+    "id": "SP01-RUNTIME-SLICE",
+    "pack_id": "SP01",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP02-RUNTIME-SLICE",
+    "pack_id": "SP02",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP03-RUNTIME-SLICE",
+    "pack_id": "SP03",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP04-RUNTIME-SLICE",
+    "pack_id": "SP04",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP05-RUNTIME-SLICE",
+    "pack_id": "SP05",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP06-RUNTIME-SLICE",
+    "pack_id": "SP06",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP07-RUNTIME-SLICE",
+    "pack_id": "SP07",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP08-RUNTIME-SLICE",
+    "pack_id": "SP08",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  },
+  {
+    "id": "SP09-RUNTIME-SLICE",
+    "pack_id": "SP09",
+    "category": "content_runtime_slice",
+    "name": "clean-room actionable representative content slice",
+    "status": "implemented_unverified",
+    "proof": "source-wired implementation present; the pack has at least one engine-exercised interaction path (integration_test.gd::_test_pack_runtime_slices), but this row has no feature-specific Godot assertion yet"
+  }
+]

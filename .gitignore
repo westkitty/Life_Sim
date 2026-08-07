@@ -1,0 +1,48 @@
+# Godot
+.godot/
+*.translation
+export.cfg
+export_presets.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# User / runtime
+user://
+*.log
+.import/
+
+# Local secrets / env
+.env
+.env.*
+*.pem
+*.key
+credentials*
+*secret*
+*token*
+
+# Asset vault / vendor originals (local only)
+AssetVault/
+third_party/staging/*/originals/
+*.zip
+!docs/**/*.zip
+
+# Temp / capture work
+/tmp/
+/tmp_captures/
+*.tmp

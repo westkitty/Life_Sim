@@ -1,0 +1,436 @@
+[
+  {
+    "id": "absent_minded",
+    "name": "Absent-Minded",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "adventurous",
+    "name": "Adventurous",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "ambitious",
+    "name": "Ambitious",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "angler",
+    "name": "Angler",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "artistic",
+    "name": "Artistic",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "athletic",
+    "name": "Athletic",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "bookworm",
+    "name": "Bookworm",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "brave",
+    "name": "Brave",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "charismatic",
+    "name": "Charismatic",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "childish",
+    "name": "Childish",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "clumsy",
+    "name": "Clumsy",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "computer_whiz",
+    "name": "Computer Whiz",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "couch_potato",
+    "name": "Couch Potato",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "coward",
+    "name": "Coward",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "daredevil",
+    "name": "Daredevil",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "dislikes_children",
+    "name": "Dislikes Children",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "evil",
+    "name": "Evil",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "family_oriented",
+    "name": "Family-Oriented",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "flirty",
+    "name": "Flirty",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "friendly",
+    "name": "Friendly",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "frugal",
+    "name": "Frugal",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "genius",
+    "name": "Genius",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "good",
+    "name": "Good",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "good_sense_of_humor",
+    "name": "Good Sense of Humor",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "great_kisser",
+    "name": "Great Kisser",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "green_thumb",
+    "name": "Green Thumb",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "grumpy",
+    "name": "Grumpy",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "handy",
+    "name": "Handy",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "hates_outdoors",
+    "name": "Hates the Outdoors",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "hopeless_romantic",
+    "name": "Hopeless Romantic",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "hot_headed",
+    "name": "Hot-Headed",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "kleptomaniac",
+    "name": "Kleptomaniac",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "light_sleeper",
+    "name": "Light Sleeper",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "loner",
+    "name": "Loner",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "loves_outdoors",
+    "name": "Loves the Outdoors",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "lucky",
+    "name": "Lucky",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "mean_spirited",
+    "name": "Mean-Spirited",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "mooch",
+    "name": "Mooch",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "natural_cook",
+    "name": "Natural Cook",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "neat",
+    "name": "Neat",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "neurotic",
+    "name": "Neurotic",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "never_nude",
+    "name": "Never Nude",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "no_sense_of_humor",
+    "name": "No Sense of Humor",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "over_emotional",
+    "name": "Over-Emotional",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "party_animal",
+    "name": "Party Animal",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "perfectionist",
+    "name": "Perfectionist",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "schmoozer",
+    "name": "Schmoozer",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "slob",
+    "name": "Slob",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "snob",
+    "name": "Snob",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "technophobe",
+    "name": "Technophobe",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "unflirty",
+    "name": "Unflirty",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "unlucky",
+    "name": "Unlucky",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "vegetarian",
+    "name": "Vegetarian",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "virtuoso",
+    "name": "Virtuoso",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "workaholic",
+    "name": "Workaholic",
+    "pack_id": "BG",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "supernatural_fan",
+    "name": "Supernatural Fan",
+    "pack_id": "EP07",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "animal_lover",
+    "name": "Animal Lover",
+    "pack_id": "EP05",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "sailor",
+    "name": "Sailor",
+    "pack_id": "EP10",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "bot_fan",
+    "name": "Bot Fan",
+    "pack_id": "EP11",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "avant_garde",
+    "name": "Avant Garde",
+    "pack_id": "EP09",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "night_owl",
+    "name": "Night Owl",
+    "pack_id": "EP07",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  },
+  {
+    "id": "shy",
+    "name": "Shy",
+    "pack_id": "EP03",
+    "autonomy_weights": {},
+    "motive_decay_modifiers": {}
+  }
+]

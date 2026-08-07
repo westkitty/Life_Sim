@@ -1,0 +1,309 @@
+[
+  {
+    "id": "unemployed",
+    "name": "Unemployed",
+    "kind": "none",
+    "levels": 0,
+    "base_hourly_pay": 0,
+    "performance_factors": []
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 18,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "culinary",
+    "name": "Culinary",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 21,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "criminal",
+    "name": "Criminal",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 24,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "journalism",
+    "name": "Journalism",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 27,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "law_enforcement",
+    "name": "Law Enforcement",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 30,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "medical",
+    "name": "Medical",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 33,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "military",
+    "name": "Military",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 36,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 18,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "political",
+    "name": "Political",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 21,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "professional_sports",
+    "name": "Professional Sports",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 24,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "science",
+    "name": "Science",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 27,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "firefighter",
+    "name": "Firefighter",
+    "kind": "active_profession",
+    "levels": 10,
+    "base_hourly_pay": 30,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "investigator",
+    "name": "Investigator",
+    "kind": "active_profession",
+    "levels": 10,
+    "base_hourly_pay": 33,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "ghost_hunter",
+    "name": "Ghost Hunter",
+    "kind": "active_profession",
+    "levels": 10,
+    "base_hourly_pay": 36,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "architectural_designer",
+    "name": "Architectural Designer",
+    "kind": "active_profession",
+    "levels": 10,
+    "base_hourly_pay": 18,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "stylist",
+    "name": "Stylist",
+    "kind": "active_profession",
+    "levels": 10,
+    "base_hourly_pay": 21,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "singer",
+    "name": "Singer",
+    "kind": "performance_profession",
+    "levels": 10,
+    "base_hourly_pay": 24,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "magician",
+    "name": "Magician",
+    "kind": "performance_profession",
+    "levels": 10,
+    "base_hourly_pay": 27,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "acrobat",
+    "name": "Acrobat",
+    "kind": "performance_profession",
+    "levels": 10,
+    "base_hourly_pay": 30,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "lifeguard",
+    "name": "Lifeguard",
+    "kind": "active_profession",
+    "levels": 10,
+    "base_hourly_pay": 33,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 36,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "film",
+    "name": "Film",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 18,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  },
+  {
+    "id": "fortune_teller",
+    "name": "Fortune Teller",
+    "kind": "rabbit_hole",
+    "levels": 10,
+    "base_hourly_pay": 21,
+    "performance_factors": [
+      "mood",
+      "attendance",
+      "required_skills",
+      "boss_relationship"
+    ]
+  }
+]
