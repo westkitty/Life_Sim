@@ -68,3 +68,12 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Tests** | visual, assets, smoke |
 
 ---
+
+## Loop 05
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Hero furniture: sofa/bed/desk/dining/lamp/dresser materials and denser living room layout. |
+| **Evidence** | `qa/graphics/loop-05/` |
+
+---
