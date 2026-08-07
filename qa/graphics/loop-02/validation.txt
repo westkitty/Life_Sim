@@ -1,0 +1,14 @@
+Loop 02 validation
+Godot: 4.7.1.stable GL Compatibility
+- import: PASS
+- visual_capture: PASS (1280x800, nonblack=0.9829)
+- visual_scene_test: OPENLIFE_VISUAL_PASS 73 checks, accepted=54 rejected=0
+- validate_assets: PASS 747
+
+Improvements:
+- Multi-tone grass patches (lush/dry/base)
+- Curbs between road and sidewalk
+- Driveways, stone paths, garden soil beds per lot
+- Foundation skirts under houses
+- Park paths and community apron
+- New textures: terrain_grass_dry/lush, driveway, garden_soil, lot_edge, upgraded sidewalk/road/paver

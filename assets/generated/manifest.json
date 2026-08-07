@@ -2001,6 +2001,16 @@
   ],
   "textures": [
     {
+      "id": "driveway",
+      "path": "res://assets/generated/textures/driveway.png",
+      "sha256": "120dc25b0aee6d58c4739de86e620a1243a8c87665a40fb8d8f863289e5c23a4",
+      "bytes": 513982,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
       "id": "floor_tile",
       "path": "res://assets/generated/textures/floor_tile.png",
       "sha256": "9e175dcdd255a805971fc4eb08143547c212c350acf3047b40144803dd2ef1fe",
@@ -2021,10 +2031,30 @@
       ]
     },
     {
+      "id": "garden_soil",
+      "path": "res://assets/generated/textures/garden_soil.png",
+      "sha256": "81341b383f61e0a2dfa4894ac510c03e3f4b71bb269df3437929c4f5fc97fd58",
+      "bytes": 564204,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "lot_edge",
+      "path": "res://assets/generated/textures/lot_edge.png",
+      "sha256": "d5ec2cbf000025432ecc5149a2d4b50d0c6f65e2a7ea9287e820280b82650111",
+      "bytes": 459185,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
       "id": "sidewalk",
       "path": "res://assets/generated/textures/sidewalk.png",
-      "sha256": "ffcfe4f6e69401ea08c05f64f3b295612bb05f5ed8d8880bb6ea74d4e7d223ac",
-      "bytes": 2450,
+      "sha256": "f34c58a37658c67d3bd8c6909793a86bd1a8d1eaaa725274bab6d8b3628f1782",
+      "bytes": 473160,
       "size": [
         512,
         512
@@ -2033,18 +2063,38 @@
     {
       "id": "stone_paver",
       "path": "res://assets/generated/textures/stone_paver.png",
-      "sha256": "02abb40590c687855bc6451faeb7c599bf8396c249147e93be370dc80b8ac03d",
-      "bytes": 786,
+      "sha256": "507c35e0a3a47c9b728b29e51bd87ffc228683fe1f4f40e9d6230b5a7e149e7c",
+      "bytes": 3575,
       "size": [
-        256,
-        256
+        512,
+        512
       ]
     },
     {
       "id": "terrain_grass",
       "path": "res://assets/generated/textures/terrain_grass.png",
-      "sha256": "680dbe586fb786e5fba2aef40723625db736091694933c1a578c3b45a51cc89f",
-      "bytes": 495550,
+      "sha256": "96e746410ccd5f0f4e0a32ce24786a8b77b2fc37cd7fa0f40d3e28ff5dae8fa2",
+      "bytes": 528938,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "terrain_grass_dry",
+      "path": "res://assets/generated/textures/terrain_grass_dry.png",
+      "sha256": "3d01cda2d991a8d5161b3c13d5605a608218a3fe4990112013c539080997f01e",
+      "bytes": 528341,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "terrain_grass_lush",
+      "path": "res://assets/generated/textures/terrain_grass_lush.png",
+      "sha256": "5c49007e415874f0318609155ff319f6598829d24c69821e60fa6390b6b6dc54",
+      "bytes": 528745,
       "size": [
         512,
         512
@@ -2053,8 +2103,8 @@
     {
       "id": "terrain_road",
       "path": "res://assets/generated/textures/terrain_road.png",
-      "sha256": "3038524cc6b451a0d33aea0a49b85a05804b26975d645f245e87cf1ba4e2cfa3",
-      "bytes": 517838,
+      "sha256": "ffb9b53a6efc29b0cff02c748be6ce9624ff03bf248533d0ab596432318159b3",
+      "bytes": 513956,
       "size": [
         512,
         512

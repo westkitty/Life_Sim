@@ -95,10 +95,10 @@ func _create_ground() -> void:
 	mesh_instance.mesh = mesh
 	var material := StandardMaterial3D.new()
 	# Warm suburban lawn — not neon chartreuse.
-	material.albedo_color = Color("#6f8f5c")
+	material.albedo_color = Color("#6a8758")
 	material.albedo_texture = AssetLibrary.texture_asset("terrain_grass")
-	material.uv1_scale = Vector3(22.0, 22.0, 22.0)
-	material.roughness = 0.94
+	material.uv1_scale = Vector3(24.0, 24.0, 24.0)
+	material.roughness = 0.95
 	material.specular_mode = BaseMaterial3D.SPECULAR_DISABLED
 	mesh_instance.material_override = material
 	mesh_instance.position.y = -0.1
@@ -111,6 +111,8 @@ func _create_ground() -> void:
 	collision.position.y = -0.1
 	ground.add_child(collision)
 	world_root.add_child(ground)
+	# Soft grass patches break flat neon-ground reading across the neighborhood.
+	_scatter_grass_patches()
 
 func _create_roads() -> void:
 	# Asphalt with muted grey-brown and soft edge shoulders for neighborhood readability.
@@ -132,6 +134,11 @@ func _create_roads() -> void:
 	# Centre dashed line on the main cross for streetscape rhythm.
 	for z in range(-40, 41, 6):
 		_create_flat_box(Vector3(0.0, 0.045, float(z)), Vector3(0.18, 0.03, 2.2), Color("#d4cc9e"), "CenterDash_%d" % z)
+	# Raised curb lips between asphalt and sidewalk.
+	_create_curb(Vector3(-5.15, 0.05, 0.0), Vector3(0.28, 0.08, 96.0), "CurbNS_W")
+	_create_curb(Vector3(5.15, 0.05, 0.0), Vector3(0.28, 0.08, 96.0), "CurbNS_E")
+	_create_curb(Vector3(0.0, 0.055, -5.15), Vector3(96.0, 0.08, 0.28), "CurbEW_N")
+	_create_curb(Vector3(0.0, 0.055, 5.15), Vector3(96.0, 0.08, 0.28), "CurbEW_S")
 
 func _create_lots_and_buildings() -> void:
 	_create_lot("lot_founders", Vector3(-22.0, 0.02, -22.0), Vector3(27.0, 0.04, 27.0), Color("#7a926c"), "FoundersLot", "residential")
@@ -145,6 +152,7 @@ func _create_lots_and_buildings() -> void:
 	_create_structure("community_center", Vector3(-23.0, 0.0, 31.0), "CommunityCenter", Vector3(10.0, 6.0, 8.0), Vector3(0.65, 0.65, 0.65))
 	_create_structure("cafe", Vector3(35.0, 0.0, 5.0), "CornerCafe", Vector3(8.0, 5.0, 8.0), Vector3(0.72, 0.72, 0.72))
 	_create_structure("hospital_rabbit_hole", Vector3(-35.0, 0.0, 5.0), "CommunityHospital", Vector3(9.0, 6.0, 9.0), Vector3(0.68, 0.68, 0.68))
+	_dress_lot_surfaces()
 
 func _create_lot(lot_id: String, position: Vector3, size: Vector3, color: Color, lot_name: String, lot_type := "residential") -> void:
 	var surface := _create_flat_box(position, size, color, lot_name)
@@ -397,6 +405,65 @@ func _apply_texture(mesh_instance: MeshInstance3D, asset_id: String, uv_scale :=
 	mesh_instance.material_override = material
 	material.albedo_texture = texture
 	material.uv1_scale = uv_scale
+
+
+
+func _dress_lot_surfaces() -> void:
+	## Driveways, walkways, garden beds and foundation skirts — intentional lot
+	## authorship beyond flat neon lawn slabs.
+	_create_driveway(Vector3(-18.5, 0.04, -20.5), Vector3(4.2, 0.05, 10.0), "FoundersDriveway")
+	_create_path(Vector3(-26.0, 0.045, -21.2), Vector3(2.0, 0.04, 6.5), "FoundersWalk")
+	_create_path(Vector3(-26.0, 0.045, -18.0), Vector3(8.0, 0.04, 1.6), "FoundersPorchPath")
+	_create_garden_bed(Vector3(-30.5, 0.05, -22.5), Vector3(2.4, 0.08, 6.0), "FoundersGardenW")
+	_create_garden_bed(Vector3(-21.5, 0.05, -30.0), Vector3(6.0, 0.08, 2.2), "FoundersGardenS")
+	_create_flat_box(Vector3(-26.0, 0.06, -26.0), Vector3(12.6, 0.12, 9.6), Color("#8a8478"), "FoundersFoundation")
+	_create_driveway(Vector3(18.0, 0.04, -20.0), Vector3(4.0, 0.05, 9.5), "BlueDriveway")
+	_create_path(Vector3(23.0, 0.045, -20.5), Vector3(1.8, 0.04, 6.0), "BlueWalk")
+	_create_garden_bed(Vector3(28.0, 0.05, -22.0), Vector3(2.2, 0.08, 5.5), "BlueGarden")
+	_create_flat_box(Vector3(23.0, 0.06, -25.0), Vector3(12.6, 0.12, 9.6), Color("#868278"), "BlueFoundation")
+	_create_driveway(Vector3(19.0, 0.04, 20.0), Vector3(4.0, 0.05, 9.0), "RoseDriveway")
+	_create_path(Vector3(24.0, 0.045, 20.5), Vector3(1.8, 0.04, 6.0), "RoseWalk")
+	_create_garden_bed(Vector3(29.0, 0.05, 22.0), Vector3(2.2, 0.08, 5.0), "RoseGarden")
+	_create_flat_box(Vector3(24.0, 0.06, 25.0), Vector3(12.6, 0.12, 9.6), Color("#8a8078"), "RoseFoundation")
+	_create_path(Vector3(-23.0, 0.04, 22.0), Vector3(14.0, 0.05, 1.8), "ParkPathMain")
+	_create_path(Vector3(-23.0, 0.04, 26.0), Vector3(1.8, 0.05, 8.0), "ParkPathCross")
+	_create_garden_bed(Vector3(-28.0, 0.05, 19.0), Vector3(3.5, 0.08, 3.5), "ParkBedA")
+	_create_garden_bed(Vector3(-17.0, 0.05, 19.0), Vector3(3.5, 0.08, 3.5), "ParkBedB")
+	var apron := _create_flat_box(Vector3(-23.0, 0.04, 27.5), Vector3(12.0, 0.05, 4.0), Color("#9a968c"), "CommunityApron")
+	_apply_texture(apron, "sidewalk", Vector3(4.0, 2.0, 4.0))
+
+func _scatter_grass_patches() -> void:
+	var patches := [
+		[Vector3(-18.0, 0.025, -8.0), Vector3(10.0, 0.03, 8.0), "terrain_grass_lush", Color("#5f8450")],
+		[Vector3(16.0, 0.025, -10.0), Vector3(9.0, 0.03, 7.0), "terrain_grass_dry", Color("#7a8a55")],
+		[Vector3(-14.0, 0.025, 14.0), Vector3(11.0, 0.03, 9.0), "terrain_grass_lush", Color("#5c804c")],
+		[Vector3(18.0, 0.025, 12.0), Vector3(8.0, 0.03, 8.0), "terrain_grass_dry", Color("#768652")],
+		[Vector3(0.0, 0.022, -32.0), Vector3(20.0, 0.03, 6.0), "terrain_grass", Color("#678456")],
+	]
+	for index in patches.size():
+		var patch: Array = patches[index]
+		var surface := _create_flat_box(patch[0], patch[1], patch[3], "GrassPatch_%02d" % index)
+		_apply_texture(surface, String(patch[2]), Vector3(4.0, 4.0, 4.0))
+
+func _create_curb(position: Vector3, size: Vector3, node_name: String) -> MeshInstance3D:
+	var curb := _create_flat_box(position, size, Color("#9a968c"), node_name)
+	_apply_texture(curb, "lot_edge", Vector3(2.0, 1.0, 2.0))
+	return curb
+
+func _create_driveway(position: Vector3, size: Vector3, node_name: String) -> MeshInstance3D:
+	var drive := _create_flat_box(position, size, Color("#5a5a58"), node_name)
+	_apply_texture(drive, "driveway", Vector3(2.0, 3.0, 2.0))
+	return drive
+
+func _create_garden_bed(position: Vector3, size: Vector3, node_name: String) -> MeshInstance3D:
+	var soil := _create_flat_box(position, size, Color("#5a4228"), node_name)
+	_apply_texture(soil, "garden_soil", Vector3(2.0, 2.0, 2.0))
+	return soil
+
+func _create_path(position: Vector3, size: Vector3, node_name: String) -> MeshInstance3D:
+	var path := _create_flat_box(position, size, Color("#8e8878"), node_name)
+	_apply_texture(path, "stone_paver", Vector3(3.0, 3.0, 3.0))
+	return path
 
 func _create_flat_box(position: Vector3, size: Vector3, color: Color, node_name: String) -> MeshInstance3D:
 	var mesh_instance := MeshInstance3D.new()

@@ -22,7 +22,27 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Metrics** | Grass 512²; road 512²; sidewalk 512²; camera FOV 42; label font 22; fog density 0.0018. |
 | **Tests** | Godot import; visual capture; visual scene gate; static/asset validation as run in loop. |
 | **Remaining defects** | Blocky houses; crude furniture; identical Sims; oversized HUD; sparse interiors; simple trees. |
-| **Commit SHA** | _(filled after commit)_ |
-| **Remote push** | _(filled after push)_ |
+| **Commit SHA** | `b322663a34c75280f8a677ffe81be74ca2b2e4b2` |
+| **Remote push** | origin/main == b322663a34c75280f8a677ffe81be74ca2b2e4b2 |
+
+---
+
+## Loop 02 — Terrain, roads, sidewalks, lot surfaces
+
+| Field | Value |
+|-------|-------|
+| **Objective** | Replace flat neon-ground with authored multi-material surfaces. |
+| **Deficiencies targeted** | Uniform lawn, no curbs/driveways/paths/garden soil, weak lot edges. |
+| **Assets sourced** | None |
+| **Assets created** | terrain_grass_dry/lush, driveway, garden_soil, lot_edge; upgraded grass/road/sidewalk/paver (512). |
+| **Assets replaced** | Terrain texture family behind aliases. |
+| **Provenance** | Project-owned procedural PNGs. |
+| **Material/shader** | Multi-layer ground meshes; curb/driveway/path/garden helpers in WorldBuilder. |
+| **Before** | `qa/graphics/loop-02/before.png` |
+| **After** | `qa/graphics/loop-02/after.png` |
+| **Tests** | import, visual capture, visual scene gate, validate_assets |
+| **Remaining defects** | Blocky houses, crude furniture, weak characters, HUD. |
+| **Commit SHA** | _(pending)_ |
+| **Remote push** | _(pending)_ |
 
 ---
