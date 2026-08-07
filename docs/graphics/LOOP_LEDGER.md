@@ -104,3 +104,10 @@ Repository: https://github.com/westkitty/Life_Sim
 | **Evidence** | `qa/graphics/loop-08/` |
 
 ---
+
+## Loop 09
+
+| **Objective** | Default Sims receive distinct genetics (skin/hair/body) and material tints. |
+| **Evidence** | `qa/graphics/loop-09/` |
+
+---

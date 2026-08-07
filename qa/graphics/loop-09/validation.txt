@@ -1,0 +1,2 @@
+Loop 09
+Default Sims receive distinct genetics (skin/hair/body) and material tints.

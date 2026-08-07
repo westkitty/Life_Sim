@@ -173,6 +173,7 @@ func _spawn_default_population() -> void:
 	var population := [
 		{
 			"sim_id": "sim_ada_rivera", "first_name": "Ada", "last_name": "Rivera", "age_stage": "young_adult",
+			"genetics": {"body_shape": "slender", "skin_tone": "#c99572", "hair_color": "#3a2a24"},
 			"traits": ["ambitious", "friendly", "computer_whiz", "neat", "good_sense_of_humor"],
 			"career_id": "science", "career_level": 2, "career_performance": 28.0,
 			"household_id": "household_founders", "biography": "A systems-minded founder building a new life in Founders Cove.",
@@ -180,6 +181,7 @@ func _spawn_default_population() -> void:
 		},
 		{
 			"sim_id": "sim_milo_chen", "first_name": "Milo", "last_name": "Chen", "age_stage": "young_adult",
+			"genetics": {"body_shape": "athletic", "skin_tone": "#8d5a3c", "hair_color": "#1a1a1a"},
 			"traits": ["artistic", "bookworm", "natural_cook", "loves_outdoors", "family_oriented"],
 			"career_id": "culinary", "career_level": 1, "career_performance": 15.0,
 			"household_id": "household_founders", "biography": "A patient cook and painter who keeps the household from eating cereal forever.",
